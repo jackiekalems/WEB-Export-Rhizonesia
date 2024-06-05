@@ -1,4 +1,4 @@
-<nav class="container mx-auto px-10 md:px-20 py-5 bg-white">
+<nav class="container mx-auto px-10 md:px-20 py-5 sticky top-0 z-50 bg-white">
     <div class="flex flex-wrap items-center justify-between">
         <a href="#" class="flex">
             <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"
@@ -31,7 +31,7 @@
             </svg>
             <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414z"
                     clip-rule="evenodd"></path>
             </svg>
         </button>
@@ -42,7 +42,7 @@
                         class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none"
                         aria-current="page">Home</a>
                 </li>
-                <li>
+                <li class="relative group">
                     <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
                         class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none font-medium flex items-center justify-between w-full md:w-auto">Dropdown
                         <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20"
@@ -53,7 +53,7 @@
                         </svg></button>
                     <!-- Dropdown menu -->
                     <div id="dropdownNavbar"
-                        class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
+                        class="hidden group-hover:block absolute bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44 mt-[31px]">
                         <ul class="py-1" aria-labelledby="dropdownLargeButton">
                             <li>
                                 <a href="#"
@@ -75,8 +75,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#"
-                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none">Services</a>
+                    <a href="#about"
+                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none">About</a>
                 </li>
                 <li>
                     <a href="#"
