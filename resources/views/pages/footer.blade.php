@@ -1,4 +1,4 @@
-<footer class="bg-gray-900 text-center lg:text-left">
+<footer class="bg-green-500 text-center lg:text-left">
     <div class="mx-6 py-10 text-center md:text-left">
         <div class="flex flex-col lg:flex-row justify-between gap-8 container mx-auto">
             <!-- TW Elements section -->

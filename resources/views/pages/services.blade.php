@@ -1,14 +1,15 @@
-<div class="flex items-center flex-col justify-center h-screen bg-fixed bg-center bg-cover custom-img relative z-10">
-    <div class="flex flex-col items-center w-2/4 md:w-1/3 mx-auto mt-20">
+<div class="flex flex-col items-center justify-center min-h-screen bg-fixed bg-center bg-cover custom-img relative z-10">
+    <div class="text-center mt-10">
         <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
             PRODUCT <span class="text-green-600">CENTER</span>
         </h1>
-        <hr class="my-4 h-1 w-1/4 bg-red-500 border-0 rounded-full">
+        <hr class="my-4 h-1 w-1/4 bg-red-500 border-0 rounded-full mx-auto">
     </div>
-    <div class="flex items-center flex-col justify-center h-screen bg-fixed bg-center bg-cover custom-img relative z-10">
-        <div class="grid sm:grid-cols-4 gap-16 sm:gap-16 mt-16 sm:mt-24">
+
+    <div class="flex items-center flex-col justify-center py-10">
+        <div class="grid sm:grid-cols-4 gap-16 mt-4"> <!-- Mengatur margin-top menjadi 1rem -->
             <div class="text-center">
-                <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div class="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-40 lg:h-40 mx-auto">
                     <div
                         class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -23,7 +24,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div class="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-40 lg:h-40 mx-auto">
                     <div
                         class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -38,7 +39,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div class="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-40 lg:h-40 mx-auto">
                     <div
                         class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -53,20 +54,22 @@
                 </div>
             </div>
             <div class="text-center">
-                <div class="relative w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto left-2">
+                <div class="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-40 lg:h-40 mx-auto">
                     <div
                         class="z-10 relative w-full h-full bg-white rounded-full border border-gray-300 shadow flex items-center justify-center flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="text-green-500 w-1/2 h-1/2 font-semibold">
                             <path
-                                d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1558C13.4258 16.9425 12.8956 16.6915 12.3874 16.4061L12.3293 16.373C10.3697 15.2587 8.74134 13.6303 7.627 11.6707L7.59394 11.6126C7.30849 11.1044 7.05754 10.5742 6.84425 10.0252Z">
+                                d="M9.36556 10.6821C10.302 12.3288 11.6712 13.698 13.3179 14.6344L14.2024 13.3961C14.4965 12.9845 15.0516 12.8573 15.4956 13.0998C16.9024 13.8683 18.4571 14.3353 20.0789 14.4637C20.599 14.5049 21 14.9389 21 15.4606V19.9234C21 20.4361 20.6122 20.8657 20.1022 20.9181C19.5723 20.9726 19.0377 21 18.5 21C9.93959 21 3 14.0604 3 5.5C3 4.96227 3.02742 4.42771 3.08189 3.89776C3.1343 3.38775 3.56394 3 4.07665 3H8.53942C9.0611 3 9.49513 3.40104 9.5363 3.92109C9.66467 5.54288 10.1317 7.09764 10.9002 8.50444C11.1427 8.9484 11.0155 9.50354 10.6039 9.79757L9.36556 10.6821ZM6.84425 10.0252L8.7442 8.66809C8.20547 7.50514 7.83628 6.27183 7.64727 5H5.00907C5.00303 5.16632 5 5.333 5 5.5C5 12.9558 11.0442 19 18.5 19C18.667 19 18.8337 18.997 19 18.9909V16.3527C17.7282 16.1637 16.4949 15.7945 15.3319 15.2558L13.9748 17.1557C12.6718 16.4671 11.5329 15.3282 10.8443 14.0252ZM17.9999 9.49891L15.6214 9.51064L15.6177 7.50287L18.0023 7.49114L17.9999 9.49891ZM19.2571 3.10193L20.697 4.54182L12.7071 12.531L11.2929 12.7071L11.469 11.2929L19.2571 3.10193Z">
                             </path>
                         </svg>
-                        <h1 class="text-sm">Contact</h1>
+                        <h1 class="text-sm">Technical Service</h1>
                     </div>
                     <div class="absolute inset-0 -translate-x-2 -translate-y-2 bg-green-500 rounded-full"></div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="bg-green-800 text-white py-4 text-center">
 </div>
