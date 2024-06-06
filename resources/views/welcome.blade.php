@@ -21,6 +21,8 @@
     @include('component.navbar')
     @include('pages.hero')
     @include('pages.about')
+    @include('pages.product')
+    @include('pages.services')
     @include('pages.footer')
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>

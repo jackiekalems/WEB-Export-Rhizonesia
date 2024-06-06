@@ -1,4 +1,4 @@
-<nav class="container mx-auto px-10 md:px-20 py-5 sticky top-0 z-50 bg-white">
+<nav class="px-10 lg:px-20 py-5 sticky top-0 z-50 bg-white">
     <div class="flex flex-wrap items-center justify-between">
         <a href="#" class="flex">
             <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"

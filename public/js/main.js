@@ -74,14 +74,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // end carousel about
 // dropdown
-const dropdownToggle = document.getElementById("dropdownNavbarLink");
-const dropdownMenu = document.getElementById("dropdownNavbar");
+document.addEventListener("DOMContentLoaded", function () {
+    const dropdownToggle = document.getElementById("dropdownNavbarLink");
+    const dropdownMenu = document.getElementById("dropdownNavbar");
 
-dropdownToggle.addEventListener("mouseenter", function () {
-    dropdownMenu.classList.remove("hidden");
-});
+    // Fungsi untuk menampilkan dropdown
+    function showDropdown() {
+        if (!dropdownMenu.classList.contains("hidden")) {
+            dropdownMenu.classList.remove("hidden");
+        }
+    }
 
-dropdownMenu.addEventListener("mouseleave", function () {
-    dropdownMenu.classList.add("hidden");
+    // Fungsi untuk menyembunyikan dropdown
+    function hideDropdown() {
+        dropdownMenu.classList.add("hidden");
+    }
+
+    // Event listener untuk hover pada dropdown toggle di desktop
+    dropdownToggle.addEventListener("mouseenter", showDropdown);
+    dropdownMenu.addEventListener("mouseleave", hideDropdown);
+
+    // Deteksi lebar layar dan matikan dropdown jika layar adalah perangkat seluler
+    function handleMobileDropdown() {
+        if (window.innerWidth <= 768) {
+            // Misalnya, ukuran perangkat seluler
+            dropdownToggle.removeEventListener("mouseenter", showDropdown);
+            dropdownMenu.removeEventListener("mouseleave", hideDropdown);
+        }
+    }
+
+    // Panggil fungsi handleMobileDropdown saat halaman dimuat
+    handleMobileDropdown();
+
+    // Panggil fungsi handleMobileDropdown saat ukuran layar berubah
+    window.addEventListener("resize", handleMobileDropdown);
 });
 // end dropdown
