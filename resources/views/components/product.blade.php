@@ -31,6 +31,10 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
+                                <button id="shareButton2"
+                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
+                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -58,6 +62,10 @@
                                 <button onclick="showProductDescription2()"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
+                                </button>
+                                <button id="shareButton3"
+                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
+                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
                             </div>
                         </div>
@@ -87,6 +95,10 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
+                                <button id="shareButton4"
+                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
+                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -115,6 +127,10 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
+                                <button id="shareButton5"
+                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
+                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -142,6 +158,10 @@
                                 <button onclick="showProductDescription5()"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
+                                </button>
+                                <button id="shareButton"
+                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
+                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
                             </div>
                         </div>

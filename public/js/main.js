@@ -140,3 +140,85 @@ var swiper = new Swiper(".teamswiper", {
         type: "fraction",
     },
 });
+
+// share links
+document.getElementById("shareButton").addEventListener("click", async () => {
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: "Judul Halaman",
+                text: "Deskripsi singkat halaman ini",
+                url: window.location.href,
+            });
+            console.log("Berbagi sukses");
+        } catch (error) {
+            console.error("Gagal berbagi", error);
+        }
+    } else {
+        alert("Fitur berbagi tidak didukung di browser ini.");
+    }
+});
+document.getElementById("shareButton2").addEventListener("click", async () => {
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: "Judul Halaman",
+                text: "Deskripsi singkat halaman ini",
+                url: window.location.href,
+            });
+            console.log("Berbagi sukses");
+        } catch (error) {
+            console.error("Gagal berbagi", error);
+        }
+    } else {
+        alert("Fitur berbagi tidak didukung di browser ini.");
+    }
+});
+document.getElementById("shareButton3").addEventListener("click", async () => {
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: "Judul Halaman",
+                text: "Deskripsi singkat halaman ini",
+                url: window.location.href,
+            });
+            console.log("Berbagi sukses");
+        } catch (error) {
+            console.error("Gagal berbagi", error);
+        }
+    } else {
+        alert("Fitur berbagi tidak didukung di browser ini.");
+    }
+});
+document.getElementById("shareButton4").addEventListener("click", async () => {
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: "Judul Halaman",
+                text: "Deskripsi singkat halaman ini",
+                url: window.location.href,
+            });
+            console.log("Berbagi sukses");
+        } catch (error) {
+            console.error("Gagal berbagi", error);
+        }
+    } else {
+        alert("Fitur berbagi tidak didukung di browser ini.");
+    }
+});
+document.getElementById("shareButton5").addEventListener("click", async () => {
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: "Judul Halaman",
+                text: "Deskripsi singkat halaman ini",
+                url: window.location.href,
+            });
+            console.log("Berbagi sukses");
+        } catch (error) {
+            console.error("Gagal berbagi", error);
+        }
+    } else {
+        alert("Fitur berbagi tidak didukung di browser ini.");
+    }
+});
