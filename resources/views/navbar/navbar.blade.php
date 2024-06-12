@@ -36,21 +36,22 @@
             </svg>
         </button>
         <div class="hidden md:block w-full md:w-auto rounded-lg mt-10 lg:mt-0" id="mobile-menu">
-            <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+            <ul class="flex-col md:flex-row flex md:space-x-14 mt-4 md:mt-0 md:text-sm md:font-medium">
                 <li>
-                    <a href="#"
+                    <a href="/"
                         class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none"
                         aria-current="page">Home</a>
                 </li>
                 <li class="relative group">
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none font-medium flex items-center justify-between w-full md:w-auto">Dropdown
+                    <a href="{{ route('about.us') }}" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none font-medium flex items-center justify-between w-full md:w-auto">About
+                        Us
                         <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                 clip-rule="evenodd"></path>
-                        </svg></button>
+                        </svg></a>
                     <!-- Dropdown menu -->
                     <div id="dropdownNavbar"
                         class="hidden group-hover:block absolute bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44 mt-[31px]">
@@ -75,18 +76,21 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#about"
-                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none">About</a>
+                    <a href="{{ route('products') }}"
+                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none">
+                        Prducts</a>
                 </li>
+
                 <li>
-                    <a href="#"
-                        class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none">Pricing</a>
-                </li>
-                <li>
-                    <a href="#"
+                    <a href="{{ route('contact.us') }}"
                         class="hover:bg-blue-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-blue-700 text-gray-700 md:p-0 rounded focus:outline-none">Contact</a>
                 </li>
             </ul>
+        </div>
+        <div>
+            <a href="">
+                <i class="ri-whatsapp-line text-2xl text-green-400"></i>
+            </a>
         </div>
     </div>
 </nav>

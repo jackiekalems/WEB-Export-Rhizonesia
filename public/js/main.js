@@ -110,3 +110,33 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", handleMobileDropdown);
 });
 // end dropdown
+
+// swipper js
+var swiper = new Swiper(".teamswiper", {
+    slidesPerView: 1,
+    spaceBetween: 32,
+    centeredSlides: false,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
+    loop: true,
+    keyboard: {
+        enabled: true,
+    },
+    breakpoints: {
+        769: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    scrollbar: {
+        el: ".swiper-scrollbar",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+    },
+});

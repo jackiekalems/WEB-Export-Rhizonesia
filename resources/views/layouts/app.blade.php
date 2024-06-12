@@ -1,3 +1,5 @@
+<!-- resources/views/layouts/app.blade.php -->
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -21,16 +23,27 @@
 </head>
 
 <body class="overflow-x-hidden">
-    @include('navbar.navbar')
-    @include('components.hero')
-    @include('components.company-profile')
-    @include('components.product')
-    @include('components.faq')
-    @include('components.services')
+    <main class="flex-grow">
+        @include('navbar.navbar')
+        <div>
+            @yield('content')
+        </div>
+        <div>
+            @yield('about')
+        </div>
+        <div>
+            @yield('contact')
+        </div>
+        <div>
+            @yield('products')
+        </div>
+        <div>
+            @yield('ginger')
+        </div>
+    </main>
     @include('components.footer')
     {{-- js --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/main.js"></script>
