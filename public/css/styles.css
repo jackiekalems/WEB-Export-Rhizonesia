@@ -203,5 +203,37 @@ html {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+/* garis putus putus */
+.border-dashed-small {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: gray;
+    border-spacing: 1px;
+}
 
-/* modal */
+/* Custom style to show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* ---- CHANGE WORD --- */
+.fade {
+    transition: opacity 0.5s ease-in-out;
+}
+@keyframes dropIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+}
+.animate-drop-in {
+    animation: dropIn 2s ease-in-out;
+}

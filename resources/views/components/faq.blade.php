@@ -1,12 +1,13 @@
-<section x-data="{
+<section class="mx-14 lg:mx-20" x-data="{
     openFaq1: false,
     openFaq2: false,
     openFaq3: false,
     openFaq4: false,
     openFaq5: false,
     openFaq6: false
-}" class="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-    <div class="container mx-auto">
+}"
+    class="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+    <div class="">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
                 <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
@@ -22,7 +23,7 @@
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4 lg:w-1/2">
                 <div
-                    class="w-full p-4 mb-8 bg-white rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq1 = !openFaq1">
                         <div
                             class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
@@ -49,7 +50,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-full p-4 mb-8 bg-white rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq2 = !openFaq2">
                         <div
                             class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
@@ -76,7 +77,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-full p-4 mb-8 bg-white rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq3 = !openFaq3">
                         <div
                             class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
@@ -105,7 +106,7 @@
             </div>
             <div class="w-full px-4 lg:w-1/2">
                 <div
-                    class="w-full p-4 mb-8 bg-white rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq4 = !openFaq4">
                         <div
                             class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
@@ -132,7 +133,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-full p-4 mb-8 bg-white rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq5 = !openFaq5">
                         <div
                             class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
@@ -159,7 +160,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-full p-4 mb-8 bg-white rounded-lg shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq6 = !openFaq6">
                         <div
                             class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">

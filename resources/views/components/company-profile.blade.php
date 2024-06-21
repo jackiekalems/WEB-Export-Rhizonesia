@@ -1,8 +1,12 @@
-<section class="mx-10 mt-10" id="about">
+<section class="mx-14 lg:mx-20 mt-10" id="about">
+    <div class="text-center my-10">
+        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
+            COMPANY <span class="text-green-600">PROFILE</span>
+        </h1>
+        <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
+    </div>
     <div class="container flex flex-col-reverse mx-auto lg:flex-row">
-        <div class="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 ">
-            <h1 class="text-4xl font-bold text-uppercase">COMPANY<span class="text-green-400"> PROFILE</span></h1>
-            <hr class="my-4 h-1 w-52 bg-red-500 border-0 rounded-full">
+        <div class="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
             <p>didirikan atas ambisi dan mimpi para pemuda untuk meraih kesuksesan,kami akan membantu kalian
                 meningkatkan level bisnis kalian, kami bercita-cita membantu sektor F&B menjadi sektor tebaik di dunia
                 bisnis, Terbukti dengan kiprah kami yang bersama-sama memberdayakan masyarakat petani untuk menghadirkan
@@ -48,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="lg:w-1/2 xl:w-3/5 flex items-center">
+        <div class="lg:w-1/2 5 flex items-center">
             <div id="carouselExampleCaptions" class="relative" data-twe-carousel-init data-twe-ride="carousel">
                 <!--Carousel indicators-->
                 <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"

@@ -18,16 +18,23 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="
+            https://cdn.jsdelivr.net/npm/@zeitiger/elevatezoom@2.5.4/jquery.elevateZoom-3.0.8.min.js
+            "></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
 <body class="overflow-x-hidden">
     @include('navbar.navbar')
     @include('components.hero')
-    @include('components.company-profile')
     @include('components.product')
+    @include('components.whyUs')
+    @include('components.company-profile')
     @include('components.faq')
     @include('components.services')
     @include('components.footer')
+    @include('components.navIcon')
     {{-- js --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </section>

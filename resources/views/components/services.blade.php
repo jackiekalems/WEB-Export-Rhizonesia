@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center justify-center min-h-screen bg-fixed bg-center bg-cover custom-img relative z-10">
+{{-- <div class="flex flex-col items-center justify-center min-h-screen bg-fixed bg-center bg-cover custom-img relative z-10">
     <div class="text-center mt-10">
         <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
             OUR <span class="text-green-600">SERVICES</span>
@@ -43,5 +43,5 @@
         style="background:radial-gradient(1.89deg, rgba(34, 78, 95, 0.4) -1000%, rgba(191, 227, 205, 0.26) 1500.74%, rgba(34, 140, 165, 0.41) 56.49%, rgba(28, 47, 99, 0.11) 1150.91%)">
     </div>
 </div>
-<div class="bg-sky-800 text-white py-4 text-center">
-</div>
+<div class="bg-white-800 text-white py-4 text-center">
+</div> --}}

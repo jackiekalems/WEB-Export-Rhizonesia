@@ -1,92 +1,126 @@
-<footer class="bg-sky-900 text-center lg:text-left">
-    <div class="mx-6 py-10 text-center md:text-left">
-        <div class="flex flex-col lg:flex-row justify-between gap-8 container mx-auto">
-            <!-- TW Elements section -->
-            <div class="">
-                <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start text-black">
-                    <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                            <path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z"
-                                fill="#76A9FA"></path>
+<footer class="w-full">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <!--Grid-->
+        <div class="py-14 grid grid-cols-12 gap-x-5 gap-y-8">
+            <div
+                class="col-span-full xl:col-span-3 relative bg-gradient-to-tr from-green-500 to-green-400 rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center">
+
+                <a href="https://pagedone.io/" class="flex justify-center lg:justify-start text-white font-bold' text-xl">
+                    Almea Kausa Eterna
+                </a>
+                <p class="text-center text-gray-200">Trusted in more than 100 countries & 5 million customers.
+                    Have any query? contact us we are here for you.</p>
+
+                <div class="flex space-x-4 sm:justify-center">
+                    <!-- Instagram -->
+                    <a href="javascript:;"
+                        class="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                            fill="none">
                             <path
-                                d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z"
-                                fill="#A4CAFE"></path>
-                            <path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z"
-                                fill="#1C64F2"></path>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0">
-                                <rect width="51" height="70" fill="white"></rect>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                    <span class="self-center text-lg font-semibold text-white whitespace-nowrap">Rhizonesia</span>
-                </h6>
-                <div>
-                    <a href="https://maps.app.goo.gl/KKEXhWte43mySfnT6" class="text-white text-sm md:text-base"
-                        target="_blank">
-                        <i class="ri-home-3-line text-xl md:text-2xl text-white"></i>
-                        Jl. Raya Blora-Rembang No.km.1, Kabupaten Blora, Jawa Tengah
+                                d="M14.35 2H6.65C4.5 2 3 3.5 3 5.65V13.35C3 15.5 4.5 17 6.65 17H14.35C16.5 17 18 15.5 18 13.35V5.65C18 3.5 16.5 2 14.35 2ZM15.5 5C16.0523 5 16.5 5.44772 16.5 6C16.5 6.55228 16.0523 7 15.5 7C14.9477 7 14.5 6.55228 14.5 6C14.5 5.44772 14.9477 5 15.5 5ZM10.5 7C12.15 7 13.5 8.35 13.5 10C13.5 11.65 12.15 13 10.5 13C8.85 13 7.5 11.65 7.5 10C7.5 8.35 8.85 7 10.5 7ZM6 17C5.44772 17 5 16.5523 5 16V10.5C5 10.2239 5.22386 10 5.5 10H6C6.27614 10 6.5 10.2239 6.5 10.5V16C6.5 16.2761 6.27614 16.5 6 16.5H5.5H6Z"
+                                fill="url(#paint0_linear_9147_17049)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_9147_17049" x1="0" y1="0"
+                                    x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#10B981" />
+                                    <stop offset="1" stop-color="#059669" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="javascript:;"
+                        class="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                            fill="none">
+                            <path
+                                d="M13.2852 8.00021H10.5V6.00021C10.5 5.58654 10.5865 5.2857 10.957 5.2857H13.2852V2.00021H10.1542C7.7857 2.00021 6.92871 3.14863 6.92871 4.84264V8.00021H5.2857V11.0002H6.92871V20.0002H10.5V11.0002H13.3286L13.7852 8.00021H10.5Z"
+                                fill="url(#paint0_linear_9147_17049)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_9147_17049" x1="14.35" y1="2"
+                                    x2="4" y2="18" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#7C3AED" />
+                                    <stop offset="1" stop-color="#4F46E5" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="javascript:;"
+                        class="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                            fill="none">
+                            <path
+                                d="M5.83333 17.1667H2.5V7.5H5.83333V17.1667ZM4.16667 6.16667C3.10417 6.16667 2.25 5.3125 2.25 4.25C2.25 3.1875 3.10417 2.33333 4.16667 2.33333C5.22917 2.33333 6.08333 3.1875 6.08333 4.25C6.08333 5.3125 5.22917 6.16667 4.16667 6.16667ZM17.1667 17.1667H13.8333V12.4167C13.8333 11.3125 13.8333 9.8125 12.5 9.8125C11.1667 9.8125 10.9167 11.0625 10.9167 12.3333V17.1667H7.58333V7.5H10.8333V8.8125H10.8333C11.3333 8 12.4167 7.16667 14 7.16667C16.3333 7.16667 17.1667 8.75 17.1667 11.3333V17.1667Z"
+                                fill="url(#paint0_linear_9147_17049)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_9147_17049" x1="18" y1="2"
+                                    x2="3" y2="17" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#7C3AED" />
+                                    <stop offset="1" stop-color="#4F46E5" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
                     </a>
                 </div>
-                <div>
-                    <a href="salutmustikablora.com" class="text-white text-sm md:text-base" target="_blank">
-                        <i class="ri-global-line text-xl md:text-2xl text-white"></i>
-                        rhizonesia.com
-                    </a>
+            </div>
+
+            <div
+                class="block text-center xl:text-left xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-3 xl:pl-5">
+                <h4 class="text-lg text-gray-900 font-bold mb-9">Get In Touch</h4>
+                <ul class="text-gray-900 transition-all duration-500 grid gap-6">
+                    <li>example@gmail.com</li>
+                    <li>+62 123123123</li>
+                    <li>Indonesia</li>
+                </ul>
+            </div>
+            <div class="block xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-3">
+                <h4 class="text-lg text-gray-900 font-bold mb-9 text-center xl:text-left">Quick Links</h4>
+                <div class="flex gap-6 xl:gap-12 max-xl:justify-center">
+                    <ul class="text-gray-600 transition-all duration-500 grid gap-6">
+                        <li><a href="{{ route('welcome') }}">Home</a></li>
+                        <li><a href="{{ route('about.us') }}">About Us</a></li>
+                        <li><a href="{{ route('products') }}">Product</a></li>
+                        <li><a href="{{ route('contact.us') }}">Contact</a></li>
+                    </ul>
+                    <ul class="text-gray-600 transition-all duration-500 grid gap-6">
+                        <li><a href="{{ route('dried.ginger') }}">Dried Ginger</a></li>
+                        <li><a href="{{ route('wet.ginger') }}">Wet Ginger </a></li>
+                        <li><a href="{{ route('dried.turmeric') }}">Dried Turmeric</a></li>
+                        <li><a href="{{ route('tumeric.powder') }}">Turmeric powder</a></li>
+                        <li><a href="{{ route('finger.tumeric') }}">Finger Turmeric</a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- Useful links section -->
-            <div class="text-white">
-                <h1 class=" mb-4 flex justify-center text-white font-semibold uppercase md:justify-start">
-                    Fakultas & Prodi
-                </h1>
-                <p class="mb-4 text-sm md:text-base">
-                    <a href="#stats">Fakultas Matematika dan IPA</a>
-                </p>
-                <p class="mb-4 text-sm md:text-base">
-                    <a href="#stats">Fakultas Ekonomi</a>
-                </p>
-                <p class="mb-4 text-sm md:text-base">
-                    <a href="#stats">Fakultas Ilmu Sosial dan Politik</a>
-                </p>
-                <p class="mb-4 text-sm md:text-base">
-                    <a href="#stats">Fakultas Keguruan dan Ilmu Pendidikan</a>
-                </p>
+            <div class="block xl:py-16 col-span-full md:col-span-4 xl:col-span-3">
+                <h4 class="text-lg text-gray-900 font-bold mb-9 text-center xl:text-left">Newsletter</h4>
+                <div class="grid gap-7 ">
+                    <input type="text" name="email"
+                        class="py-2 px-4 border border-gray-300 shadow-sm h-14 text-lg text-gray-800 rounded-full w-full  xl:w-64 placeholder:text-gray-400 focus:outline-none"
+                        placeholder="Enter email.." />
+                    <button type="submit"
+                        class="flex gap-2 justify-center items-center py-3.5 px-7 rounded-full text-white bg-green-500 shadow-md w-fit transition-all duration-500 mx-auto xl:mx-0 hover:bg-green-700">Subscribe<svg
+                            width="17" height="13" viewBox="0 0 17 13" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.5 6.88281L14.8333 6.88281M10.6667 11.8828L15.0774 7.47207C15.3552 7.19429 15.4941 7.0554 15.4941 6.88281C15.4941 6.71022 15.3552 6.57133 15.0774 6.29356L10.6667 1.88281"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <!-- Contact section -->
-            <div>
-                <h6 class="mb-4 flex text-white justify-center font-semibold uppercase md:justify-start">
-                    Contact
-                </h6>
-                <p class="mb-4 text-white flex items-center justify-center md:justify-start ">
-                    <a href="whatsapp://send?text=Hello&phone=+6289513910161" target="_blank"
-                        class="text-sm md:text-base">
-                        <i class="ri-whatsapp-line mx-3 text-xl md:text-2xl"></i>
-                        +62 895-1391-0161
-                    </a>
-                </p>
 
-                <p class="mb-4 text-white flex items-center justify-center md:justify-start ">
-                    <a href="https://www.instagram.com/salutmustikablora?igsh=aWkzOXlxeDNldjF2" target="_blank"
-                        class="text-sm md:text-base">
-                        <i class="ri-instagram-line mx-3 text-xl md:text-2xl"></i>
-                        salutmustikablora
-                    </a>
-                </p>
-
-                <p class="mb-4 text-white flex items-center justify-center md:justify-start text-sm md:text-base">
-                    <i class="ri-phone-line mx-3 text-2xl"></i>
-                    0296-530 15 35
-                </p>
-            </div>
+        </div>
+        <!--Grid-->
+    </div>
+    <div class="py-4 bg-indigo-50">
+        <div class="flex items-center justify-center">
+            <span class="text-sm text-gray-800 ">Copyright@2024 All Right Reserved by <a href="#">Almea Kausa
+                    Eterna</a></span>
         </div>
     </div>
 
-    <!--Copyright section-->
-    <div class="bg-black/5 text-white p-6 text-center text-sm md:text-base">
-        <span>© 2024 Copyright:</span>
-        <a class="font-semibold" href="https://tw-elements.com/">Rizhonesia</a>
-    </div>
 </footer>

@@ -40,8 +40,30 @@
         <div>
             @yield('ginger')
         </div>
+        <div>
+            @yield('wetginger')
+        </div>
+        <div>
+            @yield('driedtumeric')
+        </div>
+        <div>
+            @yield('tumericpowder')
+        </div>
+        <div>
+            @yield('tumericfinger')
+        </div>
+        <div>
+            @yield('documentation')
+        </div>
+        <div>
+            @yield('ourResource')
+        </div>
+        <div>
+            @yield('qualityControl')
+        </div>
     </main>
     @include('components.footer')
+    @include('components.navIcon')
     {{-- js --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

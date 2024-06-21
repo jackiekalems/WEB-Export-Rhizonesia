@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nds {
+    @apply w-12 h-12 mb-2 rounded-full bg-white shadow-xl flex justify-center items-center transition-transform transform opacity-0 scale-0;
+}
+
+.show .nds {
+    @apply opacity-100 scale-100;
+}
+
+.ilink {
+    @apply text-white no-underline;
+}
+
+.open .ri-add-line {
+    @apply hidden;
+}
+
+.open .ri-subtract-line {
+    @apply block;
+}

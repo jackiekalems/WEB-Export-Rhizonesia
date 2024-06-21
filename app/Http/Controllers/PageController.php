@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+    public function welcome()
+    {
+        return view('welcome'); 
+    }
     public function about()
     {
         return view('pages.about'); 
@@ -21,5 +25,33 @@ class PageController extends Controller
     public function ginger()
     {
         return view('chart.ginger'); 
+    }
+    public function wetGinger()
+    {
+        return view('chart.wetginger'); 
+    }
+    public function driedTurmeric()
+    {
+        return view('chart.driedturmeric'); 
+    }
+    public function tumericPowder()
+    {
+        return view('chart.tumericpowder'); 
+    }
+    public function fingerTumeric()
+    {
+        return view('chart.fingertumeric'); 
+    }
+    public function documentation()
+    {
+        return view('dropdown.documentation'); 
+    }
+    public function ourResource()
+    {
+        return view('dropdown.ourResource'); 
+    }
+    public function qualityControl()
+    {
+        return view('dropdown.qualityControl'); 
     }
 }

@@ -222,3 +222,31 @@ document.getElementById("shareButton5").addEventListener("click", async () => {
         alert("Fitur berbagi tidak didukung di browser ini.");
     }
 });
+// navbar
+const toggleNav = document.querySelector(".nav-list");
+const toggleBtn = document.querySelector(".btn-toggle");
+const overlay = document.querySelector(".overlay");
+const body = document.querySelector("body");
+toggleBtn.addEventListener("click", () => {
+    toggleNav.classList.toggle("active-nav");
+    body.classList.toggle("no-scroll");
+    overlay.classList.toggle("active");
+    toggleBtn.classList.toggle("active-toggle");
+});
+
+overlay.addEventListener("click", () => {
+    toggleNav.classList.remove("active-nav");
+    body.classList.remove("no-scroll");
+    overlay.classList.remove("active");
+    toggleBtn.classList.remove("active-toggle");
+});
+
+// [Dropdown]
+const dropdownTrigger = document.querySelector(".has-dropdown");
+const dropdownMenu = document.querySelector(".sub-menu");
+
+dropdownTrigger.addEventListener("click", (event) => {
+    event.preventDefault();
+    dropdownTrigger.querySelector("svg").classList.toggle("active");
+    dropdownMenu.classList.toggle("active-sub");
+});
