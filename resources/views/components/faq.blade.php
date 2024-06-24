@@ -4,7 +4,9 @@
     openFaq3: false,
     openFaq4: false,
     openFaq5: false,
-    openFaq6: false
+    openFaq6: false,
+    openFaq7: false,
+    openFaq8: false
 }"
     class="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
     <div class="">
@@ -36,16 +38,13 @@
                         </div>
                         <div class="w-full">
                             <h4 class="mt-1 text-lg font-semibold text-black">
-                                How long we deliver your first blog post?
+                                What is the suitable payments that you provide?
                             </h4>
                         </div>
                     </button>
                     <div x-show="openFaq1" class="faq-content pl-[62px]">
                         <p class="py-3 text-base leading-relaxed text-black">
-                            It takes 2-3 weeks to get your first blog post ready. That
-                            includes the in-depth research & creation of your monthly
-                            content marketing strategy that we do before writing your
-                            first blog post, Ipsum available .
+                            T/T or LC at sight
                         </p>
                     </div>
                 </div>
@@ -63,16 +62,13 @@
                         </div>
                         <div class="w-full">
                             <h4 class="mt-1 text-lg font-semibold text-black">
-                                How long we deliver your first blog post?
+                                Can i get the sample of your great product?
                             </h4>
                         </div>
                     </button>
                     <div x-show="openFaq2" class="faq-content pl-[62px]">
                         <p class="py-3 text-base leading-relaxed text-black">
-                            It takes 2-3 weeks to get your first blog post ready. That
-                            includes the in-depth research & creation of your monthly
-                            content marketing strategy that we do before writing your
-                            first blog post, Ipsum available .
+                            Yes, we will satisfy you with our sample for free.
                         </p>
                     </div>
                 </div>
@@ -90,16 +86,39 @@
                         </div>
                         <div class="w-full">
                             <h4 class="mt-1 text-lg font-semibold text-black">
-                                How long we deliver your first blog post?
+                                What type of quality that you have? And how you prove it?
                             </h4>
                         </div>
                     </button>
                     <div x-show="openFaq3" class="faq-content pl-[62px]">
                         <p class="py-3 text-base leading-relaxed text-black">
-                            It takes 2-3 weeks to get your first blog post ready. That
-                            includes the in-depth research & creation of your monthly
-                            content marketing strategy that we do before writing your
-                            first blog post, Ipsum available .
+                            Every product that we have already standarize with the export provision. We will satisfy you
+                            with providing any specification that you expact. We are inviting you to visit our warehouse
+                            for the comfortable transaction.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    <button class="flex w-full text-left faq-btn" @click="openFaq7 = !openFaq7">
+                        <div
+                            class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
+                            <svg :class="openFaq7 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                        <div class="w-full">
+                            <h4 class="mt-1 text-lg font-semibold text-black">
+                                Can i request for the packing of the products?
+                            </h4>
+                        </div>
+                    </button>
+                    <div x-show="openFaq7" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-black">
+                            Offcourse you choose your own packing requirement.
                         </p>
                     </div>
                 </div>
@@ -119,16 +138,13 @@
                         </div>
                         <div class="w-full">
                             <h4 class="mt-1 text-lg font-semibold text-black">
-                                How long we deliver your first blog post?
+                                Where is your company located?
                             </h4>
                         </div>
                     </button>
                     <div x-show="openFaq4" class="faq-content pl-[62px]">
                         <p class="py-3 text-base leading-relaxed text-black">
-                            It takes 2-3 weeks to get your first blog post ready. That
-                            includes the in-depth research & creation of your monthly
-                            content marketing strategy that we do before writing your
-                            first blog post, Ipsum available .
+                            We are located at Surabaya city, East of Java, Indonesia.
                         </p>
                     </div>
                 </div>
@@ -146,16 +162,13 @@
                         </div>
                         <div class="w-full">
                             <h4 class="mt-1 text-lg font-semibold text-black">
-                                How long we deliver your first blog post?
+                                How long you can process the product that i expect?
                             </h4>
                         </div>
                     </button>
                     <div x-show="openFaq5" class="faq-content pl-[62px]">
                         <p class="py-3 text-base leading-relaxed text-black">
-                            It takes 2-3 weeks to get your first blog post ready. That
-                            includes the in-depth research & creation of your monthly
-                            content marketing strategy that we do before writing your
-                            first blog post, Ipsum available .
+                            Your product will be ready to deliver in 2 weeks or faster than you think.
                         </p>
                     </div>
                 </div>
@@ -173,16 +186,38 @@
                         </div>
                         <div class="w-full">
                             <h4 class="mt-1 text-lg font-semibold text-black">
-                                How long we deliver your first blog post?
+                                Can we trust your company?
                             </h4>
                         </div>
                     </button>
                     <div x-show="openFaq6" class="faq-content pl-[62px]">
                         <p class="py-3 text-base leading-relaxed text-black">
-                            It takes 2-3 weeks to get your first blog post ready. That
-                            includes the in-depth research & creation of your monthly
-                            content marketing strategy that we do before writing your
-                            first blog post, Ipsum available .
+                            Almea Kausa Eterna is a company that legally and registered in Indonesia’s Ministry of Law
+                            and Human Rights.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
+                    <button class="flex w-full text-left faq-btn" @click="openFaq8 = !openFaq8">
+                        <div
+                            class="bg-primary/5 text-primary mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg">
+                            <svg :class="openFaq8 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                        <div class="w-full">
+                            <h4 class="mt-1 text-lg font-semibold text-black">
+                                Is there any MOQ to have some transactions with your company?
+                            </h4>
+                        </div>
+                    </button>
+                    <div x-show="openFaq8" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-black">
+                            For the efficiency, we suggest you to purchase not less then 1x20 feet container per order.
                         </p>
                     </div>
                 </div>

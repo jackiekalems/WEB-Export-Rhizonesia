@@ -13,6 +13,7 @@ Route::get('/about-us', [PageController::class, 'about'])->name('about.us');
 Route::get('/documentation', [PageController::class, 'documentation'])->name('documentation');
 Route::get('/our-resource', [PageController::class, 'ourResource'])->name('our.resource');
 Route::get('/quality-control', [PageController::class, 'qualityControl'])->name('quality.control');
+Route::get('/guideline', [PageController::class, 'guideLine'])->name('guide.line');
 // products
 Route::get('/products', [PageController::class, 'products'])->name('products');
 Route::get('/contact-us', [PageController::class, 'contactUs'])->name('contact.us');

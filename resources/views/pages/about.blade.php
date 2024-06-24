@@ -46,7 +46,7 @@
         openTab = 4;
     }
     activeClasses: 'border-l border-t border-r rounded-t text-green-700',
-        inactiveClasses: 'text-green-500 hover:text-green-700'
+        inactiveClasses: 'text-green-500 hover:text-green-700 '
     }" class="p-6 flex flex-col items-center">
         <ul class="flex border-b text-green-500">
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="-mb-px mr-1">
@@ -71,6 +71,12 @@
                 <a href="{{ route('documentation') }}"
                     class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
                     Documentation
+                </a>
+            </li>
+            <li class="mr-1">
+                <a href="{{ route('guide.line') }}"
+                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    Guideline to Purchase
                 </a>
             </li>
         </ul>

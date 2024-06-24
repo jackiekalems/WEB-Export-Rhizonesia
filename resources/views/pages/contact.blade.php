@@ -274,7 +274,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-xl font-semibold">Email :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">Wiraloverafii@gmail.com</span>
+                        <span class="text-gray-500">almeakausaeterna@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,18 @@
                     </div>
                 </div>
             </div>
-
+            <div class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
+                <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
+                    <i class="ri-map-pin-line text-5xl text-green-500"></i>
+                </div>
+                <div class="flex-grow flex flex-col ml-4">
+                    <span class="text-xl font-semibold">Address</span>
+                    <div class="flex items-center justify-between">
+                        <span class="text-gray-500">Revenue last 30 days</span>
+                        <a href="" class="text-green-500 text-sm font-semibold ml-2">More..</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Component End  -->
 
@@ -309,32 +320,42 @@
                     <span class="text-xl font-semibold">Instagram :</span>
                     <div class="flex items-center justify-between">
                         <span class="text-gray-500">@imwira12</span>
-                        <a href="" class="text-green-500 text-sm font-semibold ml-2">More..</a>
+                        <a href="" class="text-green-500 text-sm font-semibold ml-2">@almea</a>
                     </div>
                 </div>
             </div>
-            <!-- Tile 2 -->
             <div class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-twitter-x-line text-5xl text-green-500"></i>
+                    <i class="ri-facebook-circle-fill text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-xl font-semibold">Twitter :</span>
+                    <span class="text-xl font-semibold">Facebook :</span>
                     <div class="flex items-center justify-between">
                         <span class="text-gray-500">@imwira12</span>
                         <a href="" class="text-green-500 text-sm font-semibold ml-2">More..</a>
                     </div>
                 </div>
             </div>
-            <!-- Tile 3 -->
             <div class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-map-pin-line text-5xl text-green-500"></i>
+                    <i class="ri-linkedin-box-fill text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-xl font-semibold">Address</span>
+                    <span class="text-xl font-semibold">Linkedin :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">Revenue last 30 days</span>
+                        <span class="text-gray-500">@imwira12</span>
+                        <a href="" class="text-green-500 text-sm font-semibold ml-2">More..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
+                <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
+                    <i class="ri-tiktok-line text-5xl text-green-500"></i>
+                </div>
+                <div class="flex-grow flex flex-col ml-4">
+                    <span class="text-xl font-semibold">Tiktok :</span>
+                    <div class="flex items-center justify-between">
+                        <span class="text-gray-500">@imwira12</span>
                         <a href="" class="text-green-500 text-sm font-semibold ml-2">More..</a>
                     </div>
                 </div>
@@ -343,11 +364,6 @@
         <!-- Component End  -->
     </div>
     <section class="mb-32">
-        <div id="map" class="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
-                width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
         <div class="container px-6 md:px-12">
             <div
                 class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">

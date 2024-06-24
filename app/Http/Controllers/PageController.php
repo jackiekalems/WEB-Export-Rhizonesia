@@ -54,4 +54,8 @@ class PageController extends Controller
     {
         return view('dropdown.qualityControl'); 
     }
+    public function guideLine()
+    {
+        return view('dropdown.guideLine'); 
+    }
 }

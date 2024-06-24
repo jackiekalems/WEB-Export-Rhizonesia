@@ -50,7 +50,7 @@
                 </a>
             </li>
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
-                <a href="#qualityControll" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
                     class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
                     Quality Control
                 </a>
@@ -61,98 +61,156 @@
                     Documentation
                 </a>
             </li>
+            <li class="mr-1">
+                <a href="{{ route('guide.line') }}"
+                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    Guideline to Purchase
+                </a>
+            </li>
         </ul>
         <div class="w-full">
             <div x-show="openTab === 3" id="whyUs"></div>
             <div x-show="openTab === 2" id="documentation"></div>
             <div x-show="openTab === 1" id="qualityControll">
-                <div class="text-center my-10">
-                    <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">QUALITY
-                        <span class="text-green-600"> CONTROL</span>
-                    </h1>
-                    <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
-                </div>
-
-                <section>
-                    <div x-data="{
-                        imageGalleryOpened: false,
-                        imageGalleryActiveUrl: null,
-                        imageGalleryImageIndex: null,
-                        imageGalleryOpen(event) {
-                            this.imageGalleryImageIndex = event.target.dataset.index;
-                            this.imageGalleryActiveUrl = event.target.src;
-                            this.imageGalleryOpened = true;
-                        },
-                        imageGalleryClose() {
-                            this.imageGalleryOpened = false;
-                            setTimeout(() => this.imageGalleryActiveUrl = null, 300);
-                        },
-                    }" class="w-full h-full select-none">
-                        <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
-                            style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
-                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0001.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 01"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0002.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 07"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0003.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 08"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0004.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 09"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0005.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 10"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0006.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 06"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0007.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 07"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0008.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 08"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/0009.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 09"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://www.ll-foods.com/d/images/about/zhengshu/00010.jpg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 10"></li>
-                            </ul>
-                        </div>
-                        <template x-teleport="body">
-                            <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300"
-                                x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300"
-                                x-transition:leave-end="opacity-0" @click="imageGalleryClose"
-                                @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened"
-                                class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out"
-                                x-cloak>
-                                <div class="relative flex flex-col items-center justify-center w-11/12 xl:w-4/5 h-11/12">
-                                    <img x-show="imageGalleryOpened"
-                                        x-transition:enter="transition ease-in-out duration-300"
-                                        x-transition:enter-start="opacity-0 transform scale-50"
-                                        x-transition:leave="transition ease-in-in duration-300"
-                                        x-transition:leave-end="opacity-0 transform scale-50"
-                                        class="object-contain object-center w-full h-full select-none cursor-zoom-out"
-                                        :src="imageGalleryActiveUrl" alt="" style="display: none;">
-                                </div>
-                            </div>
-                        </template>
+                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                    <div class="text-center my-10">
+                        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">PROCESS
+                            <span class="text-green-600"> PRODUCTION</span>
+                        </h1>
+                        <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
                     </div>
-                </section>
+                    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <img src="https://img.freepik.com/free-photo/young-woman-buys-ginger-market-woman-choose-ginger-supermarket-woman-picking-fresh-produce-market_1391-643.jpg?t=st=1719121730~exp=1719125330~hmac=ec65bd4d7db006e246cb472247c61e636b09be16dc6d87cf235995815d658307&w=996"
+                                    loading="lazy" alt="Photo by Minh Pham"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                <img src="https://img.freepik.com/free-photo/turmeric-powder_1323-403.jpg?t=st=1719122082~exp=1719125682~hmac=8e97f2dad2889d04e16a7c06428ba3d31afceccef7ce7a215f4934ebed4eea6e&w=996"
+                                    loading="lazy" alt="Photo by Magicle"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                <img src="https://img.freepik.com/free-photo/top-view-assorted-spices-small-bowls-with-wooden-spoons-grey-plaster-background-horizontal_176474-64226.jpg?t=st=1719122099~exp=1719125699~hmac=ee891d4865295adced1753feb2b5af918bb9a17936ac32d18b7b491cabbf0281&w=996"
+                                    loading="lazy" alt="Photo by Martin Sanchez"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <img src="https://img.freepik.com/free-photo/top-view-assortment-tasty-food-ingredients_23-2148869956.jpg?t=st=1719122117~exp=1719125717~hmac=5d38a544e4d861cde87eacab851e845645cae9ac183c062886d0fe545379b3a1&w=360"
+                                    loading="lazy" alt="Photo by Lorenzo Herrera"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <img src="https://img.freepik.com/free-photo/young-woman-buys-ginger-market-woman-choose-ginger-supermarket-woman-picking-fresh-produce-market_1391-643.jpg?t=st=1719121730~exp=1719125330~hmac=ec65bd4d7db006e246cb472247c61e636b09be16dc6d87cf235995815d658307&w=996"
+                                    loading="lazy" alt="Photo by Minh Pham"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                <img src="https://img.freepik.com/free-photo/turmeric-powder_1323-403.jpg?t=st=1719122082~exp=1719125682~hmac=8e97f2dad2889d04e16a7c06428ba3d31afceccef7ce7a215f4934ebed4eea6e&w=996"
+                                    loading="lazy" alt="Photo by Magicle"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                <img src="https://img.freepik.com/free-photo/top-view-assorted-spices-small-bowls-with-wooden-spoons-grey-plaster-background-horizontal_176474-64226.jpg?t=st=1719122099~exp=1719125699~hmac=ee891d4865295adced1753feb2b5af918bb9a17936ac32d18b7b491cabbf0281&w=996"
+                                    loading="lazy" alt="Photo by Martin Sanchez"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <img src="https://img.freepik.com/free-photo/top-view-assortment-tasty-food-ingredients_23-2148869956.jpg?t=st=1719122117~exp=1719125717~hmac=5d38a544e4d861cde87eacab851e845645cae9ac183c062886d0fe545379b3a1&w=360"
+                                    loading="lazy" alt="Photo by Lorenzo Herrera"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                                <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">ISI
+                                    DISINI</span>
+                            </a>
+                            <!-- image - end -->
+                        </div>
+                    </div>
+                </div>
             </div>
             <div x-show="openTab === 4" id="ourRescource"></div>
         </div>

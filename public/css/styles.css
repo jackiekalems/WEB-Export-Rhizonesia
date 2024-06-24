@@ -83,7 +83,6 @@ html {
 /* swipper */
 .swiper-wrapper {
     height: max-content !important;
-
     width: max-content;
 }
 
@@ -236,4 +235,13 @@ html {
 }
 .animate-drop-in {
     animation: dropIn 2s ease-in-out;
+}
+
+/* image slider for documentation */
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-none {
+    -ms-overflow-style: none; /* IE dan Edge */
+    scrollbar-width: none; /* Firefox */
 }

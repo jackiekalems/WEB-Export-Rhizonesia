@@ -7,50 +7,13 @@
     </div>
     <div class="container flex flex-col-reverse mx-auto lg:flex-row">
         <div class="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
-            <p>didirikan atas ambisi dan mimpi para pemuda untuk meraih kesuksesan,kami akan membantu kalian
-                meningkatkan level bisnis kalian, kami bercita-cita membantu sektor F&B menjadi sektor tebaik di dunia
-                bisnis, Terbukti dengan kiprah kami yang bersama-sama memberdayakan masyarakat petani untuk menghadirkan
-                kekayaan dan ragam rempah nusantara.
+            <h1 class="text-2xl font-extrabold">WHY ALMEA KAUSA ETERNA ? </h1>
+            <p>Almea Kausa Eterna didirikan atas ambisi dan mimpi para pendiri untuk bisa membantu dunia mengetahui cita
+                rasa tiada tara,kami akan membantu kalian meningkatkan level bisnis kalian, kami idak perlu ragu dengan
+                almea kausa eterna karena kita bercita-cita membantu kalian menjadi sektor tebaik di dunia bisnis,
+                dengan rempah terbaik dari yang terbaik dari indonesia .
+
             </p>
-            <div class="flex space-x-2 sm:space-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                    class="flex-shrink-0 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                    </path>
-                </svg>
-                <div class="space-y-2">
-                    <p class="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet</p>
-                    <p class="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati
-                        voluptatem similique!</p>
-                </div>
-            </div>
-            <div class="flex space-x-2 sm:space-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                    class="flex-shrink-0 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                    </path>
-                </svg>
-                <div class="space-y-2">
-                    <p class="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet</p>
-                    <p class="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati
-                        voluptatem similique!</p>
-                </div>
-            </div>
-            <div class="flex space-x-2 sm:space-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                    class="flex-shrink-0 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                    </path>
-                </svg>
-                <div class="space-y-2">
-                    <p class="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet</p>
-                    <p class="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati
-                        voluptatem similique!</p>
-                </div>
-            </div>
         </div>
         <div class="lg:w-1/2 5 flex items-center">
             <div id="carouselExampleCaptions" class="relative" data-twe-carousel-init data-twe-ride="carousel">
@@ -124,8 +87,8 @@
                     class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
                     type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide="next">
                     <span class="inline-block h-8 w-8">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                         </svg>
                     </span>

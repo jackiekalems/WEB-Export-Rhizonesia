@@ -63,6 +63,12 @@
                     Documentation
                 </a>
             </li>
+            <li class="mr-1">
+                <a href="{{ route('guide.line') }}"
+                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    Guideline to Purchase
+                </a>
+            </li>
         </ul>
         <div class="w-full">
             <div x-show="openTab === 1" class="mt-10">

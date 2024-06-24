@@ -3,27 +3,11 @@
         class="font-bold underline hover:text-indigo-100">Wira Putra Nugraha</a>.
     See his works on <a href="https://dribbble.com/vlockn" class="font-bold underline hover:text-indigo-100">Dribbble</a>.
 </div>
-<nav class="px-10 lg:px-20 py-5 sticky top-0 z-50 bg-white">
+<nav class="px-10 lg:px-20 py-5 sticky top-0 z-50 bg-white border-2">
     <div class="flex flex-wrap items-center justify-between">
-        <a href="#" class="flex">
-            <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                    <path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z"
-                        fill="#76A9FA"></path>
-                    <path
-                        d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z"
-                        fill="#A4CAFE"></path>
-                    <path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2">
-                    </path>
-                </g>
-                <defs>
-                    <clipPath id="clip0">
-                        <rect width="51" height="70" fill="white"></rect>
-                    </clipPath>
-                </defs>
-            </svg>
-            <span class="self-center text-lg font-semibold whitespace-nowrap">CV. Almea Kausa Eterna</span>
+        <a href="#" class="flex gap-x-3">
+            <img src="assets/logo.png" class="w-8" alt="">
+            <span class="self-center text-lg font-semibold whitespace-nowrap">Almea Kausa Eterna</span>
         </a>
         <button data-collapse-toggle="mobile-menu" type="button"
             class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-300 rounded-lg inline-flex items-center justify-center"
@@ -44,13 +28,14 @@
             <ul class="flex-col md:flex-row flex md:space-x-14 mt-4 md:mt-0 md:text-sm md:font-medium">
                 <li>
                     <a href="{{ route('welcome') }}"
-                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rounded focus:outline-none"
+                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rouded md:rounded-none focus:outline-none border-b-2 border-transparent hover:border-green-500"
                         aria-current="page">Home</a>
                 </li>
                 <li class="relative group:" x-data="{ showChildren: false }" @mouseleave="showChildren=false"
                     @mouseenter="showChildren=true">
                     <a href="{{ route('about.us') }}"
-                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rounded focus:outline-none">
+                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rouded md:rounded-none focus:outline-none border-b-2 border-transparent hover:border-green-500"
+                        aria-current="page">
                         <span class="mr-1">About Us <i class="ri-arrow-down-s-line"></i></span>
                     </a>
                     <div class="bg-white shadow-md rounded border border-gray-300 text-sm absolute top-auto left-0 min-w-full w-56 z-30 mt-1"
@@ -96,13 +81,15 @@
                 </li>
                 <li>
                     <a href="{{ route('products') }}"
-                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rounded focus:outline-none">
+                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rouded md:rounded-none focus:outline-none border-b-2 border-transparent hover:border-green-500"
+                        aria-current="page">
                         Prducts</a>
                 </li>
 
                 <li>
                     <a href="{{ route('contact.us') }}"
-                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rounded focus:outline-none">Contact</a>
+                        class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rouded md:rounded-none focus:outline-none border-b-2 border-transparent hover:border-green-500"
+                        aria-current="page">Contact</a>
                 </li>
             </ul>
         </div>

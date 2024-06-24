@@ -61,101 +61,135 @@
                     Documentation
                 </a>
             </li>
+            <li class="mr-1">
+                <a href="{{ route('guide.line') }}"
+                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    Guideline to Purchase
+                </a>
+            </li>
         </ul>
         <div class="w-full">
             <div x-show="openTab === 4" id="whyUs"> </div>
             <div x-show="openTab === 2" id="documentation"></div>
             <div x-show="openTab === 3" id="qualityControll"></div>
             <div x-show="openTab === 1" id="ourRescource">
-                <section class="px-4 py-24 mx-auto max-w-7xl">
-                    <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-                        <h1
-                            class="mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
-                            <span
-                                class="block w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">Here's
-                                to the crazy ones</span>
-                        </h1>
-                    </div>
-                </section>
-
-                <section>
-                    <div x-data="{
-                        imageGalleryOpened: false,
-                        imageGalleryActiveUrl: null,
-                        imageGalleryImageIndex: null,
-                        imageGalleryOpen(event) {
-                            this.imageGalleryImageIndex = event.target.dataset.index;
-                            this.imageGalleryActiveUrl = event.target.src;
-                            this.imageGalleryOpened = true;
-                        },
-                        imageGalleryClose() {
-                            this.imageGalleryOpened = false;
-                            setTimeout(() => this.imageGalleryActiveUrl = null, 300);
-                        },
-                    }" class="w-full h-full select-none">
-                        <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view"
-                            style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
-                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.pexels.com/photos/2356059/pexels-photo-2356059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 01"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.pexels.com/photos/3618162/pexels-photo-3618162.jpeg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 07"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.unsplash.com/photo-1689217634234-38efb49cb664?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 08"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.unsplash.com/photo-1520350094754-f0fdcac35c1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 09"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://cdn.devdojo.com/images/june2023/mountains-10.jpeg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 10"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://cdn.devdojo.com/images/june2023/mountains-06.jpeg"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 06"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 07"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 08"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.pexels.com/photos/4256852/pexels-photo-4256852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 09"></li>
-                                <li><img x-on:click="imageGalleryOpen"
-                                        src="https://images.unsplash.com/photo-1541795083-1b160cf4f3d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
-                                        class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]"
-                                        alt="photo gallery image 10"></li>
-                            </ul>
+                <section class="my-20 mx-14 lg:mx-20">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="text-center my-10">
+                            <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
+                                DOCUMENTATION
+                            </h1>
+                            <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
                         </div>
-                        <template x-teleport="body">
-                            <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300"
-                                x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300"
-                                x-transition:leave-end="opacity-0" @click="imageGalleryClose"
-                                @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened"
-                                class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out"
-                                x-cloak>
-                                <div class="relative flex flex-col items-center justify-center w-11/12 xl:w-4/5 h-11/12">
-                                    <img x-show="imageGalleryOpened"
-                                        x-transition:enter="transition ease-in-out duration-300"
-                                        x-transition:enter-start="opacity-0 transform scale-50"
-                                        x-transition:leave="transition ease-in-in duration-300"
-                                        x-transition:leave-end="opacity-0 transform scale-50"
-                                        class="object-contain object-center w-full h-full select-none cursor-zoom-out"
-                                        :src="imageGalleryActiveUrl" alt="" style="display: none;">
+                        <!--Slider Wrapper-->
+                        <div class="swiper teamswiper teamswiper2 pb-10">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500  lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="http://127.0.0.1:8000/assets/jahe.jpg" alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide rounded-xl shadow-xl border">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide border rounded-xl shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide border rounded-xl shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide border rounded-xl shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide border rounded-xl shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide border rounded-xl shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide border rounded-xl shadow-xl">
+                                    <div
+                                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
+                                        <div class=" w-full h-96">
+                                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
+                                                alt="image"
+                                                class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </template>
+                            <button id="slider-button-left"
+                                class="swiper-button-prev p-2.5 group flex justify-center items-center text-gray-900 w-12 h-12 transition-all duration-500 rounded-full hover:text-indigo-600"
+                                data-carousel-prev>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path
+                                        d="M8.38413 15.1022L3.33301 10.0511M3.33301 10.0511L8.38413 5M3.33301 10.0511L18.3329 10.0511"
+                                        stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </button>
+                            <button id="slider-button-right"
+                                class="swiper-button-next p-2.5 group flex justify-center items-center text-gray-900 w-12 h-12 transition-all duration-500 rounded-full hover:text-indigo-600"
+                                data-carousel-next>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M11.6158 5L16.6669 10.0511M16.6669 10.0511L11.6158 15.1022M16.6669 10.0511L1.66699 10.0511"
+                                        stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                                </svg>
+
+                            </button>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
                     </div>
                 </section>
             </div>

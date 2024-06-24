@@ -111,9 +111,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // end dropdown
 
-// swipper js
-var swiper = new Swiper(".teamswiper", {
-    slidesPerView: 1,
+var swiper = new Swiper(".teamswiper1", {
+    slidesPerView: 1, // Ini adalah pengaturan default untuk layar kecil
     spaceBetween: 32,
     centeredSlides: false,
     slidesPerGroupSkip: 1,
@@ -124,7 +123,7 @@ var swiper = new Swiper(".teamswiper", {
     },
     breakpoints: {
         769: {
-            slidesPerView: 2,
+            slidesPerView: 2, // Mengubah jumlah slide yang terlihat menjadi 3
             slidesPerGroup: 1,
         },
     },
@@ -137,7 +136,35 @@ var swiper = new Swiper(".teamswiper", {
     },
     pagination: {
         el: ".swiper-pagination",
-        type: "fraction",
+        type: "fraction", // Menampilkan paginasi sebagai fraction
+    },
+});
+var swiper = new Swiper(".teamswiper2", {
+    slidesPerView: 1, // Ini adalah pengaturan default untuk layar kecil
+    spaceBetween: 32,
+    centeredSlides: false,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
+    loop: true,
+    keyboard: {
+        enabled: true,
+    },
+    breakpoints: {
+        769: {
+            slidesPerView: 4, // Mengubah jumlah slide yang terlihat menjadi 3
+            slidesPerGroup: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    scrollbar: {
+        el: ".swiper-scrollbar",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction", // Menampilkan paginasi sebagai fraction
     },
 });
 

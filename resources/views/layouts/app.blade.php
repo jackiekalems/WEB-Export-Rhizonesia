@@ -61,6 +61,9 @@
         <div>
             @yield('qualityControl')
         </div>
+        <div>
+            @yield('guideLine')
+        </div>
     </main>
     @include('components.footer')
     @include('components.navIcon')

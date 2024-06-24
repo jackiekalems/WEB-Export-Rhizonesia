@@ -7,7 +7,7 @@
             <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
         </div>
         <!--Slider Wrapper-->
-        <div class="swiper teamswiper pb-10">
+        <div class="swiper teamswiper teamswiper1 pb-10">
             <div class="swiper-wrapper">
                 <div class="swiper-slide border rounded-lg shadow-xl">
                     <div
