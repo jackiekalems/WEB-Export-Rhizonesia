@@ -1,14 +1,18 @@
 <section class="mx-14 lg:mx-20 mt-10" id="about">
     <div class="text-center my-10">
-        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
-            COMPANY <span class="text-green-600">PROFILE</span>
+        <h1 class="font-primary">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">COMPANY
+                PROFILE</span>
         </h1>
-        <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
     </div>
     <div class="container flex flex-col-reverse mx-auto lg:flex-row">
         <div class="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
-            <h1 class="text-2xl font-extrabold">WHY ALMEA KAUSA ETERNA ? </h1>
-            <p>Almea Kausa Eterna didirikan atas ambisi dan mimpi para pendiri untuk bisa membantu dunia mengetahui cita
+            <h1 class="text-xl md:text-2xl font-extrabold text-center">WHY ALMEA KAUSA ETERNA? </h1>
+            <p class="text-sm md:text-base text-justify md:text-start">Almea Kausa Eterna didirikan atas ambisi dan
+                mimpi para
+                pendiri untuk bisa
+                membantu
+                dunia mengetahui cita
                 rasa tiada tara,kami akan membantu kalian meningkatkan level bisnis kalian, kami idak perlu ragu dengan
                 almea kausa eterna karena kita bercita-cita membantu kalian menjadi sektor tebaik di dunia bisnis,
                 dengan rempah terbaik dari yang terbaik dari indonesia .

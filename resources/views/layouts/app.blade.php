@@ -59,7 +59,7 @@
             @yield('ourResource')
         </div>
         <div>
-            @yield('qualityControl')
+            @yield('processOrder')
         </div>
         <div>
             @yield('guideLine')

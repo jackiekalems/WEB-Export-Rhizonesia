@@ -1,7 +1,7 @@
 <footer class="w-full border-2 bg-gray-100">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <!--Grid-->
-        <div class="py-14 grid grid-cols-12 gap-x-5 gap-y-8">
+        <div class="py-14 grid grid-cols-12 md:grid-cols-9 gap-x-5 gap-y-8">
             <div
                 class="col-span-full xl:col-span-3 relative rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center border shadow-lg">
                 <div class="flex flex-col md:flex-row items-center justify-center gap-y-5 gap-x-8">
@@ -15,8 +15,8 @@
 
                 <div class="flex space-x-4 sm:justify-center">
                     <!-- Instagram -->
-                    <a href="javascript:;"
-                        class="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                    <a href="https://www.instagram.com/almeakausaeterna?igsh=cm51aWgxOTN0NWl0" target="_blak"
+                        class="w-11 h-11 rounded-full bg-white flex justify-center items-center hover:shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                             fill="none">
                             <path
@@ -34,7 +34,7 @@
 
                     <!-- Facebook -->
                     <a href="javascript:;"
-                        class="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        class="w-11 h-11 rounded-full bg-white flex justify-center items-center hover:shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                             fill="none">
                             <path
@@ -52,7 +52,7 @@
 
                     <!-- LinkedIn -->
                     <a href="javascript:;"
-                        class="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        class="w-11 h-11 rounded-full bg-white flex justify-center items-center hover:shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                             fill="none">
                             <path
@@ -94,23 +94,6 @@
                         <li><a href="{{ route('tumeric.powder') }}">Turmeric powder</a></li>
                         <li><a href="{{ route('finger.tumeric') }}">Finger Turmeric</a></li>
                     </ul>
-                </div>
-            </div>
-            <div class="block xl:py-16 col-span-full md:col-span-4 xl:col-span-3">
-                <h4 class="text-lg text-gray-900 font-bold mb-9 text-center xl:text-left">Newsletter</h4>
-                <div class="grid gap-7 ">
-                    <input type="text" name="email"
-                        class="py-2 px-4 border border-gray-300 shadow-sm h-14 text-lg text-gray-800 rounded-full w-full  xl:w-64 placeholder:text-gray-400 focus:outline-none"
-                        placeholder="Enter email.." />
-                    <button type="submit"
-                        class="flex gap-2 justify-center items-center py-3.5 px-7 rounded-full text-white bg-green-500 shadow-md w-fit transition-all duration-500 mx-auto xl:mx-0 hover:bg-green-700">Subscribe<svg
-                            width="17" height="13" viewBox="0 0 17 13" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M1.5 6.88281L14.8333 6.88281M10.6667 11.8828L15.0774 7.47207C15.3552 7.19429 15.4941 7.0554 15.4941 6.88281C15.4941 6.71022 15.3552 6.57133 15.0774 6.29356L10.6667 1.88281"
-                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
                 </div>
             </div>
 

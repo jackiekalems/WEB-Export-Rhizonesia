@@ -13,11 +13,12 @@
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
                 <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-                    <div class="text-center mt-10">
-                        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
-                            FAQ <span class="text-green-600">SERVICES</span>
+                    <div class="text-center my-10">
+                        <h1 class="font-primary">
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">FAQ
+                            </span>
                         </h1>
-                        <hr class="my-4 h-1 w-1/4 bg-red-500 border-0 rounded-full mx-auto">
                     </div>
                 </div>
             </div>
@@ -37,7 +38,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 What is the suitable payments that you provide?
                             </h4>
                         </div>
@@ -61,7 +62,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 Can i get the sample of your great product?
                             </h4>
                         </div>
@@ -85,7 +86,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 What type of quality that you have? And how you prove it?
                             </h4>
                         </div>
@@ -111,7 +112,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 Can i request for the packing of the products?
                             </h4>
                         </div>
@@ -137,7 +138,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 Where is your company located?
                             </h4>
                         </div>
@@ -161,7 +162,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 How long you can process the product that i expect?
                             </h4>
                         </div>
@@ -185,7 +186,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 Can we trust your company?
                             </h4>
                         </div>
@@ -210,7 +211,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 text-lg font-semibold text-black">
+                            <h4 class="mt-1 md:text-lg font-semibold text-black">
                                 Is there any MOQ to have some transactions with your company?
                             </h4>
                         </div>

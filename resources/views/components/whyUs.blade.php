@@ -1,9 +1,9 @@
 <section class="text-gray-700 body-font">
     <div class="text-center my-10">
-        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
-            WHY <span class="text-green-600">US ?</span>
+        <h1 class="font-primary">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">WHY
+                US?</span>
         </h1>
-        <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
     </div>
     <div class="container px-5 py-12 mx-auto">
         <div class="flex flex-wrap text-center justify-center">
@@ -13,7 +13,7 @@
                         <img src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
                             class="w-32 mb-3">
                     </div>
-                    <h2 class="title-font font-regular text-2xl text-gray-900">Latest Milling Machinery</h2>
+                    <h2 class="title-font font-regular text-xl md:text-2xl text-gray-900">Latest Milling Machinery</h2>
                 </div>
             </div>
 
@@ -23,7 +23,7 @@
                         <img src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp"
                             class="w-32 mb-3">
                     </div>
-                    <h2 class="title-font font-regular text-2xl text-gray-900">Reasonable Rates</h2>
+                    <h2 class="title-font font-regular text-xl md:text-2xl text-gray-900">Reasonable Rates</h2>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                         <img src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp"
                             class="w-32 mb-3">
                     </div>
-                    <h2 class="title-font font-regular text-2xl text-gray-900">Time Efficiency</h2>
+                    <h2 class="title-font font-regular text-xl md:text-2xl text-gray-900">Time Efficiency</h2>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
                         <img src="https://image3.jdomni.in/banner/13062021/EB/99/EE/8B46027500E987A5142ECC1CE1_1623567959360.png?output-format=webp"
                             class="w-32 mb-3">
                     </div>
-                    <h2 class="title-font font-regular text-2xl text-gray-900">Expertise in Industry</h2>
+                    <h2 class="title-font font-regular text-xl md:text-2xl text-gray-900">Expertise in Industry</h2>
                 </div>
             </div>
 

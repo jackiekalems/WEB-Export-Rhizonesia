@@ -1,4 +1,4 @@
-{{-- @extends('layouts.app')
+@extends('layouts.app')
 
 @section('processOrder')
     <script src="//unpkg.com/alpinejs"></script>
@@ -64,7 +64,7 @@
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
                 <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
                     class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
-                    Quality Control
+                    Process Production
                 </a>
             </li>
             <li class="mr-1">
@@ -344,4 +344,4 @@
             </div>
             <div x-show="openTab === 4" id="ourRescource"></div>
         </div>
-    @endsection --}}
+    @endsection

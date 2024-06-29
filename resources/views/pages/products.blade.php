@@ -24,29 +24,27 @@
         </div>
     </div>
     <div class="text-center mt-10">
-        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">
-            <span class="text-green-600"> PRODUCTS</span>
+        <h1 class="font-primary">
+            <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">PRODUCTS</span>
         </h1>
-        <hr class="my-4 h-1 w-[6%] bg-red-500 border-0 rounded-full mx-auto">
     </div>
     <section class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20">
         <!--   ✅ Product card 1 - Starts Here 👇 -->
-        <a href="{{ route('dried.ginger') }}">
-            <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                <div>
-                    <img src="assets/jahe.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <span class="text-gray-400 mr-3 uppercase text-xs">Dried</span>
-                        <p class="text-lg font-bold text-black truncate block capitalize">Dried Ginger</p>
-                        <div class="flex items-center py-3">
-                            <a href="{{ route('dried.ginger') }}"
-                                class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
-                        </div>
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <div>
+                <img src="assets/jahe.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <div class="px-4 py-3 w-72">
+                    <span class="text-gray-400 mr-3 uppercase text-xs">Dried</span>
+                    <p class="text-lg font-bold text-black truncate block capitalize">Dried Ginger</p>
+                    <div class="flex items-center py-3">
+                        <a href="{{ route('dried.ginger') }}"
+                            class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
                     </div>
                 </div>
             </div>
-        </a>
-        <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        </div>
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
                 <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
@@ -60,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
                 <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7" alt="Product"
                     class="h-80 w-72 object-cover rounded-t-xl" />
@@ -74,7 +72,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
                 <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
@@ -88,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
                 <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />

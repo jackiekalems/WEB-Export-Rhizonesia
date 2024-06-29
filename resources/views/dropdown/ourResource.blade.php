@@ -11,12 +11,24 @@
             </div>
         </div>
     </header>
-    <div class="flex gap-x-3 mx-5 py-5">
-        <p><i class="ri-home-4-fill text-green-400"></i><span> Your Posistion in :</span></p>
-        <ul class="flex flex-row">
-            <li><a href="{{ route('welcome') }}">Home ></a></li>
-            <li><a href="">About Us</a></li>
-        </ul>
+    <div class="font-sans bg-white">
+        <div class="py-6">
+            <!-- Breadcrumbs -->
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center space-x-2 text-gray-400 text-sm">
+                    <a href="{{ route('welcome') }}" class="hover:underline hover:text-gray-600"><i
+                            class="ri-home-4-fill text-lg text-green-500"></i> Home</a>
+                    <span>
+                        <svg class="h-5 w-5 leading-none text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </span>
+                    <span>About Us</span>
+                </div>
+            </div>
+            <!-- ./ Breadcrumbs -->
+        </div>
     </div>
     <div x-data="{
         openTab: 1,
@@ -40,32 +52,32 @@
             <li class="mr-1">
                 <!-- Set active class by using :class provided by Alpine -->
                 <a href="{{ route('about.us') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
                     Why Us
                 </a>
             </li>
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
                 <!-- Set active class by using :class provided by Alpine -->
                 <a href="#documentation" :class="openTab === 1 ? activeClasses : inactiveClasses"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
                     Our Resource
                 </a>
             </li>
             <li class="mr-1">
-                <a href="{{ route('quality.control') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
-                    Quality Control
+                <a href="{{ route('process.production') }}"
+                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    Process Production
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('documentation') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
                     Documentation
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('guide.line') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-xs lg:text-base">
+                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
                     Guideline to Purchase
                 </a>
             </li>
@@ -74,10 +86,12 @@
             <div x-show="openTab === 1" class="mt-10">
                 <!-- Content -->
                 <div class="text-center my-10">
-                    <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">OUR
-                        <span class="text-green-600"> RESOURCE</span>
+                    <h1 class="font-primary">
+                        <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">OUR
+                            RESOURCE
+                        </span>
                     </h1>
-                    <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
                 </div>
                 <div class="relative w-full h-[100vh] bg-cover bg-center"
                     style="background-image: url('https://www.ll-foods.com/d/images/about/shijie.jpg');">

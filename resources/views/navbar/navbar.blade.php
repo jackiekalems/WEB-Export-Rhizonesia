@@ -1,13 +1,13 @@
-<div class="bg-green-500 text-white md:text-center py-2 px-4">
+{{-- <div class="bg-green-500 text-white md:text-center py-2 px-4">
     Inspired from Dribbble Shot by <a href="https://dribbble.com/shots/14127375-Product-Page"
         class="font-bold underline hover:text-indigo-100">Wira Putra Nugraha</a>.
     See his works on <a href="https://dribbble.com/vlockn" class="font-bold underline hover:text-indigo-100">Dribbble</a>.
-</div>
+</div> --}}
 <nav class="px-10 lg:px-20 py-5 sticky top-0 z-50 bg-white border-2">
     <div class="flex flex-wrap items-center justify-between">
         <a href="#" class="flex gap-x-3">
             <img src="assets/logo.png" class="w-8" alt="">
-            <span class="self-center text-lg font-semibold whitespace-nowrap">Almea Kausa Eterna</span>
+            <span class="self-center text-lg font-semibold whitespace-nowrap hidden md:block">Almea Kausa Eterna</span>
         </a>
         <button data-collapse-toggle="mobile-menu" type="button"
             class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-300 rounded-lg inline-flex items-center justify-center"
@@ -64,9 +64,9 @@
                                     </a>
                                 </li>
                                 <li class="relative" @mouseenter="showChildren=true">
-                                    <a href="{{ route('quality.control') }}"
+                                    <a href="{{ route('process.production') }}"
                                         class="px-4 py-2 flex w-full items-start hover:bg-green-500 hover:text-white no-underline hover:no-underline transition-colors duration-100 cursor-pointer">
-                                        <span class="flex-1">Quality Control</span>
+                                        <span class="flex-1">Process Productiom</span>
                                         <span class="ml-2"> <i class="mdi mdi-chevron-right"></i> </span>
                                     </a>
                                 </li>
@@ -74,6 +74,11 @@
                                     <a href="{{ route('documentation') }}"
                                         class="px-4 py-2 flex w-full items-start hover:bg-green-500 hover:text-white no-underline hover:no-underline transition-colors duration-100 cursor-pointer">
                                         <span class="flex-1">Documentation</span> </a>
+                                </li>
+                                <li class="relative" @mouseenter="showChildren=true">
+                                    <a href="{{ route('guide.line') }}"
+                                        class="px-4 py-2 flex w-full items-start hover:bg-green-500 hover:text-white no-underline hover:no-underline transition-colors duration-100 cursor-pointer">
+                                        <span class="flex-1">Guideline to Process</span> </a>
                                 </li>
                             </ul>
                         </div>
@@ -83,7 +88,7 @@
                     <a href="{{ route('products') }}"
                         class="hover:bg-green-500 lg:hover:bg-white md:bg-transparent hover:text-white block pl-3 pr-4 py-2 md:hover:text-green-700 text-gray-700 md:p-0 rouded md:rounded-none focus:outline-none border-b-2 border-transparent hover:border-green-500"
                         aria-current="page">
-                        Prducts</a>
+                        Products</a>
                 </li>
 
                 <li>

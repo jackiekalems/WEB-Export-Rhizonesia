@@ -27,8 +27,7 @@
             <!-- ./ Breadcrumbs -->
         </div>
         <div class="p-4 lg:max-w-7xl max-w-4xl mx-auto">
-            <div
-                class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6 rounded-lg">
+            <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-primary p-6 rounded-lg">
                 <div class="lg:col-span-3 w-full lg:sticky top-0 text-center">
 
                     <div class="md:flex-1 px-4">
@@ -51,7 +50,7 @@
 
                                 <img src="https://img.freepik.com/free-photo/arrangement-ginger-table_23-2148799550.jpg?t=st=1718903043~exp=1718906643~hmac=1436a1c668ccae3f0855944b5dcaad2f60ea6b624088d3cad2a036934f4538d1&w=1380"
                                     x-show="image === 4"
-                                    class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
+                                    class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center overflow-hidden">
                                 </img>
                             </div>
 
@@ -67,7 +66,7 @@
                                                 'https://img.freepik.com/free-photo/fresh-ginger-root_144627-34531.jpg?t=st=1718902978~exp=1718906578~hmac=575dd8563c74b43286ac410bcf2670c96b3e4fca0f49bca85b110286a2553fab&w=1060',
                                                 'https://img.freepik.com/free-photo/arrangement-ginger-table_23-2148799550.jpg?t=st=1718903043~exp=1718906643~hmac=1436a1c668ccae3f0855944b5dcaad2f60ea6b624088d3cad2a036934f4538d1&w=1380'
                                             ][i - 1]"
-                                                class="h-20 w-20 rounded-lg object-cover">
+                                                class="h-full w-full object-cover rounded-lg">
                                         </button>
                                     </div>
                                 </template>
@@ -120,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="mt-16 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6">
+            <div class="mt-16 shadow-primary p-6">
                 <h3 class="text-xl font-bold text-gray-800">Product information</h3>
                 <ul class="mt-4 space-y-6 text-gray-800">
                     <li class="text-sm">Nama <span class="ml-4 float-right">Dried Tumeric slice</span></li>
@@ -138,7 +137,7 @@
                 </ul>
             </div>
 
-            {{-- <div class="mt-16 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6">
+            {{-- <div class="mt-16 shadow-primary p-6">
             <h3 class="text-xl font-bold text-gray-800">Reviews(10)</h3>
             <div class="grid md:grid-cols-2 gap-12 mt-4">
                 <div class="space-y-3">
@@ -262,7 +261,7 @@
         <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
     </div>
     <section
-        class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6 rounded-lg">
+        class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20 shadow-primary p-6 rounded-lg">
         <!--   ✅ Product card 1 - Starts Here 👇 -->
         <a href="{{ route('dried.ginger') }}">
             <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">

@@ -58,4 +58,8 @@ class PageController extends Controller
     {
         return view('dropdown.guideLine'); 
     }
+    public function processProduction()
+    {
+        return view('dropdown.processProduction'); 
+    }
 }

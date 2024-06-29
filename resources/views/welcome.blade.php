@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    {{-- favicon --}}
+    <link rel="icon" href="{{ url('assets/logo.png') }}" />
     <title>Laravel</title>
 
     <!-- Fonts -->
@@ -33,7 +34,6 @@
     @include('components.whyUs')
     @include('components.company-profile')
     @include('components.faq')
-    @include('components.services')
     @include('components.footer')
     @include('components.navIcon')
     {{-- js --}}
