@@ -5,7 +5,7 @@
     <header class="relative w-full h-[50vh] bg-cover bg-center"
         style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white">
+            <div class="text-center text-white first">
                 <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
                 <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
             </div>
@@ -48,39 +48,60 @@
     activeClasses: 'border-l border-t border-r rounded-t text-green-700',
         inactiveClasses: 'text-green-500 hover:text-green-700'
     }" class="p-6 flex flex-col items-center">
-        <ul class="flex border-b text-green-500">
+        <ul class="flex border-b text-green-500 seccond">
             <li class="mr-1">
                 <a href="{{ route('about.us') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Why Us
                 </a>
+                <a href="{{ route('about.us') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden"
+                    x-data="{ show: false }" @mouseover="show = true" @mouseleave="show = false">
+                    <i class="ri-question-mark text-xl"></i>
+                    <span x-show="show">WHY US</span>
+                </a>
+
             </li>
             <li class="mr-1">
                 <a href="{{ route('our.resource') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Our Resource
+                </a>
+                <a href="{{ route('our.resource') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden"
+                    x-data="{ show: false }" @mouseover="show = true" @mouseleave="show = false">
+                    <i class="ri-pin-distance-line text-xl"></i>
+                    <span x-show="show">WHY US</span>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('process.production') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Process Production
+                </a>
+                <a href="{{ route('our.resource') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-hourglass-2-fill text-xl"></i>
                 </a>
             </li>
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
-                <a href="#ourResource" :class="openTab === 1 ? activeClasses : inactiveClasses"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
+                <a href="{{ route('documentation') }}" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Documentation
                 </a>
-                <a href="href="#ourResource" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                <a href="{{ route('documentation') }}" :class="openTab === 1 ? activeClasses : inactiveClasses"
                     class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
                     <i class="ri-camera-line text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('guide.line') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Guideline to Purchase
+                </a>
+                <a href="{{ route('our.resource') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-guide-line text-xl"></i>
                 </a>
             </li>
         </ul>
@@ -88,7 +109,7 @@
             <div x-show="openTab === 1">
                 <section class="my-20 mx-14 lg:mx-20">
                     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        <div class="text-center my-10">
+                        <div class="text-center my-10 third">
                             <h1 class="font-primary">
                                 <span
                                     class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">PRODUCT
@@ -96,7 +117,7 @@
                             </h1>
                         </div>
                         <!--Slider Wrapper-->
-                        <div class="swiper teamswiper teamswiper2 pb-10">
+                        <div class="swiper teamswiper teamswiper2 pb-10 first">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide shadow-xl">
                                     <div
@@ -208,7 +229,7 @@
                 </section>
                 <section class="my-20 mx-14 lg:mx-20">
                     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        <div class="text-center my-10">
+                        <div class="text-center my-10 first">
                             <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900 text-center">
                                 <span
                                     class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">WAREHOUSE
@@ -216,7 +237,7 @@
                             </h1>
                         </div>
                         <!--Slider Wrapper-->
-                        <div class="swiper teamswiper teamswiper2 pb-10">
+                        <div class="swiper teamswiper teamswiper2 pb-10 seccond">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide shadow-xl">
                                     <div

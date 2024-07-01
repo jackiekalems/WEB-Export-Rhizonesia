@@ -1,7 +1,7 @@
 <section class="my-20 mx-14 lg:mx-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center my-10">
-            <h1 class="font-primary">
+            <h1 class="font-primary title">
                 <span
                     class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">PRODUCT
                     CENTER</span>
@@ -10,7 +10,7 @@
         <!--Slider Wrapper-->
         <div class="swiper teamswiper teamswiper1 pb-10">
             <div class="swiper-wrapper">
-                <div class="swiper-slide border rounded-lg shadow-primary">
+                <div class="swiper-slide border rounded-lg shadow-primary leftAnimation">
                     <div
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide rounded-xl shadow-primary border">
+                <div class="swiper-slide rounded-xl shadow-primary border rightAnimation">
                     <div
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">

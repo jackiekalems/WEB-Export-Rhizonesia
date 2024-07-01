@@ -13,7 +13,7 @@
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
                 <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-                    <div class="text-center my-10">
+                    <div class="text-center my-10 title">
                         <h1 class="font-primary">
                             <span
                                 class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">FAQ
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-wrap -mx-4">
+        <div class="flex flex-wrap -mx-4 topAnimation">
             <div class="w-full px-4 lg:w-1/2">
                 <div
                     class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">

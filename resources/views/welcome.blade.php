@@ -25,6 +25,8 @@
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="//unpkg.com/alpinejs" defer></script>
+    {{-- scroll reveal --}}
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body class="overflow-x-hidden font-montserrat">
@@ -42,6 +44,102 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/main.js"></script>
-</body>
+    <script>
+        // scroll reveall
+        document.addEventListener("DOMContentLoaded", function() {
+            // home
+            // globals titles
+            ScrollReveal().reveal(".title", {
+                delay: 200,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            // end globals titles\
+
+            // globals right animations
+            ScrollReveal().reveal(".rightAnimation", {
+                delay: 200,
+                distance: "50px",
+                origin: "right",
+                duration: 800,
+                reset: false,
+            });
+            // end globals right animations
+
+            // globals left animations
+            ScrollReveal().reveal(".leftAnimation", {
+                delay: 200,
+                distance: "50px",
+                origin: "left",
+                duration: 800,
+                reset: false,
+            });
+            // end globals left animations
+
+            // globals top animations
+            ScrollReveal().reveal(".topAnimation", {
+                delay: 200,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            // end globals top animations
+
+            // globals top animations
+            ScrollReveal().reveal(".bottomAnimation", {
+                delay: 200,
+                distance: "50px",
+                origin: "bottom",
+                duration: 800,
+                reset: false,
+            });
+            // end globals top animations
+
+            // why us
+            ScrollReveal().reveal(".why__us1", {
+                delay: 300,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            ScrollReveal().reveal(".why__us2", {
+                delay: 400,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            ScrollReveal().reveal(".why__us3", {
+                delay: 500,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            ScrollReveal().reveal(".why__us4", {
+                delay: 600,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            // end why us
+
+            // company profile
+            ScrollReveal().reveal(".why__us4", {
+                delay: 600,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: false,
+            });
+            // end company profile
+
+        });
+    </script>
 
 </html>

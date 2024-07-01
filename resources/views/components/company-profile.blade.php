@@ -1,12 +1,12 @@
 <section class="mx-14 lg:mx-20 mt-10" id="about">
-    <div class="text-center my-10">
-        <h1 class="font-primary">
+    <div class="text-center my-10 ">
+        <h1 class="font-primary title">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">COMPANY
                 PROFILE</span>
         </h1>
     </div>
     <div class="container flex flex-col-reverse mx-auto lg:flex-row">
-        <div class="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
+        <div class="leftAnimation flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
             <h1 class="text-xl md:text-2xl font-extrabold text-center">WHY ALMEA KAUSA ETERNA? </h1>
             <p class="text-sm md:text-base text-justify md:text-start">Almea Kausa Eterna didirikan atas ambisi dan
                 mimpi para
@@ -19,7 +19,7 @@
 
             </p>
         </div>
-        <div class="lg:w-1/2 5 flex items-center">
+        <div class="rightAnimation lg:w-1/2 5 flex items-center">
             <div id="carouselExampleCaptions" class="relative" data-twe-carousel-init data-twe-ride="carousel">
                 <!--Carousel indicators-->
                 <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"

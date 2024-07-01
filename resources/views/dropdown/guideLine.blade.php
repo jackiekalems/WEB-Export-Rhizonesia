@@ -5,7 +5,7 @@
     <header class="relative w-full h-[50vh] bg-cover bg-center"
         style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white">
+            <div class="text-center text-white first">
                 <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
                 <p class="text-lg px-10 md:text-xl mt-4">Discover amazing content below</p>
             </div>
@@ -48,7 +48,7 @@
     activeClasses: 'border-l border-t border-r rounded-t text-green-700',
         inactiveClasses: 'text-green-500 hover:text-green-700'
     }" class="p-6 flex flex-col items-center">
-        <ul class="flex border-b text-green-500">
+        <ul class="flex border-b text-green-500 seccond">
             <li class="mr-1">
                 <a href="{{ route('about.us') }}"
                     class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
@@ -80,9 +80,12 @@
                 </a>
             </li>
         </ul>
+
+
+
         <div class="w-full">
             <div x-show="openTab === 1">
-                <div class="text-center my-10">
+                <div class="text-center my-10 third">
                     <h1 class="font-primary">GUIDELINE
                         <span
                             class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">TO
@@ -91,7 +94,7 @@
                     </h1>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-4 gap-3">
-                    <div class="relative h-[80vh]">
+                    <div class="relative h-[80vh] first">
                         <img src="https://img.freepik.com/free-photo/business-people-meeting_1421-559.jpg?t=st=1719128043~exp=1719131643~hmac=3da6709cd4e547aa2a1e4950044b5e06a81501688f3b3d6d8ebba6de0e8e33c8&w=996"
                             alt="Image 1" class="object-cover w-full h-full grayscale rounded-xl">
                         <div
@@ -104,7 +107,7 @@
                         </div>
                     </div>
                     <!-- Gambar 2 -->
-                    <div class="relative h-[80vh]">
+                    <div class="relative h-[80vh] seccond">
                         <img src="https://img.freepik.com/free-photo/closeup-hands-holding-cash_53876-144221.jpg?t=st=1719128076~exp=1719131676~hmac=bb52eeebf05a4d508d765ec7a86641ac26bd4e7621f6ab678f5939e29ae9ae65&w=996"
                             alt="Image 2" class="object-cover w-full h-full grayscale rounded-xl">
                         <div
@@ -118,7 +121,7 @@
                     </div>
 
                     <!-- Gambar 3 -->
-                    <div class="relative h-[80vh]">
+                    <div class="relative h-[80vh] third">
                         <img src="https://img.freepik.com/free-photo/full-shot-young-woman-transplanting-plant_23-2149413512.jpg?t=st=1719128193~exp=1719131793~hmac=b8a155414787763d163712cff0f106fb61bbe1efdf9230aecf6341fd954d8567&w=360"
                             alt="Image 3" class="object-cover w-full h-full grayscale rounded-xl">
                         <div
@@ -131,7 +134,7 @@
                     </div>
 
                     <!-- Gambar 4 -->
-                    <div class="relative h-[80vh]">
+                    <div class="relative h-[80vh] fourth">
                         <img src="https://img.freepik.com/free-photo/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative_123827-24177.jpg?t=st=1719128257~exp=1719131857~hmac=a2bc183d463daed6547d83e1a989f745755a9bb8df6b695f13181d5595f9a683&w=996"
                             alt="Image 4" class="object-cover w-full h-full grayscale rounded-xl">
                         <div

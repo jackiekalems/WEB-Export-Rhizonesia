@@ -5,7 +5,7 @@
     <header class="relative w-full h-[50vh] bg-cover bg-center"
         style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white">
+            <div class="text-center text-white first">
                 <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
                 <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
             </div>
@@ -48,7 +48,7 @@
     activeClasses: 'border-l border-t border-r rounded-t text-green-700',
         inactiveClasses: 'text-green-500 hover:text-green-700 '
     }" class="p-6 flex flex-col items-center">
-        <ul class="flex border-b text-green-500">
+        <ul class="flex border-b text-green-500 seccond">
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="-mb-px mr-1">
                 <a :class="openTab === 1 ? activeClasses : inactiveClasses"
                     class="cursor-pointer bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
@@ -86,7 +86,7 @@
 
                 <div
                     class="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-                    <div class="mb-12 space-y-5 md:mb-16 md:text-center">
+                    <div class="mb-12 space-y-5 md:mb-16 md:text-center third">
                         <div class="mx-auto max-w-5xl lg:text-center flex flex-col justify-center items-center">
                             <h1 class="font-primary">
                                 <span
@@ -103,7 +103,7 @@
 
 
                     <div class="flex flex-col gap-6 sm:flex-row sm:gap-6 lg:gap-8">
-                        <div class="flex-none w-full sm:w-1/2 lg:w-1/3 h-56">
+                        <div class="flex-none w-full sm:w-1/2 lg:w-1/3 h-56 first">
                             <div class="relative group h-full">
                                 <div
                                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-green-600 to-yellow-400 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -131,7 +131,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="flex-none w-full sm:w-1/2 lg:w-1/3 h-56">
+                        <div class="flex-none w-full sm:w-1/2 lg:w-1/3 h-56 seccond">
                             <div class="relative group h-full">
                                 <div
                                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-green-600 to-yellow-400 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -155,7 +155,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="flex-none w-full sm:w-1/2 lg:w-1/3 h-56">
+                        <div class="flex-none w-full sm:w-1/2 lg:w-1/3 h-56 third">
                             <div class="relative group h-full">
                                 <div
                                     class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-green-600 to-yellow-400 blur duration-400 group-hover:opacity-100 group-hover:duration-200">

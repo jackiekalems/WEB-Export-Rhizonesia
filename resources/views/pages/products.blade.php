@@ -23,7 +23,7 @@
             <!-- ./ Breadcrumbs -->
         </div>
     </div>
-    <div class="text-center mt-10">
+    <div class="text-center mt-10 first">
         <h1 class="font-primary">
             <span
                 class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">PRODUCTS</span>
@@ -31,7 +31,7 @@
     </div>
     <section class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20">
         <!--   ✅ Product card 1 - Starts Here 👇 -->
-        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl seccond">
             <div>
                 <img src="assets/jahe.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl third">
             <div>
                 <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl fourth">
             <div>
                 <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7" alt="Product"
                     class="h-80 w-72 object-cover rounded-t-xl" />
@@ -72,7 +72,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl first">
             <div>
                 <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl seccond">
             <div>
                 <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />

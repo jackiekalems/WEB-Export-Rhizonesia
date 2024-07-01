@@ -5,7 +5,7 @@
     <header class="relative w-full h-[50vh] bg-cover bg-center"
         style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white">
+            <div class="text-center text-white first">
                 <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
                 <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
             </div>
@@ -83,7 +83,7 @@
         <div class="w-full">
             <div x-show="openTab === 1" id="qualityControll">
                 <div class="bg-white py-6 sm:py-8 lg:py-12">
-                    <div class="text-center my-10">
+                    <div class="text-center my-10 seccond">
                         <h1 class="font-primary">
                             <span
                                 class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700 uppercase">Dried
@@ -94,7 +94,7 @@
                     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                         <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                             <a href="#"
-                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 first"
                                 style="position: relative;">
                                 <!-- Div untuk angka di pojok kiri atas -->
                                 <div
@@ -121,7 +121,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 seccond">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">2</span>
@@ -142,7 +142,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 first">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">3</span>
@@ -162,7 +162,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 seccond">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">4</span>
@@ -181,7 +181,7 @@
                             <!-- image - end -->
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 first">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">5</span>
@@ -201,7 +201,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 seccond">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">6</span>
@@ -226,7 +226,7 @@
                     <div class="text-center my-10">
                         <h1 class="font-primary">
                             <span
-                                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700 uppercase">Fresh
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700 uppercase title">Fresh
                                 Ginger
                             </span>
                         </h1>
@@ -234,7 +234,7 @@
                     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                         <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                             <a href="#"
-                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 first"
                                 style="position: relative;">
                                 <!-- Div untuk angka di pojok kiri atas -->
                                 <div
@@ -261,7 +261,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 seccond">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">2</span>
@@ -281,7 +281,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 first">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">3</span>
@@ -301,7 +301,7 @@
 
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 seccond">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">4</span>
@@ -320,7 +320,7 @@
                             <!-- image - end -->
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 col-span-2 md:col-span-3 shadow-lg md:h-80">
+                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 col-span-2 md:col-span-3 shadow-lg md:h-80 first">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">5</span>

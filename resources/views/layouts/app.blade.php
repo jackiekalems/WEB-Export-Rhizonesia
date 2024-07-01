@@ -20,6 +20,8 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 <body class="overflow-x-hidden">
@@ -72,6 +74,88 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/main.js"></script>
+    <script>
+        // globals titles
+        ScrollReveal().reveal(".title", {
+            delay: 200,
+            distance: "50px",
+            origin: "top",
+            duration: 800,
+            reset: false,
+        });
+        // end globals titles\
+
+        // globals right animations
+        ScrollReveal().reveal(".rightAnimation", {
+            delay: 200,
+            distance: "50px",
+            origin: "right",
+            duration: 800,
+            reset: false,
+        });
+        // end globals right animations
+
+        // globals left animations
+        ScrollReveal().reveal(".leftAnimation", {
+            delay: 200,
+            distance: "50px",
+            origin: "left",
+            duration: 800,
+            reset: false,
+        });
+        // end globals left animations
+
+        // globals top animations
+        ScrollReveal().reveal(".topAnimation", {
+            delay: 200,
+            distance: "50px",
+            origin: "top",
+            duration: 800,
+            reset: false,
+        });
+        // end globals top animations
+
+        // globals top animations
+        ScrollReveal().reveal(".bottomAnimation", {
+            delay: 200,
+            distance: "50px",
+            origin: "bottom",
+            duration: 800,
+            reset: false,
+        });
+        // end globals top animations
+
+        // advanced animation
+        ScrollReveal().reveal(".first", {
+            delay: 200,
+            distance: "50px",
+            origin: "top",
+            duration: 800,
+            reset: false,
+        });
+        ScrollReveal().reveal(".seccond", {
+            delay: 300,
+            distance: "50px",
+            origin: "top",
+            duration: 800,
+            reset: false,
+        });
+        ScrollReveal().reveal(".third", {
+            delay: 400,
+            distance: "50px",
+            origin: "top",
+            duration: 800,
+            reset: false,
+        });
+        ScrollReveal().reveal(".fourth", {
+            delay: 500,
+            distance: "50px",
+            origin: "top",
+            duration: 800,
+            reset: false,
+        });
+        // end advanced animation
+    </script>
 </body>
 
 </html>

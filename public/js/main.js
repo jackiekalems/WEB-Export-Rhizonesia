@@ -277,3 +277,21 @@ dropdownTrigger.addEventListener("click", (event) => {
     dropdownTrigger.querySelector("svg").classList.toggle("active");
     dropdownMenu.classList.toggle("active-sub");
 });
+
+// scroll reveall
+document.addEventListener("DOMContentLoaded", function () {
+    ScrollReveal().reveal(".heo", {
+        delay: 200,
+        distance: "50px",
+        origin: "bottom",
+        duration: 800,
+        reset: true,
+    });
+    ScrollReveal().reveal(".text__productCenter", {
+        delay: 200,
+        distance: "50px",
+        origin: "bottom",
+        duration: 800,
+        reset: true,
+    });
+});

@@ -53,7 +53,7 @@
         </svg>
     </div>
     </div>
-    <div class="text-center my-10">
+    <div class="text-center my-10 first">
         <h1 class="font-primary">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">CONTACT
                 US
@@ -62,7 +62,7 @@
     </div>
     <div class="flex gap-6 flex-col md:flex-row items-center justify-center w-screen h-screen text-gray-800 p-10 bg-white">
         <!-- Component Start -->
-        <div class="flex flex-wrap flex-col gap-6 w-full max-w-6xl">
+        <div class="flex flex-wrap flex-col gap-6 w-full max-w-6xl seccond">
 
             <div class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
@@ -119,10 +119,10 @@
         </div>
         <!-- Component End  -->
 
-        <img src="assets/contact_01.jpg" alt="" class="hidden lg:block">
+        <img src="assets/contact_01.jpg" alt="" class="hidden lg:block third">
 
         <!-- Component Start -->
-        <div class="flex flex-wrap flex-col gap-6 w-full max-w-6xl">
+        <div class="flex flex-wrap flex-col gap-6 w-full max-w-6xl fourth">
 
             <!-- Tile 1 -->
             <a href class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
@@ -179,7 +179,7 @@
         </div>
         <!-- Component End  -->
     </div>
-    <section class="text-gray-600 body-font relative mt-20 lg:mt-0">
+    <section class="text-gray-600 body-font relative mt-20 lg:mt-0 first">
         <div class="container px-5 py-24 mx-auto">
             <form action="https://fabform.io/f/{form-id}" method="post">
                 <div class="lg:w-1/2 md:w-2/3 mx-auto">
