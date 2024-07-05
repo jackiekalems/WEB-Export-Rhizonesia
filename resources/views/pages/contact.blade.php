@@ -1,9 +1,6 @@
 @extends('layouts.app')
 
 @section('contact')
-    <header class="relative w-full h-[50vh] bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
-    </header>
     <div class="font-sans bg-white">
         <div class="py-6">
             <!-- Breadcrumbs -->

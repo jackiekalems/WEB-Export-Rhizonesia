@@ -14,7 +14,7 @@
                     <div
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">
-                            <img src="http://127.0.0.1:8000/assets/jahe.jpg" alt="image"
+                            <img src="assets/DriedGinger/IMG_8794.jpg" alt="image"
                                 class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
@@ -47,8 +47,8 @@
                     <div
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">
-                            <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
-                                alt="image" class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                            <img src="assets/FreshGinger/IMG_8803.jpg" alt="image"
+                                class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
                             <div class="mb-5 pb-5 border-b border-solid border-gray-300">
@@ -80,8 +80,8 @@
                     <div
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">
-                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
-                                alt="image" class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                            <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="image"
+                                class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
                             <div class="mb-5 pb-5 border-b border-solid border-gray-300">
@@ -113,8 +113,8 @@
                     <div
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">
-                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                                alt="image" class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                            <img src="assets/TurmericPowder/IMG_8807.jpg" alt="image"
+                                class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
                             <div class="mb-5 pb-5 border-b border-solid border-gray-300">
@@ -174,24 +174,17 @@
         Swal.fire({
             title: "Dried Ginger!",
             html: `
-            <div style="padding: 20px;">
-                <img src="assets/jahe.jpg" alt="Custom image" style="width: 100%; height: auto;">
-                 <p style="margin-top: 20px;">Edit sesuka hati mu pak</p>
-            </div>
-        `,
+            <div style="padding: 20px; height: 400px; background: url('assets/DriedGinger/IMG_8794.jpg') no-repeat center center; background-size: cover;"></div>`,
             width: 600
         });
     }
 
     function showProductDescription2() {
         Swal.fire({
-            title: "Wet Ginger!",
+            title: "Fresh Ginger!",
             html: `
-            <div style="padding: 20px;">
-                <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg" alt="Custom image" style="width: 100%; height: auto;">
-                 <p style="margin-top: 20px;">Edit sesuka hati mu pak</p>
-            </div>
-        `,
+           <div style="padding: 20px; height: 300px; background: url('assets/FreshGinger/IMG_8803.jpg') no-repeat center center; background-size: cover;"></div>
+           `,
             width: 600
         });
     }
@@ -200,11 +193,8 @@
         Swal.fire({
             title: "Dried Tumeric!",
             html: `
-            <div style="padding: 20px;">
-                <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7" alt="Custom image" style="width: 100%; height: auto;">
-                 <p style="margin-top: 20px;">Edit sesuka hati mu pak</p>
-            </div>
-        `,
+         <div style="padding: 20px; height: 300px; background: url('assets/DriedTurmeric/IMG_8784.jpg') no-repeat center center; background-size: cover;"></div>
+         `,
             width: 600
         });
     }
@@ -213,23 +203,7 @@
         Swal.fire({
             title: "Powder Tumeric!",
             html: `
-            <div style="padding: 20px;">
-                <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png" alt="Custom image" style="width: 100%; height: auto;">
-                 <p style="margin-top: 20px;">Edit sesuka hati mu pak</p>
-            </div>
-        `,
-            width: 600
-        });
-    }
-
-    function showProductDescription5() {
-        Swal.fire({
-            title: "Finger Tumeric!",
-            html: `
-            <div style="padding: 20px;">
-                <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png" alt="Custom image" style="width: 100%; height: auto;">
-                 <p style="margin-top: 20px;">Edit sesuka hati mu pak</p>
-            </div>
+           <div style="padding: 20px; height: 300px; background: url('assets/TurmericPowder/IMG_8807.jpg') no-repeat center center; background-size: cover;"></div>
         `,
             width: 600
         });

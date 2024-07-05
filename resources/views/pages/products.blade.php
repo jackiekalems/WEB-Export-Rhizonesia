@@ -33,9 +33,9 @@
         <!--   ✅ Product card 1 - Starts Here 👇 -->
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl seccond">
             <div>
-                <img src="assets/jahe.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/DriedGinger/IMG_8794.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
-                    <span class="text-gray-400 mr-3 uppercase text-xs">Dried</span>
+                    <span class="text-gray-400 mr-3 uppercase text-xs">Ginger</span>
                     <p class="text-lg font-bold text-black truncate block capitalize">Dried Ginger</p>
                     <div class="flex items-center py-3">
                         <a href="{{ route('dried.ginger') }}"
@@ -46,11 +46,10 @@
         </div>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl third">
             <div>
-                <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/FreshGinger/IMG_8803.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
-                    <span class="text-gray-400 mr-3 uppercase text-xs">Dried</span>
-                    <p class="text-lg font-bold text-black truncate block capitalize">wet ginger</p>
+                    <span class="text-gray-400 mr-3 uppercase text-xs">Ginger</span>
+                    <p class="text-lg font-bold text-black truncate block capitalize">Fresh ginger</p>
                     <div class="flex items-center py-3">
                         <a href="{{ route('wet.ginger') }}"
                             class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
@@ -60,11 +59,10 @@
         </div>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl fourth">
             <div>
-                <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7" alt="Product"
-                    class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
-                    <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                    <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                    <span class="text-gray-400 mr-3 uppercase text-xs">Turmeric</span>
+                    <p class="text-lg font-bold text-black truncate block capitalize">Dried Turmeric</p>
                     <div class="flex items-center py-3">
                         <a href="{{ route('dried.turmeric') }}"
                             class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
@@ -74,8 +72,7 @@
         </div>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl first">
             <div>
-                <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/TurmericPowder/IMG_8807.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
                     <span class="text-gray-400 mr-3 uppercase text-xs">Tumeric</span>
                     <p class="text-lg font-bold text-black truncate block capitalize">Powder Tumeric</p>
@@ -86,7 +83,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 @endsection

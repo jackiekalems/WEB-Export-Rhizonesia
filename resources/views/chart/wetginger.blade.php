@@ -21,7 +21,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </span>
-                    <span>Wet Ginger</span>
+                    <span>Fresh Ginger</span>
                 </div>
             </div>
             <!-- ./ Breadcrumbs -->
@@ -32,25 +32,21 @@
 
                     <div class="md:flex-1 px-4 border rounded-lg drop-shadow-xl shadow-primary">
                         <div x-data="{ image: 1 }" x-cloak>
-                            <div class="h-64 md:h-80 rounded-lg bg-gray-100 my-4">
-                                <img src="https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718901317~exp=1718904917~hmac=cdd42a626f7731f8df4af38dfa707894e1d0ffd4c37e6ed556b58c5bb34c811c&w=996"
-                                    x-show="image === 1"
-                                    class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
+                            <div class="h-64 md:h-96 rounded-lg bg-gray-100 my-4">
+                                <img src="assets/FreshGinger/IMG_8803.jpg" x-show="image === 1"
+                                    class="h-64 w-full md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
                                 </img>
 
-                                <img src="https://img.freepik.com/free-photo/top-view-unpeeled-garlic-ginger-with-pasta-spaghetti-form-decor_140725-14075.jpg?t=st=1718902878~exp=1718906478~hmac=92aff9947625bc9fc79a97053a103c68c467c3a1df31345ce5d48df328478a83&w=996"
-                                    x-show="image === 2"
-                                    class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
+                                <img src="assets/FreshGinger/IMG_8804.jpg" x-show="image === 2"
+                                    class="h-64 w-full md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
                                 </img>
 
-                                <img src="https://img.freepik.com/free-photo/fresh-ginger-root_144627-34531.jpg?t=st=1718902978~exp=1718906578~hmac=575dd8563c74b43286ac410bcf2670c96b3e4fca0f49bca85b110286a2553fab&w=1060"
-                                    x-show="image === 3"
-                                    class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
+                                <img src="assets/FreshGinger/IMG_8798.jpg" x-show="image === 3"
+                                    class="h-64 w-full md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
                                 </img>
 
-                                <img src="https://img.freepik.com/free-photo/arrangement-ginger-table_23-2148799550.jpg?t=st=1718903043~exp=1718906643~hmac=1436a1c668ccae3f0855944b5dcaad2f60ea6b624088d3cad2a036934f4538d1&w=1380"
-                                    x-show="image === 4"
-                                    class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
+                                <img src="assets/FreshGinger/IMG_8801.jpg" x-show="image === 4"
+                                    class="h-64 w-full md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
                                 </img>
                             </div>
 
@@ -61,10 +57,10 @@
                                             :class="{ 'ring-2 ring-indigo-300 ring-inset': image === i }"
                                             class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center overflow-hidden transform transition-transform duration-300 hover:scale-105">
                                             <img :src="[
-                                                'https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718901317~exp=1718904917~hmac=cdd42a626f7731f8df4af38dfa707894e1d0ffd4c37e6ed556b58c5bb34c811c&w=996',
-                                                'https://img.freepik.com/free-photo/top-view-unpeeled-garlic-ginger-with-pasta-spaghetti-form-decor_140725-14075.jpg?t=st=1718902878~exp=1718906478~hmac=92aff9947625bc9fc79a97053a103c68c467c3a1df31345ce5d48df328478a83&w=996',
-                                                'https://img.freepik.com/free-photo/fresh-ginger-root_144627-34531.jpg?t=st=1718902978~exp=1718906578~hmac=575dd8563c74b43286ac410bcf2670c96b3e4fca0f49bca85b110286a2553fab&w=1060',
-                                                'https://img.freepik.com/free-photo/arrangement-ginger-table_23-2148799550.jpg?t=st=1718903043~exp=1718906643~hmac=1436a1c668ccae3f0855944b5dcaad2f60ea6b624088d3cad2a036934f4538d1&w=1380'
+                                                'assets/FreshGinger/IMG_8803.jpg',
+                                                'assets/FreshGinger/IMG_8804.jpg',
+                                                'assets/FreshGinger/IMG_8798.jpg',
+                                                'assets/FreshGinger/IMG_8801.jpg'
                                             ][i - 1]"
                                                 class="h-full w-full object-cover rounded-lg">
                                         </button>
@@ -272,7 +268,8 @@
         <a href="{{ route('dried.ginger') }}">
             <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                 <div>
-                    <img src="assets/jahe.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                    <img src="assets/DriedGinger/IMG_8792.jpg" alt="Product"
+                        class="h-80 w-72 object-cover rounded-t-xl" />
                     <div class="px-4 py-3 w-72">
                         <span class="text-gray-400 mr-3 uppercase text-xs">Ginger</span>
                         <p class="text-lg font-bold text-black truncate block capitalize">Dried Ginger</p>
@@ -287,7 +284,7 @@
         <a href="{{ route('tumeric.powder') }}">
             <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                 <div>
-                    <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7" alt="Product"
+                    <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="Product"
                         class="h-80 w-72 object-cover rounded-t-xl" />
                     <div class="px-4 py-3 w-72">
                         <span class="text-gray-400 mr-3 uppercase text-xs">Turmeric</span>
@@ -302,11 +299,11 @@
         </a>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
-                <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/TurmericPowder/IMG_8807.jpg" alt="Product"
+                    class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
                     <span class="text-gray-400 mr-3 uppercase text-xs">Tumeric</span>
-                    <p class="text-lg font-bold text-black truncate block capitalize">Powder Tumeric</p>
+                    <p class="text-lg font-bold text-black truncate block capitalize">Tumeric Powder</p>
                     <div class="flex items-center py-3">
                         <a href="{{ route('tumeric.powder') }}"
                             class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
