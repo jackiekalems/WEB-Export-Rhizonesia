@@ -93,11 +93,33 @@
                                     class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">WHY
                                     US?</span>
                             </h1>
-                            <p class="mt-6 text-md text-gray-600 max-w-lg text-center text-2xl"><span
-                                    class="font-bold text-green-500">CPR</span> "Your curt, precise, and
-                                reliable
+                            <p
+                                class="mt-6 text-md text-gray-600 max-w-lg text-center text-2xl p-4 rounded-bl-2xl rounded-tr-2xl shadow-md animate-border">
+                                <span class="font-bold text-green-500">CPR</span> "Your curt, precise, and reliable
                                 partner!"
                             </p>
+                            <style>
+                                @keyframes borderGlow {
+                                    0% {
+                                        border-color: rgba(34, 197, 94, 0.1);
+                                    }
+
+                                    50% {
+                                        border-color: rgba(34, 197, 94, 1);
+                                    }
+
+                                    100% {
+                                        border-color: rgba(34, 197, 94, 0.1);
+                                    }
+                                }
+
+                                .animate-border {
+                                    border-width: 2px;
+                                    border-style: solid;
+                                    border-color: rgba(34, 197, 94, 0.1);
+                                    animation: borderGlow 2s infinite;
+                                }
+                            </style>
                         </div>
                     </div>
 

@@ -118,7 +118,7 @@
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
                             <div class="mb-5 pb-5 border-b border-solid border-gray-300">
-                                <h6 class="text-lg text-gray-900 font-semibold mb-1">Powder Tumeric</h6>
+                                <h6 class="text-lg text-gray-900 font-semibold mb-1">Tumeric Powder</h6>
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
@@ -135,38 +135,6 @@
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
                                 <button id="shareButton5"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide border rounded-xl shadow-primary">
-                    <div
-                        class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
-                        <div class=" w-full lg:w-48 h-64">
-                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                                alt="image" class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
-                        </div>
-                        <div class="text-center lg:text-left lg:max-w-xs flex-1">
-                            <div class="mb-5 pb-5 border-b border-solid border-gray-300">
-                                <h6 class="text-lg text-gray-900 font-semibold mb-1">Finger Tumeric</h6>
-                                <span class="text-sm text-gray-500 group-hover:text-indigo-600">Vegetables</span>
-                            </div>
-                            <p class="text-gray-500 leading-6 mb-7">
-                                350g Sweet Kernel Corn Cob with Vacuum Packed by New Crop from China Supplier
-                            </p>
-                            <div class="flex items-center gap-4 justify-center lg:justify-start">
-                                <a href="{{ route('finger.tumeric') }}"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-shopping-cart-line text-xl text-green-600 hover:text-white"></i>
-                                </a>
-                                <button onclick="showProductDescription5()"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
-                                </button>
-                                <button id="shareButton"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
                                 </button>

@@ -1,5 +1,5 @@
 <section class="mx-14 lg:mx-20 mt-10" id="about">
-    <div class="text-center my-10 ">
+    <div class="text-center my-10">
         <h1 class="font-primary title">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">COMPANY
                 PROFILE</span>

@@ -29,7 +29,7 @@
                 class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">PRODUCTS</span>
         </h1>
     </div>
-    <section class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20">
+    <section class="w-full mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20">
         <!--   ✅ Product card 1 - Starts Here 👇 -->
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl seccond">
             <div>
@@ -81,20 +81,6 @@
                     <p class="text-lg font-bold text-black truncate block capitalize">Powder Tumeric</p>
                     <div class="flex items-center py-3">
                         <a href="{{ route('tumeric.powder') }}"
-                            class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl seccond">
-            <div>
-                <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-                <div class="px-4 py-3 w-72">
-                    <span class="text-gray-400 mr-3 uppercase text-xs">Tumeric</span>
-                    <p class="text-lg font-bold text-black truncate block capitalize">Finger Tumeric</p>
-                    <div class="flex items-center py-3">
-                        <a href="{{ route('finger.tumeric') }}"
                             class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
                     </div>
                 </div>

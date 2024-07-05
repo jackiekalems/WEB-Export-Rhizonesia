@@ -27,12 +27,12 @@
             <!-- ./ Breadcrumbs -->
         </div>
         <div class="p-4 lg:max-w-7xl max-w-4xl mx-auto">
-            <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-primary p-6 rounded-lg">
+            <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 border shadow-primary p-6 rounded-lg">
                 <div class="lg:col-span-3 w-full lg:sticky top-0 text-center">
 
-                    <div class="md:flex-1 px-4">
+                    <div class="md:flex-1 px-4 border rounded-lg drop-shadow-xl shadow-primary">
                         <div x-data="{ image: 1 }" x-cloak>
-                            <div class="h-64 md:h-80 rounded-lg bg-gray-100 mb-4">
+                            <div class="h-64 md:h-80 rounded-lg bg-gray-100 my-4">
                                 <img src="https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718901317~exp=1718904917~hmac=cdd42a626f7731f8df4af38dfa707894e1d0ffd4c37e6ed556b58c5bb34c811c&w=996"
                                     x-show="image === 1"
                                     class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
@@ -50,16 +50,16 @@
 
                                 <img src="https://img.freepik.com/free-photo/arrangement-ginger-table_23-2148799550.jpg?t=st=1718903043~exp=1718906643~hmac=1436a1c668ccae3f0855944b5dcaad2f60ea6b624088d3cad2a036934f4538d1&w=1380"
                                     x-show="image === 4"
-                                    class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center overflow-hidden">
+                                    class="h-64 w-full md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center object-cover">
                                 </img>
                             </div>
 
-                            <div class="flex -mx-2 mb-4">
+                            <div class="flex -mx-2 mb-4 p-3">
                                 <template x-for="i in 4">
                                     <div class="flex-1 px-2">
                                         <button x-on:click="image = i"
                                             :class="{ 'ring-2 ring-indigo-300 ring-inset': image === i }"
-                                            class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center">
+                                            class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center overflow-hidden transform transition-transform duration-300 hover:scale-105">
                                             <img :src="[
                                                 'https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718901317~exp=1718904917~hmac=cdd42a626f7731f8df4af38dfa707894e1d0ffd4c37e6ed556b58c5bb34c811c&w=996',
                                                 'https://img.freepik.com/free-photo/top-view-unpeeled-garlic-ginger-with-pasta-spaghetti-form-decor_140725-14075.jpg?t=st=1718902878~exp=1718906478~hmac=92aff9947625bc9fc79a97053a103c68c467c3a1df31345ce5d48df328478a83&w=996',
@@ -71,46 +71,186 @@
                                     </div>
                                 </template>
                             </div>
+
                         </div>
                     </div>
                 </div>
-
-                <div class="lg:col-span-2">
+                <div class="lg:col-span-2 border p-5 rounded-lg shadow-primary">
                     <h2
                         class="text-2xl block antialiased tracking-normal font-sans font-bold leading-snug text-inherit mb-6 text-gray-800">
-                        High Quality Fresh Ginger Market Price Per Ton Of
-                        Wholesale Ginger China Ginger Export | Wet Ginger</h2>
+                        Export Quality Fresh White Ginger from the Land of Indonesia |
+                        Fresh Ginger</h2>
 
                     <div class="flex flex-wrap gap-4 mt-8">
                         <div>
                             <div class="md:text-start text-center">
-                                <h5
+                                <div
                                     class="block antialiased tracking-normal font-sans text-sm font-semibold leading-snug text-inherit mb-6">
-                                    Packing: 10kg/20kg mesh bag; 5kg/9kg/10kg/12kg/carton; 1kg/1LB x 30bag /carton; or
-                                    according to the
-                                    customers' requirements
-                                </h5>
-                                <div class="border-t border-dashed-small w-full my-2"></div>
+                                    Available in any size starting from 100 gr up, 150 gr up, 200 gr up, and 250 gr up.
+                                </div>
                             </div>
-                            <p
-                                class="block antialiased font-sans leading-relaxed text-inherit !mt-4 text-base font-normal !text-gray-500">
-                                <strong>Variety:</strong> Fresh Ginger & Air Dried Ginger
-                            <div class="border-t border-dashed-small w-full my-2"></div>
-                            </p>
-                            <p
-                                class="block antialiased font-sans leading-relaxed text-inherit !mt-4 text-base font-normal !text-gray-500">
-                                <strong>Other products:</strong> Fresh garlic, onion, carrot, apple, fresh pomelo, China
-                                chestnut
-                            <div class="border-t border-dashed-small w-full my-2"></div>
-                            </p>
-                            <p
-                                class="block antialiased font-sans leading-relaxed text-inherit !mt-4 text-base font-normal !text-gray-500">
-                                <strong>Variety:</strong> Fresh Ginger & Air Dried Ginger
-                            <div class="border-t border-dashed-small w-full my-2"></div>
-                            </p>
-                            <div class="mb-4 my-10 flex w-full items-center gap-3 md:w-1/2">
+                            <div class="bg-gradient-to-br from-pink-50 to-indigo-100 grid place-items-center rounded-lg shadow-primary"
+                                x-data>
+                                <div class="w-full mx-auto">
+                                    <div class="bg-white p-4 shadow-sm">
+                                        <div class="transition" x-data="{ open: false }">
+                                            <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16"
+                                                @click="open = !open">
+                                                <i :class="open ? 'ri-subtract-line' : 'ri-add-line'"></i>
+                                                <h3>Spesification?</h3>
+                                            </div>
+                                            <div class="accordion-content pt-0 overflow-hidden" x-show="open"
+                                                :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
+                                                <div class="flex flex-col justify-center antialiased p-4">
+                                                    <div class="h-full">
+                                                        <!-- Table -->
+                                                        <div class="w-full mx-auto bg-white">
+
+                                                            <div class="overflow-x-auto">
+                                                                <table class="table-auto w-full">
+                                                                    <thead
+                                                                        class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+                                                                        <tr>
+                                                                            <th class="p-2 whitespace-nowrap">
+                                                                                <div class="font-semibold text-left">
+                                                                                    Detail</div>
+                                                                            </th>
+                                                                            <th class="p-2 whitespace-nowrap">
+                                                                                <div class="font-semibold text-left">
+                                                                                    Spesification</div>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody class="text-sm divide-y divide-gray-100">
+                                                                        <tr>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="flex items-center">
+                                                                                    <div class="font-medium text-gray-800">
+                                                                                        Product Name</div>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="text-left">
+                                                                                    Fresh Ginger</div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="flex items-center">
+                                                                                    <div class="font-medium text-gray-800">
+                                                                                        Size</div>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="text-left">
+                                                                                    <ul class="list-disc">
+                                                                                        <li>80 -100 gr up
+                                                                                        </li>
+                                                                                        <li>100 - 150 gr up
+                                                                                        </li>
+                                                                                        <li>150 - 200 gr up
+                                                                                        </li>
+                                                                                        <li>250 gr up</li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="flex items-center">
+                                                                                    <div class="font-medium text-gray-800">
+                                                                                        Harvest Age</div>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="text-left">
+                                                                                    12 Months +</div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="flex items-center">
+                                                                                    <div class="font-medium text-gray-800">
+                                                                                        Condition</div>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="text-left">
+                                                                                    Washed and Dry</div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="flex items-center">
+                                                                                    <div class="font-medium text-gray-800">
+                                                                                        Dust</div>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="text-left">
+                                                                                    Removed</div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="flex items-center">
+                                                                                    <div class="font-medium text-gray-800">
+                                                                                        Standardization</div>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="p-2 whitespace-nowrap">
+                                                                                <div class="text-left">
+                                                                                    Fumigated & Quarantine Inspected</div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="transition" x-data="{ open: false }">
+                                            <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16"
+                                                @click="open = !open">
+                                                <i :class="open ? 'ri-subtract-line' : 'ri-add-line'"></i>
+                                                <h3>Packing?</h3>
+                                            </div>
+                                            <div class="accordion-content px-5 pt-0 overflow-hidden" x-show="open"
+                                                :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
+                                                <ul class="list-disc pl-9 text-justify">
+                                                    <li>
+                                                        Mesh Bag
+                                                    </li>
+                                                    <li>
+                                                        Packed With Net
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="transition" x-data="{ open: false }">
+                                            <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16"
+                                                @click="open = !open">
+                                                <i :class="open ? 'ri-subtract-line' : 'ri-add-line'"></i>
+                                                <h3>Port?</h3>
+                                            </div>
+                                            <div class="accordion-content px-5 pt-0 overflow-hidden" x-show="open"
+                                                :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
+                                                <ul class="list-disc pl-9 text-justify">
+                                                    <li>Tanjung Perak, Surabaya</li>
+                                                    <li>Tanjung Priok, Jakarta</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4 my-10 flex w-full items-center gap-3">
                                 <button
-                                    class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-52"
+                                    class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-full"
                                     type="button" data-ripple-light="true">
                                     BUY</button>
                             </div>
@@ -118,153 +258,19 @@
                     </div>
                 </div>
             </div>
-
-            <div class="mt-16 shadow-primary p-6">
-                <h3 class="text-xl font-bold text-gray-800">Product information</h3>
-                <ul class="mt-4 space-y-6 text-gray-800">
-                    <li class="text-sm">Nama <span class="ml-4 float-right">Dried Tumeric slice</span></li>
-                    <li class="text-sm">Proses Pengeringan <span class="ml-4 float-right">di jemur</span></li>
-                    <li class="text-sm">Bentuk <span class="ml-4 float-right">chips</span></li>
-                    <li class="text-sm">Ketebalan irisan <span class="ml-4 float-right">-</span></li>
-                    <li class="text-sm">Ayakan <span class="ml-4 float-right">0.4</span></li>
-                    <li class="text-sm">Warna <span class="ml-4 float-right">kuning kecolatakan</span></li>
-                    <li class="text-sm">Kotoran asing <span class="ml-4 float-right">
-                            < 5% </span>
-                    </li>
-                    <li class="text-sm">Kadar air <span class="ml-4 float-right">-</span></li>
-                    <li class="text-sm">Dokumen/sertifikasi <span class="ml-4 float-right">-</span></li>
-                    <li class="text-sm">Packaging <span class="ml-4 float-right">-</span></li>
-                </ul>
-            </div>
-
-            {{-- <div class="mt-16 shadow-primary p-6">
-            <h3 class="text-xl font-bold text-gray-800">Reviews(10)</h3>
-            <div class="grid md:grid-cols-2 gap-12 mt-4">
-                <div class="space-y-3">
-                    <div class="flex items-center">
-                        <p class="text-sm text-gray-800 font-bold">5.0</p>
-                        <svg class="w-5 fill-blue-600 ml-1" viewBox="0 0 14 13" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                        </svg>
-                        <div class="bg-gray-400 rounded w-full h-2 ml-3">
-                            <div class="w-2/3 h-full rounded bg-blue-600"></div>
-                        </div>
-                        <p class="text-sm text-gray-800 font-bold ml-3">66%</p>
-                    </div>
-
-                    <div class="flex items-center">
-                        <p class="text-sm text-gray-800 font-bold">4.0</p>
-                        <svg class="w-5 fill-blue-600 ml-1" viewBox="0 0 14 13" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                        </svg>
-                        <div class="bg-gray-400 rounded w-full h-2 ml-3">
-                            <div class="w-1/3 h-full rounded bg-blue-600"></div>
-                        </div>
-                        <p class="text-sm text-gray-800 font-bold ml-3">33%</p>
-                    </div>
-
-                    <div class="flex items-center">
-                        <p class="text-sm text-gray-800 font-bold">3.0</p>
-                        <svg class="w-5 fill-blue-600 ml-1" viewBox="0 0 14 13" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                        </svg>
-                        <div class="bg-gray-400 rounded w-full h-2 ml-3">
-                            <div class="w-1/6 h-full rounded bg-blue-600"></div>
-                        </div>
-                        <p class="text-sm text-gray-800 font-bold ml-3">16%</p>
-                    </div>
-
-                    <div class="flex items-center">
-                        <p class="text-sm text-gray-800 font-bold">2.0</p>
-                        <svg class="w-5 fill-blue-600 ml-1" viewBox="0 0 14 13" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                        </svg>
-                        <div class="bg-gray-400 rounded w-full h-2 ml-3">
-                            <div class="w-1/12 h-full rounded bg-blue-600"></div>
-                        </div>
-                        <p class="text-sm text-gray-800 font-bold ml-3">8%</p>
-                    </div>
-
-                    <div class="flex items-center">
-                        <p class="text-sm text-gray-800 font-bold">1.0</p>
-                        <svg class="w-5 fill-blue-600 ml-1" viewBox="0 0 14 13" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                        </svg>
-                        <div class="bg-gray-400 rounded w-full h-2 ml-3">
-                            <div class="w-[6%] h-full rounded bg-blue-600"></div>
-                        </div>
-                        <p class="text-sm text-gray-800 font-bold ml-3">6%</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="flex items-start">
-                        <img src="https://readymadeui.com/team-2.webp"
-                            class="w-12 h-12 rounded-full border-2 border-white" />
-                        <div class="ml-3">
-                            <h4 class="text-sm font-bold text-gray-800">John Doe</h4>
-                            <div class="flex space-x-1 mt-1">
-                                <svg class="w-4 fill-blue-600" viewBox="0 0 14 13" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                                </svg>
-                                <svg class="w-4 fill-blue-600" viewBox="0 0 14 13" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                                </svg>
-                                <svg class="w-4 fill-blue-600" viewBox="0 0 14 13" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                                </svg>
-                                <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                                </svg>
-                                <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
-                                </svg>
-                                <p class="text-xs !ml-2 font-semibold text-gray-800">2 mins ago</p>
-                            </div>
-                            <p class="text-sm mt-4 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipisci
-                                elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
-                    <button type="button"
-                        class="w-full mt-10 px-4 py-2.5 bg-transparent hover:bg-gray-50 border border-blue-600 text-gray-800 font-bold rounded">Read
-                        all reviews</button>
-                </div>
-            </div>
-        </div> --}}
         </div>
     </div>
-    <div class="text-center mt-10">
-        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">RELATED
-            <span class="text-green-600"> PRODUCTS</span>
+    <div class="text-center my-10">
+        <h1 class="font-primary">RELATED
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">
+                PRODUCT</span>
         </h1>
-        <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
     </div>
     <section
-        class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20 shadow-primary p-6 rounded-lg">
+        class="lg:max-w-7xl max-w-4xl mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20 border shadow-primary p-4 rounded-lg">
         <!--   ✅ Product card 1 - Starts Here 👇 -->
         <a href="{{ route('dried.ginger') }}">
-            <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                 <div>
                     <img src="assets/jahe.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                     <div class="px-4 py-3 w-72">
@@ -279,7 +285,7 @@
             </div>
         </a>
         <a href="{{ route('tumeric.powder') }}">
-            <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
                 <div>
                     <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7" alt="Product"
                         class="h-80 w-72 object-cover rounded-t-xl" />
@@ -294,7 +300,7 @@
                 </div>
             </div>
         </a>
-        <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
                 <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
@@ -308,21 +314,6 @@
                 </div>
             </div>
         </div>
-        <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-            <div>
-                <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
-                <div class="px-4 py-3 w-72">
-                    <span class="text-gray-400 mr-3 uppercase text-xs">Tumeric</span>
-                    <p class="text-lg font-bold text-black truncate block capitalize">Finger Tumeric</p>
-                    <div class="flex items-center py-3">
-                        <a href="{{ route('finger.tumeric') }}"
-                            class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </section>
     <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 @endsection

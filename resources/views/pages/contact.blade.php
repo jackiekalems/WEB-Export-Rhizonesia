@@ -71,11 +71,11 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Telp :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">+62 123 123 123</span>
+                        <span class="text-gray-500">+62 851 9000 0236</span>
                     </div>
                 </div>
             </div>
-            <a href=""
+            <a href="https://wa.me/6285190000236" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
                     <i class="ri-whatsapp-line text-3xl md:text-5xl text-green-500"></i>
@@ -83,14 +83,14 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Whatsapp :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">+62 851 0981 8181 </span>
+                        <span class="text-gray-500">+62 851 9000 0236</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
             </a>
 
             <!-- Tile 2 -->
-            <a href=""
+            <a href="https://mail.google.com/mail/u/0/?hl=en#inbox?compose=CllgCJfnbMNVfztDpKJjxhDwSKZxKRGxPnDjGnncRfLqdkjxzhvbgdgPCFQLrSnKMbzpkGvqBbB"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
                     <i class="ri-mail-line text-3xl md:text-5xl text-green-500"></i>
@@ -103,7 +103,7 @@
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
             </a>
-            <a href=""
+            <a href="https://maps.app.goo.gl/LpXrcTciMhosqwSv5" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
                     <i class="ri-map-pin-line text-3xl md:text-5xl text-green-500"></i>
@@ -111,7 +111,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Address</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">Revenue last 30 days</span>
+                        <span class="text-gray-500">Surabaya, Eas Java, Indonesia</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -132,7 +132,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Instagram :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@imwira12</span>
+                        <span class="text-gray-500">almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -145,7 +145,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Facebook :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@imwira12</span>
+                        <span class="text-gray-500">almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -171,7 +171,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Tiktok :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@imwira12</span>
+                        <span class="text-gray-500">almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -181,7 +181,8 @@
     </div>
     <section class="text-gray-600 body-font relative mt-20 lg:mt-0 first">
         <div class="container px-5 py-24 mx-auto">
-            <form action="https://fabform.io/f/{form-id}" method="post">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c9202fe9-e123-47a4-8174-c3846f3a3d3c">
                 <div class="lg:w-1/2 md:w-2/3 mx-auto">
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 w-1/2">
@@ -206,7 +207,7 @@
                             </div>
                         </div>
                         <div class="p-2 w-full">
-                            <button class="btn-primary">Send
+                            <button type="submit" class="btn-primary">Send
                             </button>
                         </div>
                     </div>

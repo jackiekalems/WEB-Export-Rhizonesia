@@ -17,7 +17,11 @@
         <i class="ri-subtract-line text-white text-2xl hidden"></i>
     </div>
 </div>
-
+<a href="/" class="fixed bottom-0 right-0 p-4 float-right">
+    <div>
+        <i class="ri-arrow-up-line text-2xl p-2 rounded-full bg-slate-100 border"></i>
+    </div>
+</a>
 <script>
     const floatingButton = document.getElementById('floating-button');
     const menuContent = document.getElementById('menuContent');

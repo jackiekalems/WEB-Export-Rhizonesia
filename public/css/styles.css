@@ -245,3 +245,26 @@ html {
     -ms-overflow-style: none; /* IE dan Edge */
     scrollbar-width: none; /* Firefox */
 }
+
+@keyframes gradient-rotation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-animation {
+    background: linear-gradient(to right, #ffcccc, #66b3ff);
+    background-size: 200% 200%;
+    animation: gradient-rotation 5s linear infinite;
+}
+
+/* product detail with accordions */
+.accordion-content {
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+}

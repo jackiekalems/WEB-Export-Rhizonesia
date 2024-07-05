@@ -1,4 +1,4 @@
-<section class="mx-14 lg:mx-20" x-data="{
+<section class="mx-14 lg:mx-20 my-10" x-data="{
     openFaq1: false,
     openFaq2: false,
     openFaq3: false,
