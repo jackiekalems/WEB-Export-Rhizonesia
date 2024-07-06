@@ -1,4 +1,4 @@
-<section class="my-20 mx-14 lg:mx-20">
+<section class="my-20 mx-5 lg:mx-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center my-10">
             <h1 class="font-primary title">
@@ -15,7 +15,7 @@
                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                         <div class=" w-full lg:w-48 h-64">
                             <img src="assets/DriedGinger/IMG_8794.jpg" alt="image"
-                                class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
+                                class="rounded-2xl h-full border object-cover mx-auto lg:mx-0 w-full">
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
                             <div class="mb-5 pb-5 border-b border-solid border-gray-300">
@@ -23,7 +23,7 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Ginger</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Export Quality Dried Ginger from the Land of Indonesia | Dried Ginger
+                                Export Quality Fresh White Ginger from the Land of Indonesia
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('dried.ginger') }}"
@@ -34,10 +34,6 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
-                                {{-- <button id="shareButton2"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button> --}}
                             </div>
                         </div>
                     </div>
@@ -55,7 +51,7 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Ginger</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Export Quality Fresh White Ginger from the Land of Indonesia | Fresh Ginger
+                                Export Quality Fresh White Ginger from the Land of Indonesia
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('wet.ginger') }}"
@@ -66,10 +62,6 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
-                                {{-- <button id="shareButton3"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button> --}}
                             </div>
                         </div>
                     </div>
@@ -87,7 +79,7 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Premium quality turmeric from Indonesian | Dried Turmeric
+                                Premium quality turmeric from Indonesian
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('dried.turmeric') }}"
@@ -98,10 +90,6 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
-                                {{-- <button id="shareButton4"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button> --}}
                             </div>
                         </div>
                     </div>
@@ -119,7 +107,8 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Export Quality Fresh White Ginger from the Land of Indonesia | Fresh Ginger
+                                Export-quality turmeric powder is made using the best ingredients originating from
+                                Indonesia
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('tumeric.powder') }}"
@@ -129,10 +118,6 @@
                                 <button onclick="showProductDescription4()"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
-                                </button>
-                                <button id="shareButton5"
-                                    class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
-                                    <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
                             </div>
                         </div>
@@ -170,39 +155,46 @@
         Swal.fire({
             title: "Dried Ginger!",
             html: `
-            <div style="padding: 20px; height: 400px; background: url('assets/DriedGinger/IMG_8794.jpg') no-repeat center center; background-size: cover;"></div>`,
+            <div style="padding: 20px; height: 400px; background: url('assets/DriedGinger/IMG_8794.jpg') no-repeat center center; background-size: cover;"></div>
+            <p style="margin-top: 20px;">Available in the best quality and according to customers' requirement. </p>
+        `,
             width: 600
         });
     }
+
 
     function showProductDescription2() {
         Swal.fire({
             title: "Fresh Ginger!",
             html: `
-           <div style="padding: 20px; height: 300px; background: url('assets/FreshGinger/IMG_8803.jpg') no-repeat center center; background-size: cover;"></div>
-           `,
+            <div style="padding: 20px; height: 300px; background: url('assets/FreshGinger/IMG_8803.jpg') no-repeat center center; background-size: cover;"></div>
+            <p style="margin-top: 20px;">Available in any size starting from 100 gr up,  150 gr up, 200 gr up, and 250 gr up.</p>
+        `,
             width: 600
         });
     }
+
 
     function showProductDescription3() {
         Swal.fire({
             title: "Dried Tumeric!",
             html: `
-         <div style="padding: 20px; height: 300px; background: url('assets/DriedTurmeric/IMG_8784.jpg') no-repeat center center; background-size: cover;"></div>
-         `,
-            text:'Available First Class Quality Raw Dried Turmeric, 100% Natural Product, Packed in 25 kg Sacks. Immediately get the best quality natural dried turmeric for your needs',
+            <div style="padding: 20px; height: 300px; background: url('assets/DriedTurmeric/IMG_8784.jpg') no-repeat center center; background-size: cover;"></div>
+            <p style="margin-top: 20px;">Available First Class Quality Raw Dried Turmeric, 100% Natural Product, Packed in 25 kg Sacks. Immediately get the best quality natural dried turmeric for your needs. </p>
+        `,
             width: 600
         });
     }
 
+
     function showProductDescription4() {
         Swal.fire({
-            title: "Powder Tumeric!",
+            title: "Tumeric Powder!",
             html: `
-           <div style="padding: 20px; height: 300px; background: url('assets/TurmericPowder/IMG_8807.jpg') no-repeat center center; background-size: cover;"></div>
+            <div style="padding: 20px; height: 300px; background: url('assets/TurmericPowder/IMG_8806.jpg') no-repeat center center; background-size: cover;"></div>
+            <p style="margin-top: 20px;">Available in 100 gram/bag, 500 Gram/bag, 1 Kg/bag, 20Kg/Mesh Bag, 25Kg/Mesh Bag Turmeric. </p>
         `,
-            text:,
+            text: ,
             width: 600
         });
     }

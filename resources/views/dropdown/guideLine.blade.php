@@ -2,13 +2,9 @@
 
 @section('guideLine')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
+    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+        style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white first">
-                <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
-                <p class="text-lg px-10 md:text-xl mt-4">Discover amazing content below</p>
-            </div>
         </div>
     </header>
     <div class="font-sans bg-white">
@@ -114,7 +110,9 @@
                             class="absolute inset-0 flex items-end justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
                             <div class="mb-20">
                                 <h2 class="text-4xl font-bold mb-2 text-green-500">Payment</h2>
-                                <p class="text-lg px-10">Advanced Payment is 40% after signing a sales contract, 20% before the product is delivered to the international port, and 40% for receiving the copy of the Bill of Lading.
+                                <p class="text-lg px-10">Advanced Payment is 40% after signing a sales contract, 20% before
+                                    the product is delivered to the international port, and 40% for receiving the copy of
+                                    the Bill of Lading.
                                 </p>
                             </div>
                         </div>
@@ -122,8 +120,8 @@
 
                     <!-- Gambar 3 -->
                     <div class="relative h-[80vh] third">
-                        <img src="https://img.freepik.com/free-photo/full-shot-young-woman-transplanting-plant_23-2149413512.jpg?t=st=1719128193~exp=1719131793~hmac=b8a155414787763d163712cff0f106fb61bbe1efdf9230aecf6341fd954d8567&w=360"
-                            alt="Image 3" class="object-cover w-full h-full grayscale rounded-xl">
+                        <img src="assets/Gudang/image.DNG" alt="Image 3"
+                            class="object-cover w-full h-full grayscale rounded-xl">
                         <div
                             class="absolute inset-0 flex items-start justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
                             <div class="mt-20">

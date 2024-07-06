@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="flex flex-wrap -mx-4 topAnimation">
-            <div class="w-full px-4 lg:w-1/2">
+            <div class="w-full md:px-4 lg:w-1/2">
                 <div
                     class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq1 = !openFaq1">
@@ -38,7 +38,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 What is the suitable payments that you provide?
                             </h4>
                         </div>
@@ -62,7 +62,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 Can i get the sample of your great product?
                             </h4>
                         </div>
@@ -86,7 +86,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 What type of quality that you have? And how you prove it?
                             </h4>
                         </div>
@@ -112,7 +112,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 Can i request for the packing of the products?
                             </h4>
                         </div>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full px-4 lg:w-1/2">
+            <div class="w-full md:px-4 lg:w-1/2">
                 <div
                     class="w-full p-4 mb-8 bg-white rounded-lg border shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
                     <button class="flex w-full text-left faq-btn" @click="openFaq4 = !openFaq4">
@@ -138,7 +138,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 Where is your company located?
                             </h4>
                         </div>
@@ -162,7 +162,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 How long you can process the product that i expect?
                             </h4>
                         </div>
@@ -186,7 +186,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 Can we trust your company?
                             </h4>
                         </div>
@@ -211,7 +211,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mt-1 md:text-lg font-semibold text-black">
+                            <h4 class="mt-1 text-sm md:text-lg font-semibold text-black">
                                 Is there any MOQ to have some transactions with your company?
                             </h4>
                         </div>

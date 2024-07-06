@@ -2,13 +2,13 @@
 
 @section('about')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
+    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+        style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white first">
+            {{-- <div class="text-center text-white first">
                 <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
                 <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
-            </div>
+            </div> --}}
         </div>
     </header>
     <div class="font-sans bg-white">

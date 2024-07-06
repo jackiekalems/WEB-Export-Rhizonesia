@@ -5,11 +5,14 @@
                 PROFILE</span>
         </h1>
     </div>
-    <div class="container flex flex-col-reverse mx-auto lg:flex-row">
-        <div class="leftAnimation flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
-            <h1 class="text-xl md:text-2xl font-extrabold text-center">WHY ALMEA KAUSA ETERNA? </h1>
-            <p class="text-sm md:text-base text-justify md:text-start">Almea Kausa Eterna didirikan atas ambisi dan
-                Almea Kausa Eterna was established based on the ambition and dream of the founders to be able to help the world know the incomparable taste of Indonesian spices, we will help you escalate the level of your business, convinced with Almea Kausa Eterna because we will help you to become the best sector in the business world by Indonesia's best spices.
+    <div class="container flex flex-col-reverse mx-auto lg:flex-row md:items-center items-start">
+        <div class="leftAnimation flex flex-col md:px-8 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
+            <h1 class="text-lg md:text-2xl font-semibold text-center">WHY ALMEA KAUSA ETERNA? </h1>
+            <p class="text-sm md:text-base text-justify md:text-start">
+                Almea Kausa Eterna was established based on the ambition and dream of the founders to be able to help
+                the world know the incomparable taste of Indonesian spices, we will help you escalate the level of your
+                business, convinced with Almea Kausa Eterna because we will help you to become the best sector in the
+                business world by Indonesia's best spices.
 
             </p>
         </div>
@@ -31,11 +34,13 @@
                 </div>
 
                 <!--Carousel items-->
-                <div class="relative w-full overflow-hidden after:clear-both after:block after:content-[''] rounded-lg">
+                <div
+                    class="relative w-full h-80 md:h-[29rem] overflow-hidden after:clear-both after:block after:content-[''] rounded-lg">
                     <!--First item-->
                     <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                         data-twe-carousel-active data-twe-carousel-item style="backface-visibility: hidden">
-                        <img src="assets/banner01.jpg" class="block w-full" alt="..." />
+                        <img src="assets/Companyprofile/gambar1.jpg" class="block w-full h-full object-contain"
+                            alt="..." />
                         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
                             <h5 class="text-xl">First slide label</h5>
                             <p>
@@ -46,9 +51,10 @@
                     <!--Second item-->
                     <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                         data-twe-carousel-item style="backface-visibility: hidden">
-                        <img src="assets/banner03.jpg" class="block w-full" alt="..." />
+                        <img src="assets/Companyprofile/gambar2.PNG" class="block w-full h-full object-contain"
+                            alt="..." />
                         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                            <h5 class="text-xl">Second slide label</h5>
+                            <h5 class="text-xl"></h5>
                             <p>
                                 Some representative placeholder content for the second slide.
                             </p>
@@ -57,7 +63,8 @@
                     <!--Third item-->
                     <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                         data-twe-carousel-item style="backface-visibility: hidden">
-                        <img src="assets/banner04.jpg" class="block w-full" alt="..." />
+                        <img src="assets/Companyprofile/gambar3.jpg" class="block w-full h-full object-contain"
+                            alt="..." />
                         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
                             <h5 class="text-xl">Third slide label</h5>
                             <p>
@@ -66,6 +73,7 @@
                         </div>
                     </div>
                 </div>
+
 
                 <!--Carousel controls - prev item-->
                 <button

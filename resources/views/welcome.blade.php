@@ -7,7 +7,13 @@
     {{-- favicon --}}
     <link rel="icon" href="{{ url('assets/logo.png') }}" />
     <title>Almea Kausa Eterna</title>
-
+    {{-- metadata --}}
+    <meta name="description"
+        content="Welcome to Almea Kausa Eterna, your trusted partner for [description of what the company does]. Discover our products, services, and company profile.">
+    <meta name="keywords"
+        content="Almea Kausa Eterna, [relevant keywords, e.g., products, services, company profile, etc.]">
+    <meta name="author" content="Almea Kausa Eterna">
+    <meta name="robots" content="index, follow">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />

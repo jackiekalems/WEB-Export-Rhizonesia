@@ -2,13 +2,9 @@
 
 @section('documentation')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
+    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+        style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white first">
-                <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
-                <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
-            </div>
         </div>
     </header>
     <div class="font-sans bg-white">
@@ -58,7 +54,7 @@
                     class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden"
                     x-data="{ show: false }" @mouseover="show = true" @mouseleave="show = false">
                     <i class="ri-question-mark text-xl"></i>
-                    <span x-show="show">WHY US</span>
+                    <span x-show="show">Why Us</span>
                 </a>
 
             </li>
@@ -71,7 +67,7 @@
                     class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden"
                     x-data="{ show: false }" @mouseover="show = true" @mouseleave="show = false">
                     <i class="ri-pin-distance-line text-xl"></i>
-                    <span x-show="show">WHY US</span>
+                    <span x-show="show">Our Resource</span>
                 </a>
             </li>
             <li class="mr-1">
@@ -79,9 +75,11 @@
                     class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Process Production
                 </a>
-                <a href="{{ route('our.resource') }}"
-                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                <a href="{{ route('process.production') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden"
+                    x-data="{ show: false }" @mouseover="show = true" @mouseleave="show = false">
                     <i class="ri-hourglass-2-fill text-xl"></i>
+                    <span x-show="show">Process Production</span>
                 </a>
             </li>
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
@@ -123,7 +121,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500  lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="http://127.0.0.1:8000/assets/jahe.jpg" alt="image"
+                                            <img src="assets/Dokumentasi/Product/image1.DNG" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -132,8 +130,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image2.jpg" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -142,8 +139,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image4.jpg" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -152,8 +148,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image3.jpg" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -162,8 +157,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image5.jpg" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -172,8 +166,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image6.jpg" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -182,8 +175,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image7.PNG" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -192,8 +184,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Product/image2.DNG" alt="image"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -243,7 +234,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500  lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="http://127.0.0.1:8000/assets/jahe.jpg" alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image7.JPG" alt="image1"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -252,8 +243,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://cdn.idntimes.com/content-images/post/20210704/2-191547-79cfa57446b7796d57461054434ba321.jpeg"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image2.DNG" alt="image2"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -262,8 +252,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image3.DNG" alt="image3"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -272,8 +261,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image4.DNG" alt="image4"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -282,8 +270,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image5.DNG" alt="image5"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -292,8 +279,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://down-id.img.susercontent.com/file/6b02eaeb65ba59e44f7b133254eedeb7"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image6.DNG" alt="image6"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -302,8 +288,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://bahanmakanan.com/media/catalog/product/cache/b6e40821e7ad3dff893c85a1b82d0901/k/u/kunyit_bubuk.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image1.jpg" alt="image7"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>
@@ -312,8 +297,7 @@
                                     <div
                                         class="group w-full flex-wrap flex items-center gap-8  transition-all duration-500 lg:flex-nowrap">
                                         <div class=" w-full h-96">
-                                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/metrodaily/2021/08/HIDUP-SEHAT-Kunyit.png"
-                                                alt="image"
+                                            <img src="assets/Dokumentasi/Warehouse/image8.PNG" alt="image8"
                                                 class="rounded-xl h-full border object-cover mx-auto lg:mx-0 lg:w-full">
                                         </div>
                                     </div>

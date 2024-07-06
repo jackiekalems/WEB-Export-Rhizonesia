@@ -97,116 +97,17 @@
                                             <div class="accordion-content pt-0 overflow-hidden" x-show="open"
                                                 :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
                                                 <div class="flex flex-col justify-center antialiased p-4">
-                                                    <div class="h-full">
-                                                        <!-- Table -->
-                                                        <div class="w-full mx-auto bg-white">
-
-                                                            <div class="overflow-x-auto">
-                                                                <table class="table-auto w-full">
-                                                                    <thead
-                                                                        class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
-                                                                        <tr>
-                                                                            <th class="p-2 whitespace-nowrap">
-                                                                                <div class="font-semibold text-left">
-                                                                                    Detail</div>
-                                                                            </th>
-                                                                            <th class="p-2 whitespace-nowrap">
-                                                                                <div class="font-semibold text-left">
-                                                                                    Spesification</div>
-                                                                            </th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody class="text-sm divide-y divide-gray-100">
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Name </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Dried Ginger</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Moisture Content</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    < 12 %</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Ash Amount</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    < 8.0 %</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Atsiri Oil </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    > 1.5 %</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Admixture </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    < 2 %</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Foreign Stuff </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    0 %</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Standardization </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Fumigated & Quarantine Inspected
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ul class="list-disc pl-9 text-justify">
+                                                        <li>
+                                                            Name : Dried Ginger
+                                                        </li>
+                                                        <li>Moisture Content : < 12 % </li>
+                                                        <li>Ash Amount : < 8.0 %</li>
+                                                        <li>Atsiri Oil : > 1.5 %</li>
+                                                        <li>Admixture : < 2 %</li>
+                                                        <li>Foreign Stuff : 0 %</li>
+                                                        <li>Standardization : Fumigated & Quarantine Inspected</li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -256,8 +157,8 @@
     </div>
     <div class="text-center my-10 title">
         <h1 class="font-primary">
-            <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED PRODUCTS
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED
+                PRODUCTS
             </span>
         </h1>
     </div>
@@ -280,8 +181,7 @@
         </div>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
-                <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="Product"
-                    class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
                     <span class="text-gray-400 mr-3 uppercase text-xs">turmeric</span>
                     <p class="text-lg font-bold text-black truncate block capitalize">Dried Turmeric</p>

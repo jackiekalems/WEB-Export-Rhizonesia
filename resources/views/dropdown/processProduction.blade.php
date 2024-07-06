@@ -2,13 +2,9 @@
 
 @section('processOrder')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
+    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+        style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white first">
-                <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
-                <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
-            </div>
         </div>
     </header>
     <div class="font-sans bg-white">
@@ -103,8 +99,8 @@
                                 </div>
 
                                 <!-- Gambar -->
-                                <img src="https://img.freepik.com/free-photo/young-woman-buys-ginger-market-woman-choose-ginger-supermarket-woman-picking-fresh-produce-market_1391-643.jpg?t=st=1719121730~exp=1719125330~hmac=ec65bd4d7db006e246cb472247c61e636b09be16dc6d87cf235995815d658307&w=996"
-                                    loading="lazy" alt="Photo by Minh Pham"
+                                <img src="assets/DriedTurmericProduction/harvest.jpg" loading="lazy"
+                                    alt="Photo by Minh Pham"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                                 <!-- Efek gradient -->
@@ -126,15 +122,14 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">2</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/turmeric-powder_1323-403.jpg?t=st=1719122082~exp=1719125682~hmac=8e97f2dad2889d04e16a7c06428ba3d31afceccef7ce7a215f4934ebed4eea6e&w=996"
-                                    loading="lazy" alt="Photo by Magicle"
+                                <img src="assets/DriedTurmericProduction/cleaning.jpg" loading="lazy" alt="Photo by Magicle"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
                                 <div class="relative flex items-center justify-center w-full h-full">
-                                    <span class="text-shadow">Cleaning Up (cuci &
-                                        ditiriskan)</span>
+                                    <span class="text-shadow">Cleaning Up (wash &
+                                        drained)</span>
                                 </div>
                             </a>
 
@@ -147,8 +142,8 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">3</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/top-view-assorted-spices-small-bowls-with-wooden-spoons-grey-plaster-background-horizontal_176474-64226.jpg?t=st=1719122099~exp=1719125699~hmac=ee891d4865295adced1753feb2b5af918bb9a17936ac32d18b7b491cabbf0281&w=996"
-                                    loading="lazy" alt="Photo by Martin Sanchez"
+                                <img src="assets/DriedTurmericProduction/cutting.jpg" loading="lazy"
+                                    alt="Photo by Martin Sanchez"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -167,8 +162,8 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">4</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/top-view-assortment-tasty-food-ingredients_23-2148869956.jpg?t=st=1719122117~exp=1719125717~hmac=5d38a544e4d861cde87eacab851e845645cae9ac183c062886d0fe545379b3a1&w=360"
-                                    loading="lazy" alt="Photo by Lorenzo Herrera"
+                                <img src="assets/DriedTurmericProduction/drying.jpg" loading="lazy"
+                                    alt="Photo by Lorenzo Herrera"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -186,15 +181,17 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">5</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/young-woman-buys-ginger-market-woman-choose-ginger-supermarket-woman-picking-fresh-produce-market_1391-643.jpg?t=st=1719121730~exp=1719125330~hmac=ec65bd4d7db006e246cb472247c61e636b09be16dc6d87cf235995815d658307&w=996"
-                                    loading="lazy" alt="Photo by Minh Pham"
+                                <img src="assets/DriedTurmericProduction/sifting.jpg" loading="lazy"
+                                    alt="Photo by Minh Pham"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
-
-                                <span class="relative text-center font-bold text-white md:text-lg">Sifting</span>
+                                <div class="relative flex items-center justify-center w-full h-full">
+                                    <span class="text-shadow">Finishing (Packing &
+                                        Stuffing)</span>
+                                </div>
                             </a>
 
                             <!-- image - end -->
@@ -206,8 +203,8 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">6</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/turmeric-powder_1323-403.jpg?t=st=1719122082~exp=1719125682~hmac=8e97f2dad2889d04e16a7c06428ba3d31afceccef7ce7a215f4934ebed4eea6e&w=996"
-                                    loading="lazy" alt="Photo by Magicle"
+                                <img src="assets/DriedTurmericProduction/packing.png" loading="lazy"
+                                    alt="Photo by Magicle"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -243,8 +240,8 @@
                                 </div>
 
                                 <!-- Gambar -->
-                                <img src="https://img.freepik.com/free-photo/young-woman-buys-ginger-market-woman-choose-ginger-supermarket-woman-picking-fresh-produce-market_1391-643.jpg?t=st=1719121730~exp=1719125330~hmac=ec65bd4d7db006e246cb472247c61e636b09be16dc6d87cf235995815d658307&w=996"
-                                    loading="lazy" alt="Photo by Minh Pham"
+                                <img src="assets/FreshGingerProduction/harvest.jpg" loading="lazy"
+                                    alt="Photo by Minh Pham"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                                 <!-- Efek gradient -->
@@ -266,8 +263,8 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">2</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/turmeric-powder_1323-403.jpg?t=st=1719122082~exp=1719125682~hmac=8e97f2dad2889d04e16a7c06428ba3d31afceccef7ce7a215f4934ebed4eea6e&w=996"
-                                    loading="lazy" alt="Photo by Magicle"
+                                <img src="assets/FreshGingerProduction/cleaning.jpg" loading="lazy"
+                                    alt="Photo by Magicle"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -286,8 +283,8 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">3</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/top-view-assorted-spices-small-bowls-with-wooden-spoons-grey-plaster-background-horizontal_176474-64226.jpg?t=st=1719122099~exp=1719125699~hmac=ee891d4865295adced1753feb2b5af918bb9a17936ac32d18b7b491cabbf0281&w=996"
-                                    loading="lazy" alt="Photo by Martin Sanchez"
+                                <img src="assets/FreshGingerProduction/drying.jpg" loading="lazy"
+                                    alt="Photo by Martin Sanchez"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -306,8 +303,8 @@
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">4</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/top-view-assortment-tasty-food-ingredients_23-2148869956.jpg?t=st=1719122117~exp=1719125717~hmac=5d38a544e4d861cde87eacab851e845645cae9ac183c062886d0fe545379b3a1&w=360"
-                                    loading="lazy" alt="Photo by Lorenzo Herrera"
+                                <img src="assets/FreshGingerProduction/grading.jpg" loading="lazy"
+                                    alt="Photo by Lorenzo Herrera"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -320,13 +317,13 @@
                             <!-- image - end -->
                             <!-- image - start -->
                             <a href="#"
-                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 col-span-2 md:col-span-3 shadow-lg md:h-80 first">
+                                class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 col-span-2 md:col-span-3 shadow-lg md:h-96 first">
                                 <div
                                     class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
                                     <span class="text-sm font-bold">5</span>
                                 </div>
-                                <img src="https://img.freepik.com/free-photo/young-woman-buys-ginger-market-woman-choose-ginger-supermarket-woman-picking-fresh-produce-market_1391-643.jpg?t=st=1719121730~exp=1719125330~hmac=ec65bd4d7db006e246cb472247c61e636b09be16dc6d87cf235995815d658307&w=996"
-                                    loading="lazy" alt="Photo by Minh Pham"
+                                <img src="assets/FreshGingerProduction/packing.png" loading="lazy"
+                                    alt="Photo by Minh Pham"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                                 <div

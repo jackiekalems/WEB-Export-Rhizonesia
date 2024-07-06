@@ -1,7 +1,8 @@
 <div class="hero-section bg-cover bg-center h-[40vh] md:h-[100vh]" id="hero">
-    <div class="slide active" style="background-image: url('assets/banner01.jpg');"></div>
-    <div class="slide active"
-        style="background-image: url('https://www.ll-foods.com/d/images/banner/soy-dried-bean-stick-banner02.jpg');">
+    <div class="slide active" style="background-image: url('assets/wellcome/image1.jpg');"></div>
+    <div class="slide active" style="background-image: url('assets/wellcome/image2.jpg');">
+    </div>
+    <div class="slide active" style="background-image: url('assets/wellcome/image3.jpg');">
     </div>
     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         <div class="text-center text-white bottomAnimation">

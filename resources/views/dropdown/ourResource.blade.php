@@ -2,8 +2,8 @@
 
 @section('ourResource')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-center"
-        style="background-image: url('https://img.freepik.com/free-photo/assortment-ginger-wooden-board_23-2148799547.jpg?t=st=1718760428~exp=1718764028~hmac=449ff52d92d09d31c183f06da50942f6fe221dedf4738c6e3fdff8e928d0c19d&w=996');">
+    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+        style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div class="text-center text-white">
                 <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
@@ -96,113 +96,175 @@
                 <div id="chartdiv" style="height: 500px;"></div>
                 <h4 id="alert-info" class="noInfo" style="text-align: center"></h4>
                 <h4 id="dates"></h4>
-                <script src="https://www.amcharts.com/lib/4/core.js"></script>
-                <script src="https://www.amcharts.com/lib/4/maps.js"></script>
-                <script src="https://www.amcharts.com/lib/4/geodata/indonesiaLow.js"></script>
-                <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+                <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+                <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+                <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+                <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
                 <script>
-                    am4core.ready(function() {
-                        var colorEntities = {
-                            "originalText": "#db5c00",
-                            "work": "#ffa600"
-                        };
+                    am5.ready(function() {
+                        /**
+                         * ---------------------------------------
+                         * This demo was created using amCharts 5.
+                         *
+                         * For more information visit:
+                         * https://www.amcharts.com/
+                         *
+                         * Documentation is available at:
+                         * https://www.amcharts.com/docs/v5/
+                         * ---------------------------------------
+                         */
 
-                        var places = [{
-                                "entity": "work",
-                                "title": "[bold]Jawa Timur[/]\n[font-style:italic]Ponorogo[/]\n",
-                                "lat": -7.8682,
-                                "long": 111.4620,
-                                "radius": 5
+                        // Create root element
+                        // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+                        var root = am5.Root.new("chartdiv");
+
+                        // Set themes
+                        // https://www.amcharts.com/docs/v5/concepts/themes/
+                        root.setThemes([am5themes_Animated.new(root)]);
+
+                        // Create the map chart
+                        // https://www.amcharts.com/docs/v5/charts/map-chart/
+                        var chart = root.container.children.push(
+                            am5map.MapChart.new(root, {
+                                panX: "none",
+                                panY: "none",
+                                projection: am5map.geoMercator(),
+                                homeGeoPoint: {
+                                    latitude: -2.5,
+                                    longitude: 118.0
+                                },
+                                homeZoomLevel: 5,
+                            })
+                        );
+
+                        // Create main polygon series for countries
+                        // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/
+                        var polygonSeries = chart.series.push(
+                            am5map.MapPolygonSeries.new(root, {
+                                geoJSON: am5geodata_worldLow,
+                                include: ["ID"], // Only include Indonesia
+                            })
+                        );
+
+                        polygonSeries.mapPolygons.template.setAll({
+                            fill: am5.color("#22c55e"),
+                            stroke: am5.color("#000000"),
+                            strokeWidth: 0.5,
+                        });
+
+                        // Create point series for markers
+                        // https://www.amcharts.com/docs/v5/charts/map-chart/map-point-series/
+                        var pointSeries = chart.series.push(
+                            am5map.MapPointSeries.new(root, {})
+                        );
+                        var colorset = am5.ColorSet.new(root, {});
+
+                        pointSeries.bullets.push(function() {
+                            var container = am5.Container.new(root, {
+                                tooltipText: "{title}",
+                                cursorOverStyle: "pointer",
+                            });
+
+                            container.events.on("click", (e) => {
+                                window.location.href = e.target.dataItem.dataContext.url;
+                            });
+
+                            var circle = container.children.push(
+                                am5.Circle.new(root, {
+                                    radius: 4,
+                                    tooltipY: 0,
+                                    fill: colorset.next(),
+                                    strokeOpacity: 0,
+                                })
+                            );
+
+                            var circle2 = container.children.push(
+                                am5.Circle.new(root, {
+                                    radius: 4,
+                                    tooltipY: 0,
+                                    fill: colorset.next(),
+                                    strokeOpacity: 0,
+                                    tooltipText: "{title}",
+                                })
+                            );
+
+                            circle.animate({
+                                key: "scale",
+                                from: 1,
+                                to: 5,
+                                duration: 600,
+                                easing: am5.ease.out(am5.ease.cubic),
+                                loops: Infinity,
+                            });
+                            circle.animate({
+                                key: "opacity",
+                                from: 1,
+                                to: 0.1,
+                                duration: 600,
+                                easing: am5.ease.out(am5.ease.cubic),
+                                loops: Infinity,
+                            });
+
+                            return am5.Bullet.new(root, {
+                                sprite: container,
+                            });
+                        });
+
+                        var cities = [{
+                                title: "Ponorogo",
+                                latitude: -7.8655,
+                                longitude: 111.469,
                             },
                             {
-                                "entity": "work",
-                                "title": "[bold]Jawa Tengah[/]\n[font-style:italic]Wonogiri[/]\n",
-                                "lat": -7.8832,
-                                "long": 110.9240,
-                                "radius": 5
+                                title: "Wonogiri",
+                                latitude: -7.9,
+                                longitude: 110.9,
                             },
                             {
-                                "entity": "work",
-                                "title": "[bold]Jawa Timur[/]\n[font-style:italic]Malang[/]\n",
-                                "lat": -7.9666,
-                                "long": 112.6326,
-                                "radius": 5
+                                title: "Malang",
+                                latitude: -7.9666,
+                                longitude: 112.6326,
                             },
                             {
-                                "entity": "work",
-                                "title": "[bold]Jawa Timur[/]\n[font-style:italic]Pacitan[/]\n",
-                                "lat": -8.1780,
-                                "long": 111.1596,
-                                "from": 2024,
-                                "to": 2024,
-                                "radius": 5
+                                title: "Pacitan",
+                                latitude: -8.1802,
+                                longitude: 111.171,
                             },
                             {
-                                "entity": "originalText",
-                                "title": "[bold]Original item[/]\n[font-style:italic]Equation of the sun[/]\n (1564-1655)"
-                            }
+                                title: "Surabaya",
+                                latitude: -7.2575,
+                                longitude: 112.7521,
+                            },
+                            {
+                                title: "Gresik",
+                                latitude: -7.1565,
+                                longitude: 112.655,
+                            },
+                            {
+                                title: "Kediri",
+                                latitude: -7.848,
+                                longitude: 112.0173,
+                            },
                         ];
 
-                        if (places.length === 0) {
-                            $("#alert-info").append("There is no places associated with this item in the database");
-                        } else if (places.length > 2) {
-                            for (var place of places) {
-                                delete place.label;
-                            }
+                        for (var i = 0; i < cities.length; i++) {
+                            var city = cities[i];
+                            addCity(city.longitude, city.latitude, city.title);
                         }
 
-                        am4core.useTheme(am4themes_animated);
-
-                        // Create map instance
-                        var chart = am4core.create("chartdiv", am4maps.MapChart);
-
-                        // Set projection and center the map on Indonesia
-                        chart.geodata = am4geodata_indonesiaLow;
-                        chart.projection = new am4maps.projections.Miller();
-                        chart.homeGeoPoint = {
-                            latitude: -2.5,
-                            longitude: 118.0
-                        };
-                        chart.homeZoomLevel = 4;
-
-                        // Create map polygon series containing delineation of the regions in Indonesia
-                        var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
-                        polygonSeries.useGeodata = true;
-
-                        // Configure appearance of the background map
-                        var polygonTemplate = polygonSeries.mapPolygons.template;
-                        polygonTemplate.strokeOpacity = 0.5;
-                        polygonTemplate.nonScalingStroke = true;
-                        polygonTemplate.tooltipText = "{name}"; // showing region names on hover
-                        polygonTemplate.fill = am4core.color("#a0e7a0"); // color of the regions
-                        var hs = polygonTemplate.states.create("hover");
-                        hs.properties.fill = am4core.color("#80c080");
-
-                        // Create a series that contains the data to draw markers on the map
-                        var imageSeries = chart.series.push(new am4maps.MapImageSeries());
-
-                        for (var place of places) {
-                            var image = imageSeries.mapImages.create();
-                            image.latitude = place.lat;
-                            image.longitude = place.long;
-
-                            // Define marker appearance using SVG icon
-                            var marker = image.createChild(am4core.Image);
-                            marker.href = "assets/location.png"; // Icon hijau
-                            marker.width = 30;
-                            marker.height = 30;
-                            marker.nonScaling = true; // the marker stays at the same size when zooming
-                            marker.tooltipText = place.title; // text appearing on hover on the marker
+                        function addCity(longitude, latitude, title) {
+                            pointSeries.data.push({
+                                geometry: {
+                                    type: "Point",
+                                    coordinates: [longitude, latitude]
+                                },
+                                title: title,
+                            });
                         }
 
-                        // Zoom control
-                        chart.zoomControl = new am4maps.ZoomControl();
-
-                        // Zoom on a region when clicked
-                        polygonTemplate.events.on("hit", function(ev) {
-                            ev.target.series.chart.zoomToMapObject(ev.target);
-                        });
-                    });
+                        // Make stuff animate on load
+                        chart.appear(1000, 100);
+                    }); // end am5.ready()
                 </script>
             </div>
         </div>

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('products')
-    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
-        style="background-image: url('https://img.freepik.com/free-photo/top-view-vegetables-as-coriander-tomato-spinach-green-mint-leaves-wooden-surface-with-copy-space_141793-10306.jpg?t=st=1718957010~exp=1718960610~hmac=3a91d448b35c6167540e8468589138608e6c392911c41e153bf89c630fec4b65&w=996');">
+    <header class="relative w-full h-[50vh] bg-cover bg-center"
+        style="background-image: url('assets/Tampilan/product/image.jpg');">
     </header>
     <div class="font-sans bg-white">
         <div class="py-6">
