@@ -73,8 +73,8 @@
                 class="block text-center xl:text-left xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-3 xl:pl-5">
                 <h4 class="text-lg text-gray-900 font-bold mb-9">Get In Touch</h4>
                 <ul class="text-gray-900 transition-all duration-500 grid gap-6">
-                    <li>example@gmail.com</li>
-                    <li>+62 123123123</li>
+                    <li>almeakausaeterna@gmail.com</li>
+                    <li>+62 851 9000 0236</li>
                     <li>Indonesia</li>
                 </ul>
             </div>

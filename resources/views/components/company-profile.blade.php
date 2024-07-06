@@ -9,13 +9,7 @@
         <div class="leftAnimation flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
             <h1 class="text-xl md:text-2xl font-extrabold text-center">WHY ALMEA KAUSA ETERNA? </h1>
             <p class="text-sm md:text-base text-justify md:text-start">Almea Kausa Eterna didirikan atas ambisi dan
-                mimpi para
-                pendiri untuk bisa
-                membantu
-                dunia mengetahui cita
-                rasa tiada tara,kami akan membantu kalian meningkatkan level bisnis kalian, kami idak perlu ragu dengan
-                almea kausa eterna karena kita bercita-cita membantu kalian menjadi sektor tebaik di dunia bisnis,
-                dengan rempah terbaik dari yang terbaik dari indonesia .
+                Almea Kausa Eterna was established based on the ambition and dream of the founders to be able to help the world know the incomparable taste of Indonesian spices, we will help you escalate the level of your business, convinced with Almea Kausa Eterna because we will help you to become the best sector in the business world by Indonesia's best spices.
 
             </p>
         </div>

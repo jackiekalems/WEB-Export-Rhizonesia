@@ -236,10 +236,11 @@
             </div>
         </div>
     </div>
-    <div class="text-center my-10">
-        <h1 class="font-primary">RELATED
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">
-                PRODUCT</span>
+    <div class="text-center my-10 title">
+        <h1 class="font-primary">
+            <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED PRODUCTS
+            </span>
         </h1>
     </div>
     <section

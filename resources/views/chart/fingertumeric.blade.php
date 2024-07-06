@@ -254,11 +254,12 @@
         </div> --}}
         </div>
     </div>
-    <div class="text-center mt-10">
-        <h1 class="text-2xl md:text-4xl text-black font-extrabold py-3 pricing__blog">RELATED
-            <span class="text-green-600"> PRODUCTS</span>
+    <div class="text-center my-10 title">
+        <h1 class="font-primary">
+            <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED PRODUCTS
+            </span>
         </h1>
-        <hr class="my-4 h-1 w-[10%] bg-red-500 border-0 rounded-full mx-auto">
     </div>
     <section
         class="w-3/4 mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20 shadow-primary p-6 rounded-lg">

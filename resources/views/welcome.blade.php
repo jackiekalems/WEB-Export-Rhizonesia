@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{-- favicon --}}
     <link rel="icon" href="{{ url('assets/logo.png') }}" />
-    <title>Laravel</title>
+    <title>Almea Kausa Eterna</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

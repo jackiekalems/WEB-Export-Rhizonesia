@@ -114,7 +114,7 @@
                             class="absolute inset-0 flex items-end justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
                             <div class="mb-20">
                                 <h2 class="text-4xl font-bold mb-2 text-green-500">Payment</h2>
-                                <p class="text-lg px-10">LC ?/TT 40 dp pas sales contract, 20 tutup kontainer di supp, 40 bl
+                                <p class="text-lg px-10">Advanced Payment is 40% after signing a sales contract, 20% before the product is delivered to the international port, and 40% for receiving the copy of the Bill of Lading.
                                 </p>
                             </div>
                         </div>

@@ -23,8 +23,7 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Ginger</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi perspiciatis ex
-                                molestias blanditiis quos.
+                                Export Quality Dried Ginger from the Land of Indonesia | Dried Ginger
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('dried.ginger') }}"
@@ -35,10 +34,10 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
-                                <button id="shareButton2"
+                                {{-- <button id="shareButton2"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button>
+                                </button> --}}
                             </div>
                         </div>
                     </div>
@@ -52,12 +51,11 @@
                         </div>
                         <div class="text-center lg:text-left lg:max-w-xs flex-1">
                             <div class="mb-5 pb-5 border-b border-solid border-gray-300">
-                                <h6 class="text-lg text-gray-900 font-semibold mb-1">Wet Ginger</h6>
+                                <h6 class="text-lg text-gray-900 font-semibold mb-1">Fresh Ginger</h6>
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Ginger</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nisi eaque excepturi
-                                nostrum totam?
+                                Export Quality Fresh White Ginger from the Land of Indonesia | Fresh Ginger
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('wet.ginger') }}"
@@ -68,10 +66,10 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
-                                <button id="shareButton3"
+                                {{-- <button id="shareButton3"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button>
+                                </button> --}}
                             </div>
                         </div>
                     </div>
@@ -89,8 +87,7 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel debitis voluptate atque
-                                architecto cupiditate?
+                                Premium quality turmeric from Indonesian | Dried Turmeric
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('dried.turmeric') }}"
@@ -101,10 +98,10 @@
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-eye-line text-xl text-green-600 hover:text-white"></i>
                                 </button>
-                                <button id="shareButton4"
+                                {{-- <button id="shareButton4"
                                     class="cursor-pointer  text-gray-900 hover:text-white group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-green-600">
                                     <i class="ri-share-line text-xl text-green-600 hover:text-white"></i>
-                                </button>
+                                </button> --}}
                             </div>
                         </div>
                     </div>
@@ -122,8 +119,7 @@
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
                             <p class="text-gray-500 leading-6 mb-7">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel debitis voluptate atque
-                                architecto cupiditate?
+                                Export Quality Fresh White Ginger from the Land of Indonesia | Fresh Ginger
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('tumeric.powder') }}"
@@ -195,6 +191,7 @@
             html: `
          <div style="padding: 20px; height: 300px; background: url('assets/DriedTurmeric/IMG_8784.jpg') no-repeat center center; background-size: cover;"></div>
          `,
+            text:'Available First Class Quality Raw Dried Turmeric, 100% Natural Product, Packed in 25 kg Sacks. Immediately get the best quality natural dried turmeric for your needs',
             width: 600
         });
     }
@@ -205,6 +202,7 @@
             html: `
            <div style="padding: 20px; height: 300px; background: url('assets/TurmericPowder/IMG_8807.jpg') no-repeat center center; background-size: cover;"></div>
         `,
+            text:,
             width: 600
         });
     }

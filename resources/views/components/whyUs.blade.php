@@ -26,10 +26,8 @@
                             class="w-32 mb-3">
                     </div>
                     <h2 class="title-font font-regular text-xl md:text-2xl text-gray-900">PRECISE</h2>
-                    <p class="text-gray-950 mt-4">"The precise place to get to know about the entire superior quality
-                        supply
-                        of spices from
-                        Indonesia"</p>
+                    <p class="text-gray-950 mt-4">"The precise place to get to know about the entire superior quality supply of spices from Indonesia."
+                    </p>
                 </div>
             </div>
             <div class="p-4 md:w-1/4 sm:w-1/2 why__us4">
@@ -38,11 +36,8 @@
                         <img src="assets/handshake.png" class="w-32 mb-6">
                     </div>
                     <h2 class="title-font font-regular text-xl md:text-2xl text-gray-900">RELIABLE</h2>
-                    <p class="text-gray-950 mt-4">"Almea Kausa Eterna was reliable for your business and will be your
-                        forever
-                        partner in escalating
-                        the industry with great services consistently.
-                        "</p>
+                    <p class="text-gray-950 mt-4">"Almea Kausa Eterna was reliable for your business and will be your forever partner in escalating the industry with great services consistently."
+                    </p>
                 </div>
             </div>
         </div>

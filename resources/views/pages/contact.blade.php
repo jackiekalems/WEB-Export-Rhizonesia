@@ -122,14 +122,15 @@
         <div class="flex flex-wrap flex-col gap-6 w-full max-w-6xl fourth">
 
             <!-- Tile 1 -->
-            <a href class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
+            <a href="https://www.instagram.com/almeakausaeterna?igsh=cm51aWgxOTN0NWl0" target="_blank"
+            class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
                     <i class="ri-instagram-line text-3xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Instagram :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">almeakausaeterna</span>
+                        <span class="text-gray-500">@almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -142,7 +143,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Facebook :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">almeakausaeterna</span>
+                        <span class="text-gray-500">@almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -155,7 +156,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Linkedin :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@imwira12</span>
+                        <span class="text-gray-500">@almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
@@ -168,7 +169,7 @@
                 <div class="flex-grow flex flex-col ml-4">
                     <span class="text-base md:text-xl font-semibold">Tiktok :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">almeakausaeterna</span>
+                        <span class="text-gray-500">@almeakausaeterna</span>
                     </div>
                 </div>
                 <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>

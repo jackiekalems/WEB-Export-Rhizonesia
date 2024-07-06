@@ -137,10 +137,14 @@
                                 "to": 2024,
                                 "radius": 5
                             },
+                            {
+                                "entity": "originalText",
+                                "title": "[bold]Original item[/]\n[font-style:italic]Equation of the sun[/]\n (1564-1655)"
+                            }
                         ];
 
                         if (places.length === 0) {
-                            $("#alert-info").append("There are no places associated with this item in the database");
+                            $("#alert-info").append("There is no places associated with this item in the database");
                         } else if (places.length > 2) {
                             for (var place of places) {
                                 delete place.label;
@@ -159,7 +163,7 @@
                             latitude: -2.5,
                             longitude: 118.0
                         };
-                        chart.homeZoomLevel = 4; // Adjust the zoom level as needed
+                        chart.homeZoomLevel = 4;
 
                         // Create map polygon series containing delineation of the regions in Indonesia
                         var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
@@ -170,7 +174,7 @@
                         polygonTemplate.strokeOpacity = 0.5;
                         polygonTemplate.nonScalingStroke = true;
                         polygonTemplate.tooltipText = "{name}"; // showing region names on hover
-                        polygonTemplate.fill = am4core.color("#22c55e"); // color of the regions
+                        polygonTemplate.fill = am4core.color("#a0e7a0"); // color of the regions
                         var hs = polygonTemplate.states.create("hover");
                         hs.properties.fill = am4core.color("#80c080");
 

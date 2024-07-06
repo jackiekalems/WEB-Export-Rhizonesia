@@ -1,11 +1,6 @@
-{{-- <div class="bg-green-500 text-white md:text-center py-2 px-4">
-    Inspired from Dribbble Shot by <a href="https://dribbble.com/shots/14127375-Product-Page"
-        class="font-bold underline hover:text-indigo-100">Wira Putra Nugraha</a>.
-    See his works on <a href="https://dribbble.com/vlockn" class="font-bold underline hover:text-indigo-100">Dribbble</a>.
-</div> --}}
-<nav class="px-10 lg:px-20 py-5 sticky top-0 z-50 bg-white border-2">
+<nav class="px-10 lg:px-20 py-5 sticky top-0 z-50 bg-white">
     <div class="flex flex-wrap items-center justify-between">
-        <a href="#" class="flex gap-x-3">
+        <a href="/" class="flex gap-x-3">
             <img src="assets/logo.png" class="w-8" alt="">
             <span class="self-center text-lg font-semibold whitespace-nowrap hidden md:block">Almea Kausa Eterna</span>
         </a>

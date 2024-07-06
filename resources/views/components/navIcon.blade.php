@@ -1,13 +1,19 @@
 <div id="container-floating" class="fixed bottom-8 right-2 z-50">
     <div class="menu-content" id="menuContent">
         <div class="nds">
-            <a class="ilink" href="#"><i class="ri-instagram-line text-orange-600 text-2xl"></i></a>
+            <a class="ilink" target="_blank" href="https://www.instagram.com/almeakausaeterna?igsh=cm51aWgxOTN0NWl0"><i class="ri-instagram-line text-orange-600 text-2xl"></i></a>
         </div>
         <div class="nds">
             <a class="ilink" href="#"><i class="ri-linkedin-box-fill text-blue-600 text-2xl"></i></a>
         </div>
         <div class="nds">
             <a class="ilink" href="#"><i class="ri-facebook-circle-fill text-blue-600 text-2xl"></i></a>
+        </div>
+        <div class="nds">
+            <a class="ilink" href="#"><i class="ri-tiktok-fill text-black text-2xl"></i></a>
+        </div>
+        <div class="nds">
+            <a class="ilink" href="#"><i class="ri-whatsapp-line text-green-600 text-2xl"></i></a>
         </div>
     </div>
 
