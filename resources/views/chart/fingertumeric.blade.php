@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('tumericfinger')
+    <div class="h-20"></div>
     <div class="font-sans bg-white">
         <div class="py-6">
             <!-- Breadcrumbs -->
@@ -109,10 +110,10 @@
                             <div class="border-t border-dashed-small w-full my-2"></div>
                             </p>
                             <div class="mb-4 my-10 flex w-full items-center gap-3 md:w-1/2">
-                                <button
+                                <a href="https://wa.me/6285190000236" target="_blank"
                                     class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-52"
                                     type="button" data-ripple-light="true">
-                                    BUY</button>
+                                    BUY</a>
                             </div>
                         </div>
                     </div>
@@ -256,8 +257,8 @@
     </div>
     <div class="text-center my-10 title">
         <h1 class="font-primary">
-            <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED PRODUCTS
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED
+                PRODUCTS
             </span>
         </h1>
     </div>

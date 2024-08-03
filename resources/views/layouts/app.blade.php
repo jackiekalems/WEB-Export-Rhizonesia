@@ -42,6 +42,9 @@
             @yield('contact')
         </div>
         <div>
+            @yield('testimonial')
+        </div>
+        <div>
             @yield('products')
         </div>
         <div>
@@ -129,37 +132,6 @@
             reset: false,
         });
         // end globals top animations
-
-        // advanced animation
-        ScrollReveal().reveal(".first", {
-            delay: 200,
-            distance: "50px",
-            origin: "top",
-            duration: 800,
-            reset: false,
-        });
-        ScrollReveal().reveal(".seccond", {
-            delay: 300,
-            distance: "50px",
-            origin: "top",
-            duration: 800,
-            reset: false,
-        });
-        ScrollReveal().reveal(".third", {
-            delay: 400,
-            distance: "50px",
-            origin: "top",
-            duration: 800,
-            reset: false,
-        });
-        ScrollReveal().reveal(".fourth", {
-            delay: 500,
-            distance: "50px",
-            origin: "top",
-            duration: 800,
-            reset: false,
-        });
-        // end advanced animation
     </script>
 </body>
 

@@ -22,7 +22,7 @@
                                 <h6 class="text-lg text-gray-900 font-semibold mb-1">Dried Ginger</h6>
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Ginger</span>
                             </div>
-                            <p class="text-gray-500 leading-6 mb-7">
+                            <p class="text-gray-500 leading-6 mb-7 text-sm md:text-base">
                                 Export Quality Fresh White Ginger from the Land of Indonesia
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
@@ -50,7 +50,7 @@
                                 <h6 class="text-lg text-gray-900 font-semibold mb-1">Fresh Ginger</h6>
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Ginger</span>
                             </div>
-                            <p class="text-gray-500 leading-6 mb-7">
+                            <p class="text-gray-500 leading-6 mb-7 text-sm md:text-base">
                                 Export Quality Fresh White Ginger from the Land of Indonesia
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
@@ -78,8 +78,8 @@
                                 <h6 class="text-lg text-gray-900 font-semibold mb-1">Dried Tumeric</h6>
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
-                            <p class="text-gray-500 leading-6 mb-7">
-                                Premium quality turmeric from Indonesian
+                            <p class="text-gray-500 leading-6 mb-7 text-sm md:text-base">
+                                Premium quality turmeric from Indonesia
                             </p>
                             <div class="flex items-center gap-4 justify-center lg:justify-start">
                                 <a href="{{ route('dried.turmeric') }}"
@@ -106,7 +106,7 @@
                                 <h6 class="text-lg text-gray-900 font-semibold mb-1">Tumeric Powder</h6>
                                 <span class="text-sm text-gray-500 group-hover:text-indigo-600">Tumeric</span>
                             </div>
-                            <p class="text-gray-500 leading-6 mb-7">
+                            <p class="text-gray-500 leading-6 mb-7 text-sm md:text-base">
                                 Export-quality turmeric powder is made using the best ingredients originating from
                                 Indonesia
                             </p>
@@ -149,53 +149,3 @@
         </div>
     </div>
 </section>
-{{-- sweetalert --}}
-<script>
-    function showProductDescription() {
-        Swal.fire({
-            title: "Dried Ginger!",
-            html: `
-            <div style="padding: 20px; height: 400px; background: url('assets/DriedGinger/IMG_8794.jpg') no-repeat center center; background-size: cover;"></div>
-            <p style="margin-top: 20px;">Available in the best quality and according to customers' requirement. </p>
-        `,
-            width: 600
-        });
-    }
-
-
-    function showProductDescription2() {
-        Swal.fire({
-            title: "Fresh Ginger!",
-            html: `
-            <div style="padding: 20px; height: 300px; background: url('assets/FreshGinger/IMG_8803.jpg') no-repeat center center; background-size: cover;"></div>
-            <p style="margin-top: 20px;">Available in any size starting from 100 gr up,  150 gr up, 200 gr up, and 250 gr up.</p>
-        `,
-            width: 600
-        });
-    }
-
-
-    function showProductDescription3() {
-        Swal.fire({
-            title: "Dried Tumeric!",
-            html: `
-            <div style="padding: 20px; height: 300px; background: url('assets/DriedTurmeric/IMG_8784.jpg') no-repeat center center; background-size: cover;"></div>
-            <p style="margin-top: 20px;">Available First Class Quality Raw Dried Turmeric, 100% Natural Product, Packed in 25 kg Sacks. Immediately get the best quality natural dried turmeric for your needs. </p>
-        `,
-            width: 600
-        });
-    }
-
-
-    function showProductDescription4() {
-        Swal.fire({
-            title: "Tumeric Powder!",
-            html: `
-            <div style="padding: 20px; height: 300px; background: url('assets/TurmericPowder/IMG_8806.jpg') no-repeat center center; background-size: cover;"></div>
-            <p style="margin-top: 20px;">Available in 100 gram/bag, 500 Gram/bag, 1 Kg/bag, 20Kg/Mesh Bag, 25Kg/Mesh Bag Turmeric. </p>
-        `,
-            text: ,
-            width: 600
-        });
-    }
-</script>

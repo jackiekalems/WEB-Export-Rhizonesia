@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('ginger')
+    <div class="h-20"></div>
     <div class="font-sans bg-white">
         <div class="py-6">
             <!-- Breadcrumbs -->
@@ -96,19 +97,54 @@
                                             </div>
                                             <div class="accordion-content pt-0 overflow-hidden" x-show="open"
                                                 :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
-                                                <div class="flex flex-col justify-center antialiased p-4">
-                                                    <ul class="list-disc pl-9 text-justify">
-                                                        <li>
-                                                            Name : Dried Ginger
-                                                        </li>
-                                                        <li>Moisture Content : < 12 % </li>
-                                                        <li>Ash Amount : < 8.0 %</li>
-                                                        <li>Atsiri Oil : > 1.5 %</li>
-                                                        <li>Admixture : < 2 %</li>
-                                                        <li>Foreign Stuff : 0 %</li>
-                                                        <li>Standardization : Fumigated & Quarantine Inspected</li>
-                                                    </ul>
-                                                </div>
+                                                <table class="w-full text-sm leading-5">
+                                                    <thead class="bg-gray-100">
+                                                        <tr>
+                                                            <th class="py-3 px-4 text-left font-medium text-gray-600">Detail
+                                                            </th>
+                                                            <th class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Specification</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Name
+                                                            </td>
+                                                            <td class="py-3 px-4 text-left">Dried Ginger</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Moisture Content</td>
+                                                            <td class="py-3 px-4 text-left">&lt;12%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Ash
+                                                                Amount</td>
+                                                            <td class="py-3 px-4 text-left">&lt;8.0%</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Atsiri
+                                                                Oil</td>
+                                                            <td class="py-3 px-4 text-left">&gt;1.5%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Admixture</td>
+                                                            <td class="py-3 px-4 text-left">&lt;2%</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Foreign Stuff</td>
+                                                            <td class="py-3 px-4 text-left">0%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Standardization</td>
+                                                            <td class="py-3 px-4 text-left">Fumigated & Quarantine Inspected
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
 
@@ -144,10 +180,10 @@
                                 </div>
                             </div>
                             <div class="mb-4 my-10 flex w-full items-center gap-3">
-                                <button
+                                <a href="https://wa.me/6285190000236" target="_blank"
                                     class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-full"
                                     type="button" data-ripple-light="true">
-                                    BUY</button>
+                                    BUY</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +217,8 @@
         </div>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
-                <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <img src="assets/DriedTurmeric/IMG_8784.jpg" alt="Product"
+                    class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
                     <span class="text-gray-400 mr-3 uppercase text-xs">turmeric</span>
                     <p class="text-lg font-bold text-black truncate block capitalize">Dried Turmeric</p>

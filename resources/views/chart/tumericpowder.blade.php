@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('tumericpowder')
+    <div class="h-20"></div>
     <div class="font-sans bg-white">
         <div class="py-6">
             <!-- Breadcrumbs -->
@@ -95,130 +96,53 @@
                                             </div>
                                             <div class="accordion-content pt-0 overflow-hidden" x-show="open"
                                                 :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
-                                                <div class="flex flex-col justify-center antialiased p-4">
-                                                    <div class="h-full">
-                                                        <!-- Table -->
-                                                        <div class="w-full mx-auto bg-white">
-
-                                                            <div class="overflow-x-auto">
-                                                                <table class="table-auto w-full">
-                                                                    <thead
-                                                                        class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
-                                                                        <tr>
-                                                                            <th class="p-2 whitespace-nowrap">
-                                                                                <div class="font-semibold text-left">
-                                                                                    Detail</div>
-                                                                            </th>
-                                                                            <th class="p-2 whitespace-nowrap">
-                                                                                <div class="font-semibold text-left">
-                                                                                    Spesification</div>
-                                                                            </th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody class="text-sm divide-y divide-gray-100">
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Product Name</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Tumeric extract Curcumin</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Appearance </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Yellow Fine Powder</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        specifications</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    10%</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Mesh</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    80-100 mesh</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Plant Used</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Root</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Active Ingredients</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Curcumin</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Sample</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">Free samples
-                                                                                    available
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Shelf life</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">2 Years
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <table class="w-full text-sm leading-5">
+                                                    <thead class="bg-gray-100">
+                                                        <tr>
+                                                            <th class="py-3 px-4 text-left font-medium text-gray-600">Detail
+                                                            </th>
+                                                            <th class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Specification</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Product Name</td>
+                                                            <td class="py-3 px-4 text-left">Tumeric extract Curcumin</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Appearance</td>
+                                                            <td class="py-3 px-4 text-left">Yellow Fine Powder</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Mesh
+                                                            </td>
+                                                            <td class="py-3 px-4 text-left">80-100 mesh</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Plant
+                                                                Used</td>
+                                                            <td class="py-3 px-4 text-left">Root</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Active
+                                                                Ingredients</td>
+                                                            <td class="py-3 px-4 text-left">Curcumin</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Sample
+                                                            </td>
+                                                            <td class="py-3 px-4 text-left">Free samples available</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Shelf
+                                                                life</td>
+                                                            <td class="py-3 px-4 text-left">2 Years</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
 
@@ -232,7 +156,6 @@
                                                 :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
                                                 <ul class="list-disc pl-9 text-justify">
                                                     <li>100 gram/bag, 500 Gram/bag, 1 Kg/bag, 20Kg/Mesh Bag, 25Kg/Mesh Bag
-                                                        Kunyit
                                                     </li>
                                                     <li>
                                                         The size and packing of products can depend on buyers' requirements
@@ -259,10 +182,10 @@
                                 </div>
                             </div>
                             <div class="mb-4 my-10 flex w-full items-center gap-3">
-                                <button
+                                <a href="https://wa.me/6285190000236" target="_blank"
                                     class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-full"
                                     type="button" data-ripple-light="true">
-                                    BUY</button>
+                                    BUY</a>
                             </div>
                         </div>
                     </div>
@@ -272,8 +195,8 @@
     </div>
     <div class="text-center my-10 title">
         <h1 class="font-primary">
-            <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED PRODUCTS
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED
+                PRODUCTS
             </span>
         </h1>
     </div>

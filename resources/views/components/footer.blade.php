@@ -1,22 +1,25 @@
-<footer class="w-full border-2 bg-gray-100">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<footer class="w-full bg-gray-100 relative"
+    style="background-image: url('assets/TurmericPowder/IMG_8807.jpg'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Elemen ini menambahkan lapisan gelap -->
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <!--Grid-->
         <div class="py-14 grid grid-cols-12 md:grid-cols-9 gap-x-5 gap-y-8">
             <div
-                class="col-span-full xl:col-span-3 relative rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center border shadow-lg">
+                class="col-span-full xl:col-span-3 relative rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center shadow-lg bg-transparent">
                 <div class="flex flex-col md:flex-row items-center justify-center gap-y-5 gap-x-8">
                     <img src="assets/logo.png" class="w-[50px]" alt="">
-                    <a href="https://pagedone.io/" class="flex justify-center lg:justify-start  font-bold' text-xl">
+                    <a href="https://pagedone.io/"
+                        class="flex justify-center lg:justify-start  font-bold text-xl text-white">
                         Almea Kausa Eterna
                     </a>
                 </div>
-                <p class="text-center">Trusted in more than 100 countries & 5 million customers.
+                <p class="text-center text-white">Trusted in more than 100 countries & 5 million customers.
                     Have any query? contact us we are here for you.</p>
 
                 <div class="flex space-x-4 sm:justify-center">
                     <!-- Instagram -->
                     <a href="https://www.instagram.com/almeakausaeterna?igsh=cm51aWgxOTN0NWl0" target="_blak"
-                        class="w-11 h-11 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        class="w-11 h-11 rounded-full border hover:scale-105 flex justify-center items-center hover:shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                             fill="none">
                             <path
@@ -34,7 +37,7 @@
 
                     <!-- Facebook -->
                     <a href="javascript:;"
-                        class="w-11 h-11 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        class="w-11 h-11 rounded-full border hover:scale-105 flex justify-center items-center hover:shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                             fill="none">
                             <path
@@ -52,7 +55,7 @@
 
                     <!-- LinkedIn -->
                     <a href="javascript:;"
-                        class="w-11 h-11 rounded-full bg-white flex justify-center items-center hover:shadow-md">
+                        class="w-11 h-11 rounded-full border hover:scale-105 flex justify-center items-center hover:shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                             fill="none">
                             <path
@@ -71,8 +74,8 @@
             </div>
             <div
                 class="block text-center xl:text-left xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-3 xl:pl-5">
-                <h4 class="text-lg text-gray-900 font-bold mb-9">Get In Touch</h4>
-                <ul class="text-gray-900 transition-all duration-500 grid gap-6 text-sm">
+                <h4 class="text-lg text-white font-bold mb-9">Get In Touch</h4>
+                <ul class="text-white transition-all duration-500 grid gap-6 text-sm">
                     <li>almeakausaeterna@gmail.com</li>
                     <li>+62 851 9000 0236</li>
                     <li>Indonesia</li>
@@ -80,15 +83,15 @@
             </div>
 
             <div class="block xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-3">
-                <h4 class="text-lg text-gray-900 font-bold mb-9 text-center xl:text-left">Quick Links</h4>
+                <h4 class="text-lg text-white font-bold mb-9 text-center xl:text-left">Quick Links</h4>
                 <div class="flex gap-6 xl:gap-12 max-xl:justify-center">
-                    <ul class="text-gray-600 transition-all duration-500 grid gap-6 text-sm">
+                    <ul class="text-white transition-all duration-500 grid gap-6 text-sm">
                         <li><a href="{{ route('welcome') }}">Home</a></li>
                         <li><a href="{{ route('about.us') }}">About Us</a></li>
                         <li><a href="{{ route('products') }}">Product</a></li>
                         <li><a href="{{ route('contact.us') }}">Contact</a></li>
                     </ul>
-                    <ul class="text-gray-600 transition-all duration-500 grid gap-6 text-sm">
+                    <ul class="text-white transition-all duration-500 grid gap-6 text-sm">
                         <li><a href="{{ route('dried.ginger') }}">Dried Ginger</a></li>
                         <li><a href="{{ route('wet.ginger') }}">Wet Ginger </a></li>
                         <li><a href="{{ route('dried.turmeric') }}">Dried Turmeric</a></li>
@@ -101,12 +104,11 @@
         </div>
         <!--Grid-->
     </div>
-    <div class="py-4 bg-green-500">
-        <div class="flex items-center justify-center text-center">
-            <span class="text-xs md:text-sm text-white ">Copyright@2024 All Right Reserved by <a href="#">Almea
-                    Kausa
-                    Eterna</a></span>
-        </div>
-    </div>
-
 </footer>
+<div class="py-4 bg-green-800">
+    <div class="flex items-center justify-center text-center">
+        <span class="text-xs md:text-sm text-white ">Copyright@2024 All Right Reserved by <a href="#">Almea
+                Kausa
+                Eterna</a></span>
+    </div>
+</div>

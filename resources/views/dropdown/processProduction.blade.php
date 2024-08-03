@@ -2,7 +2,7 @@
 
 @section('processOrder')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+    <header class="relative w-full h-[30vh] md:h-[50vh] bg-cover bg-bottom"
         style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         </div>
@@ -47,32 +47,52 @@
         <ul class="flex border-b text-green-500">
             <li class="mr-1">
                 <a href="{{ route('about.us') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Why Us
+                </a>
+                <a href="{{ route('about.us') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-question-mark text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('our.resource') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Our Resource
+                </a>
+                <a href="{{ route('our.resource') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-pin-distance-line text-xl"></i>
                 </a>
             </li>
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
                 <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Process Production
+                </a>
+                <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-hourglass-2-fill text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('documentation') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Documentation
+                </a>
+                <a href="{{ route('documentation') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-camera-line text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('guide.line') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Guideline to Purchase
+                </a>
+                <a href="{{ route('guide.line') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-guide-line text-xl"></i>
                 </a>
             </li>
         </ul>
@@ -94,13 +114,13 @@
                                 style="position: relative;">
                                 <!-- Div untuk angka di pojok kiri atas -->
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">1</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">1</span>
                                 </div>
 
                                 <!-- Gambar -->
-                                <img src="assets/DriedTurmericProduction/harvest.jpg" loading="lazy"
-                                    alt="Photo by Minh Pham"
+                                <img src="https://asset.kompas.com/crops/821fvnwJtBGjmDVLM9dSD7dGr6k=/24x10:904x597/750x500/data/photo/2023/07/14/64b11f9342d7b.jpg"
+                                    loading="lazy" alt="Photo by Minh Pham"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                                 <!-- Efek gradient -->
@@ -109,7 +129,7 @@
                                 </div>
 
                                 <!-- Teks di tengah -->
-                                <span class="text-shadow">Harvest</span>
+                                <span class="text-shadow">Harvesting</span>
                             </a>
 
 
@@ -119,8 +139,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 seccond">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">2</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">2</span>
                                 </div>
                                 <img src="assets/DriedTurmericProduction/cleaning.jpg" loading="lazy" alt="Photo by Magicle"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
@@ -128,8 +148,7 @@
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
                                 <div class="relative flex items-center justify-center w-full h-full">
-                                    <span class="text-shadow">Cleaning Up (wash &
-                                        drained)</span>
+                                    <span class="text-shadow">Cleaning Up</span>
                                 </div>
                             </a>
 
@@ -139,8 +158,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 first">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">3</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">3</span>
                                 </div>
                                 <img src="assets/DriedTurmericProduction/cutting.jpg" loading="lazy"
                                     alt="Photo by Martin Sanchez"
@@ -159,8 +178,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 seccond">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">4</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">4</span>
                                 </div>
                                 <img src="assets/DriedTurmericProduction/drying.jpg" loading="lazy"
                                     alt="Photo by Lorenzo Herrera"
@@ -178,8 +197,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 first">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">5</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">5</span>
                                 </div>
                                 <img src="assets/DriedTurmericProduction/sifting.jpg" loading="lazy"
                                     alt="Photo by Minh Pham"
@@ -189,8 +208,7 @@
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
                                 <div class="relative flex items-center justify-center w-full h-full">
-                                    <span class="text-shadow">Finishing (Packing &
-                                        Stuffing)</span>
+                                    <span class="text-shadow">Sifting</span>
                                 </div>
                             </a>
 
@@ -200,8 +218,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 seccond">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">6</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">6</span>
                                 </div>
                                 <img src="assets/DriedTurmericProduction/packing.png" loading="lazy"
                                     alt="Photo by Magicle"
@@ -235,12 +253,12 @@
                                 style="position: relative;">
                                 <!-- Div untuk angka di pojok kiri atas -->
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">1</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">1</span>
                                 </div>
 
                                 <!-- Gambar -->
-                                <img src="assets/FreshGingerProduction/harvest.jpg" loading="lazy"
+                                <img src="assets/DriedTurmericProduction/harvest.jpg" loading="lazy"
                                     alt="Photo by Minh Pham"
                                     class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -250,7 +268,9 @@
                                 </div>
 
                                 <!-- Teks di tengah -->
-                                <span class="relative text-center font-bold text-white md:text-lg">Harvest</span>
+                                <div class="relative flex items-center justify-center w-full h-full">
+                                    <span class="text-shadow">Harvesting</span>
+                                </div>
                             </a>
 
 
@@ -260,8 +280,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 seccond">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">2</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">2</span>
                                 </div>
                                 <img src="assets/FreshGingerProduction/cleaning.jpg" loading="lazy"
                                     alt="Photo by Magicle"
@@ -280,8 +300,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80 first">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">3</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">3</span>
                                 </div>
                                 <img src="assets/FreshGingerProduction/drying.jpg" loading="lazy"
                                     alt="Photo by Martin Sanchez"
@@ -290,7 +310,7 @@
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
                                 <div class="relative flex items-center justify-center w-full h-full">
-                                    <span class="text-shadow">Drying out</span>
+                                    <span class="text-shadow">Drying Out</span>
                                 </div>
                             </a>
 
@@ -300,8 +320,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 seccond">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">4</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">4</span>
                                 </div>
                                 <img src="assets/FreshGingerProduction/grading.jpg" loading="lazy"
                                     alt="Photo by Lorenzo Herrera"
@@ -319,8 +339,8 @@
                             <a href="#"
                                 class="group relative flex h-48 items-center justify-center overflow-hidden rounded-lg bg-gray-100 col-span-2 md:col-span-3 shadow-lg md:h-96 first">
                                 <div
-                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-10 h-10 flex items-center justify-center z-40">
-                                    <span class="text-sm font-bold">5</span>
+                                    class="absolute top-3 left-3 text-white bg-green-500 border border-white rounded-full w-7 h-7 md:w-10 md:h-10 flex items-center justify-center z-40">
+                                    <span class="text-xs md:text-sm font-bold">5</span>
                                 </div>
                                 <img src="assets/FreshGingerProduction/packing.png" loading="lazy"
                                     alt="Photo by Minh Pham"
@@ -329,9 +349,10 @@
                                 <div
                                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
-
-                                <span class="relative text-center font-bold text-white md:text-lg">Finishing (Packing &
-                                    Stuffing)</span>
+                                <div class="relative flex items-center justify-center w-full h-full">
+                                    <span class="text-shadow">Finishing (Packing &
+                                        Stuffing)</span>
+                                </div>
                             </a>
 
                             <!-- image - end -->

@@ -295,3 +295,180 @@ document.addEventListener("DOMContentLoaded", function () {
         reset: true,
     });
 });
+
+// scroll reveall
+document.addEventListener("DOMContentLoaded", function () {
+    // home
+    // globals titles
+    ScrollReveal().reveal(".title", {
+        delay: 200,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".title2", {
+        delay: 300,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    // end globals titles\
+
+    // globals right animations
+    ScrollReveal().reveal(".rightAnimation", {
+        delay: 200,
+        distance: "50px",
+        origin: "right",
+        duration: 800,
+        reset: false,
+    });
+    // end globals right animations
+
+    // globals left animations
+    ScrollReveal().reveal(".leftAnimation", {
+        delay: 200,
+        distance: "50px",
+        origin: "left",
+        duration: 800,
+        reset: false,
+    });
+    // end globals left animations
+
+    // globals top animations
+    ScrollReveal().reveal(".topAnimation", {
+        delay: 200,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    // end globals top animations
+
+    // globals top animations
+    ScrollReveal().reveal(".bottomAnimation", {
+        delay: 200,
+        distance: "50px",
+        origin: "bottom",
+        duration: 800,
+        reset: false,
+    });
+    // end globals top animations
+
+    // why us
+    ScrollReveal().reveal(".why__us1", {
+        delay: 300,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".why__us2", {
+        delay: 400,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".why__us3", {
+        delay: 500,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".why__us4", {
+        delay: 600,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    // end why us
+
+    // company profile
+    ScrollReveal().reveal(".why__us4", {
+        delay: 600,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    // end company profile
+    // advanced animation
+    ScrollReveal().reveal(".first", {
+        delay: 200,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".seccond", {
+        delay: 300,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".third", {
+        delay: 400,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    ScrollReveal().reveal(".fourth", {
+        delay: 500,
+        distance: "50px",
+        origin: "top",
+        duration: 800,
+        reset: false,
+    });
+    // end advanced animation
+});
+
+// sweetalerts
+function showProductDescription() {
+    Swal.fire({
+        title: "Dried Ginger!",
+        html: `
+        <div style="padding: 20px; height: 400px; background: url('assets/DriedGinger/IMG_8794.jpg') no-repeat center center; background-size: cover;"></div>
+        <p style="margin-top: 20px;">Available in the best quality and according to customers' requirement. </p>
+    `,
+        width: 600,
+    });
+}
+
+function showProductDescription2() {
+    Swal.fire({
+        title: "Fresh Ginger!",
+        html: `
+        <div style="padding: 20px; height: 300px; background: url('assets/FreshGinger/IMG_8803.jpg') no-repeat center center; background-size: cover;"></div>
+        <p style="margin-top: 20px;">Available in any size starting from 100 gr up,  150 gr up, 200 gr up, and 250 gr up.</p>
+    `,
+        width: 600,
+    });
+}
+
+function showProductDescription3() {
+    Swal.fire({
+        title: "Dried Tumeric!",
+        html: `
+        <div style="padding: 20px; height: 300px; background: url('assets/DriedTurmeric/IMG_8784.jpg') no-repeat center center; background-size: cover;"></div>
+        <p style="margin-top: 20px;">Available First Class Quality Raw Dried Turmeric, 100% Natural Product, Packed in 25 kg Sacks. Immediately get the best quality natural dried turmeric for your needs. </p>
+    `,
+        width: 600,
+    });
+}
+
+function showProductDescription4() {
+    Swal.fire({
+        title: "Tumeric Powder!",
+        html: `
+        <div style="padding: 20px; height: 300px; background: url('assets/TurmericPowder/IMG_8806.jpg') no-repeat center center; background-size: cover;"></div>
+        <p style="margin-top: 20px;">Available in 100 gram/bag, 500 Gram/bag, 1 Kg/bag, 20Kg/Mesh Bag, 25Kg/Mesh Bag Turmeric. </p>
+    `,
+        width: 600,
+    });
+}

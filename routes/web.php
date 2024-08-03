@@ -23,3 +23,4 @@ Route::get('/wet-ginger', [PageController::class, 'wetGinger'])->name('wet.ginge
 Route::get('/dried-turmeric', [PageController::class, 'driedTurmeric'])->name('dried.turmeric');
 Route::get('/turmeric-powder', [PageController::class, 'tumericPowder'])->name('tumeric.powder');
 Route::get('/finger-turmeric', [PageController::class, 'fingerTumeric'])->name('finger.tumeric');
+Route::get('/testimonial', [PageController::class, 'testimonial'])->name('testimonial');

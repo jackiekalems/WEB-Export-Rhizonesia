@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('contact')
+    <div class="h-20"></div>
     <div class="font-sans bg-white">
         <div class="py-6">
             <!-- Breadcrumbs -->
@@ -21,69 +22,70 @@
         </div>
     </div>
     @include('components.faq')
-    <div class="text-center my-10 first">
+    <div class="text-center my-10 py-32 md:py-0 first">
         <h1 class="font-primary">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">CONTACT
                 US
             </span>
         </h1>
     </div>
-    <div class="flex gap-6 flex-col md:flex-row items-start justify-center w-screen h-[80vh] text-gray-800 p-10">
+    <div
+        class="flex gap-6 flex-col md:flex-row items-start justify-center w-screen h-[100vh] md:h-[80vh] text-gray-800 p-10">
 
         <!-- Component Start -->
         <div class="flex flex-wrap flex-col gap-6 w-full max-w-6xl seccond">
 
             <div class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-phone-line text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-phone-line text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Telp :</span>
+                    <span class="text-sm md:text-xl font-semibold">Telp : </span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">+62 851 9000 0236</span>
+                        <span class="text-gray-500 text-sm md:text-base">+62 851 9000 0236</span>
                     </div>
                 </div>
             </div>
             <a href="https://wa.me/6285190000236" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-whatsapp-line text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-whatsapp-line text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Whatsapp :</span>
+                    <span class="text-sm md:text-xl font-semibold">Whatsapp :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">+62 851 9000 0236</span>
+                        <span class="text-gray-500 text-sm md:text-base">+62 851 9000 0236</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
 
             <!-- Tile 2 -->
             <a href="https://mail.google.com/mail/u/0/?hl=en#inbox?compose=CllgCJfnbMNVfztDpKJjxhDwSKZxKRGxPnDjGnncRfLqdkjxzhvbgdgPCFQLrSnKMbzpkGvqBbB"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-mail-line text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-mail-line text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Email :</span>
+                    <span class="text-sm md:text-xl font-semibold">Email :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">almeakausaeterna@gmail.com</span>
+                        <span class="text-gray-500 text-sm md:text-base">almeakausaeterna@gmail.com</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
             <a href="https://maps.app.goo.gl/LpXrcTciMhosqwSv5" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-map-pin-line text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-map-pin-line text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Address</span>
+                    <span class="text-sm md:text-xl font-semibold">Address</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">Surabaya, Eas Java, Indonesia</span>
+                        <span class="text-gray-500 text-sm md:text-base">Surabaya, East Java, Indonesia</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
         </div>
         <!-- Component End  -->
@@ -98,54 +100,54 @@
             <a href="https://www.instagram.com/almeakausaeterna?igsh=cm51aWgxOTN0NWl0" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-instagram-line text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-instagram-line text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Instagram :</span>
+                    <span class="text-sm md:text-xl font-semibold">Instagram :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@almeakausaeterna</span>
+                        <span class="text-gray-500 text-sm md:text-base">@almeakausaeterna</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
             <a href="https://www.facebook.com/share/VuQmnJV3m4wr2rTN/?mibextid=LQQJ4d" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-facebook-circle-fill text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-facebook-circle-fill text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Facebook :</span>
+                    <span class="text-sm md:text-xl font-semibold">Facebook :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@almeakausaeterna</span>
+                        <span class="text-gray-500 text-sm md:text-base">@almeakausaeterna</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
             <a href=""
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-linkedin-box-fill text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-linkedin-box-fill text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Linkedin :</span>
+                    <span class="text-sm md:text-xl font-semibold">Linkedin :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@almeakausaeterna</span>
+                        <span class="text-gray-500 text-sm md:text-base">@almeakausaeterna</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
             <a href="https://www.tiktok.com/@almeakausaeterna?_t=8nZN3x8o4H3&_r=1" target="_blank"
                 class="flex items-center p-4 bg-white rounded border border-green-500 w-full md:w-auto flex-grow">
                 <div class="flex flex-shrink-0 items-center justify-center bg-white  h-16 w-16 rounded-full">
-                    <i class="ri-tiktok-line text-3xl md:text-5xl text-green-500"></i>
+                    <i class="ri-tiktok-line text-2xl md:text-5xl text-green-500"></i>
                 </div>
                 <div class="flex-grow flex flex-col ml-4">
-                    <span class="text-base md:text-xl font-semibold">Tiktok :</span>
+                    <span class="text-sm md:text-xl font-semibold">Tiktok :</span>
                     <div class="flex items-center justify-between">
-                        <span class="text-gray-500">@almeakausaeterna</span>
+                        <span class="text-gray-500 text-sm md:text-base">@almeakausaeterna</span>
                     </div>
                 </div>
-                <i class="ri-arrow-right-s-line text-green-500 text-3xl"></i>
+                <i class="ri-arrow-right-s-line text-green-500 text-2xl md:text-3xl"></i>
             </a>
         </div>
         <!-- Component End  -->

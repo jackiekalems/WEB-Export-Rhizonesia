@@ -2,7 +2,7 @@
 
 @section('guideLine')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+    <header class="relative w-full h-[30vh] md:h-[50vh] bg-cover bg-bottom"
         style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         </div>
@@ -47,32 +47,52 @@
         <ul class="flex border-b text-green-500 seccond">
             <li class="mr-1">
                 <a href="{{ route('about.us') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Why Us
+                </a>
+                <a href="{{ route('about.us') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-question-mark text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('our.resource') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Our Resource
+                </a>
+                <a href="{{ route('our.resource') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-pin-distance-line text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('process.production') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Process Production
+                </a>
+                <a href="{{ route('process.production') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-hourglass-2-fill text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('documentation') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Documentation
+                </a>
+                <a href="{{ route('documentation') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-camera-line text-xl"></i>
                 </a>
             </li>
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="mr-1">
                 <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Guideline to Purchase
+                </a>
+                <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-guide-line text-xl"></i>
                 </a>
             </li>
         </ul>
@@ -96,21 +116,21 @@
                         <div
                             class="absolute inset-0 flex items-start justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
                             <div class="mt-20">
-                                <h2 class="text-4xl font-bold mb-2 text-green-500">Sign detail Order</h2>
-                                <p class="text-lg px-10">Make sure your detail order are completely filled.
+                                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-green-500">Sign detail Order</h2>
+                                <p class="text-sm md:text-lg px-10">Make sure your detail order are completely filled.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <!-- Gambar 2 -->
                     <div class="relative h-[80vh] seccond">
-                        <img src="https://img.freepik.com/free-photo/closeup-hands-holding-cash_53876-144221.jpg?t=st=1719128076~exp=1719131676~hmac=bb52eeebf05a4d508d765ec7a86641ac26bd4e7621f6ab678f5939e29ae9ae65&w=996"
-                            alt="Image 2" class="object-cover w-full h-full grayscale rounded-xl">
+                        <img src="assets/money.jpg" alt="Image 2" class="object-cover w-full h-full grayscale rounded-xl">
                         <div
-                            class="absolute inset-0 flex items-end justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
-                            <div class="mb-20">
-                                <h2 class="text-4xl font-bold mb-2 text-green-500">Payment</h2>
-                                <p class="text-lg px-10">Advanced Payment is 40% after signing a sales contract, 20% before
+                            class="absolute inset-0 flex items-start md:items-end justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
+                            <div class="mt-20 md:mt-0 md:mb-20">
+                                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-green-500">Payment</h2>
+                                <p class="text-sm md:text-lg px-10">Advanced Payment is 40% after signing a sales contract,
+                                    20% before
                                     the product is delivered to the international port, and 40% for receiving the copy of
                                     the Bill of Lading.
                                 </p>
@@ -125,21 +145,22 @@
                         <div
                             class="absolute inset-0 flex items-start justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
                             <div class="mt-20">
-                                <h2 class="text-4xl font-bold mb-2 text-green-500">Order Preparation</h2>
-                                <p class="text-lg px-10">The time take to preparing your order is less then 2 weeks.</p>
+                                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-green-500">Order Preparation</h2>
+                                <p class="text-sm md:text-lg px-10">The time take to preparing your order is less than 2
+                                    weeks.</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Gambar 4 -->
                     <div class="relative h-[80vh] fourth">
-                        <img src="https://img.freepik.com/free-photo/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative_123827-24177.jpg?t=st=1719128257~exp=1719131857~hmac=a2bc183d463daed6547d83e1a989f745755a9bb8df6b695f13181d5595f9a683&w=996"
-                            alt="Image 4" class="object-cover w-full h-full grayscale rounded-xl">
+                        <img src="assets/portt.jpg" alt="Image 4" class="object-cover w-full h-full grayscale rounded-xl">
                         <div
-                            class="absolute inset-0 flex items-end justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
-                            <div class="mb-20">
-                                <h2 class="text-4xl font-bold mb-2 text-green-500">Shipment</h2>
-                                <p class="text-lg px-10">The product will deliver in accordance with the location assigned.
+                            class="absolute inset-0 flex items-start md:items-end justify-center text-center text-white bg-black bg-opacity-50 rounded-xl">
+                            <div class="mt-20 md:mt-0 md:mb-20">
+                                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-green-500">Shipment</h2>
+                                <p class="text-sm md:text-lg px-10">The product will deliver in accordance with the location
+                                    assigned.
                                 </p>
                             </div>
                         </div>

@@ -8,12 +8,15 @@
     <link rel="icon" href="{{ url('assets/logo.png') }}" />
     <title>Almea Kausa Eterna</title>
     {{-- metadata --}}
+    <meta name="title" content="Almeakausaeterna">
     <meta name="description"
-        content="Welcome to Almea Kausa Eterna, your trusted partner for [description of what the company does]. Discover our products, services, and company profile.">
+        content="Exporting and Supply the great quality of Rhizome Spices especially Turmeric and Ginger. ">
     <meta name="keywords"
-        content="Almea Kausa Eterna, [relevant keywords, e.g., products, services, company profile, etc.]">
-    <meta name="author" content="Almea Kausa Eterna">
+        content="turmeric, dried turmeric, turmeric powder, powder, curcumin, ginger, fresh ginger, dried ginger">
     <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Almea Kausa Eterna">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -44,6 +47,7 @@
     @include('components.faq')
     @include('components.footer')
     @include('components.navIcon')
+
     {{-- js --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </section>
@@ -51,100 +55,70 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/main.js"></script>
     <script>
-        // scroll reveall
         document.addEventListener("DOMContentLoaded", function() {
-            // home
-            // globals titles
-            ScrollReveal().reveal(".title", {
+            ScrollReveal().reveal(".animateTop1", {
                 delay: 200,
                 distance: "50px",
                 origin: "top",
                 duration: 800,
-                reset: false,
+                reset: true,
             });
-            // end globals titles\
-
-            // globals right animations
-            ScrollReveal().reveal(".rightAnimation", {
-                delay: 200,
-                distance: "50px",
-                origin: "right",
-                duration: 800,
-                reset: false,
-            });
-            // end globals right animations
-
-            // globals left animations
-            ScrollReveal().reveal(".leftAnimation", {
-                delay: 200,
-                distance: "50px",
-                origin: "left",
-                duration: 800,
-                reset: false,
-            });
-            // end globals left animations
-
-            // globals top animations
-            ScrollReveal().reveal(".topAnimation", {
-                delay: 200,
-                distance: "50px",
-                origin: "top",
-                duration: 800,
-                reset: false,
-            });
-            // end globals top animations
-
-            // globals top animations
-            ScrollReveal().reveal(".bottomAnimation", {
-                delay: 200,
-                distance: "50px",
-                origin: "bottom",
-                duration: 800,
-                reset: false,
-            });
-            // end globals top animations
-
-            // why us
-            ScrollReveal().reveal(".why__us1", {
-                delay: 300,
-                distance: "50px",
-                origin: "top",
-                duration: 800,
-                reset: false,
-            });
-            ScrollReveal().reveal(".why__us2", {
+            ScrollReveal().reveal(".animateTop2", {
                 delay: 400,
                 distance: "50px",
                 origin: "top",
                 duration: 800,
-                reset: false,
+                reset: true,
             });
-            ScrollReveal().reveal(".why__us3", {
-                delay: 500,
-                distance: "50px",
-                origin: "top",
-                duration: 800,
-                reset: false,
-            });
-            ScrollReveal().reveal(".why__us4", {
+            ScrollReveal().reveal(".animateTop3", {
                 delay: 600,
                 distance: "50px",
                 origin: "top",
                 duration: 800,
-                reset: false,
+                reset: true,
             });
-            // end why us
-
-            // company profile
-            ScrollReveal().reveal(".why__us4", {
-                delay: 600,
+            ScrollReveal().reveal(".animateTop4", {
+                delay: 200,
                 distance: "50px",
                 origin: "top",
                 duration: 800,
-                reset: false,
+                reset: true,
             });
-            // end company profile
-
+            ScrollReveal().reveal(".animateBottom1", {
+                delay: 200,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: true,
+            });
+            ScrollReveal().reveal(".animateBottom2", {
+                delay: 200,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: true,
+            });
+            ScrollReveal().reveal(".animateBottom3", {
+                delay: 200,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: true,
+            });
+            ScrollReveal().reveal(".animateBottom4", {
+                delay: 200,
+                distance: "50px",
+                origin: "top",
+                duration: 800,
+                reset: true,
+            });
+            ScrollReveal().reveal(".text__productCenter", {
+                delay: 200,
+                distance: "50px",
+                origin: "bottom",
+                duration: 800,
+                reset: true,
+            });
         });
     </script>
 

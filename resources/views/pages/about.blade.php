@@ -2,13 +2,9 @@
 
 @section('about')
     <script src="//unpkg.com/alpinejs"></script>
-    <header class="relative w-full h-[50vh] bg-cover bg-bottom"
+    <header class="relative w-full h-[30vh] md:h-[50vh] bg-cover bg-bottom"
         style="background-image: url('assets/Tampilan/Aboutus/image.PNG');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            {{-- <div class="text-center text-white first">
-                <h1 class="text-4xl md:text-6xl font-bold">Welcome to Our Website</h1>
-                <p class="text-lg md:text-xl mt-4">Discover amazing content below</p>
-            </div> --}}
         </div>
     </header>
     <div class="font-sans bg-white">
@@ -51,32 +47,52 @@
         <ul class="flex border-b text-green-500 seccond">
             <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="-mb-px mr-1">
                 <a :class="openTab === 1 ? activeClasses : inactiveClasses"
-                    class="cursor-pointer bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Why Us
+                </a>
+                <a href="" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-question-mark text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('our.resource') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Our Resource
+                </a>
+                <a href="{{ route('our.resource') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-pin-distance-line text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('process.production') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Process Production
+                </a>
+                <a href="{{ route('process.production') }}"
+                    class="bg-white flex items-center gap-x-2 py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-hourglass-2-fill text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('documentation') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Documentation
+                </a>
+                <a href="{{ route('documentation') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-camera-line text-xl"></i>
                 </a>
             </li>
             <li class="mr-1">
                 <a href="{{ route('guide.line') }}"
-                    class="bg-white inline-block py-2 px-4 font-semibold text-[11px] lg:text-base">
+                    class="bg-white py-2 px-4 font-semibold text-[11px] lg:text-base hidden md:block">
                     Guideline to Purchase
+                </a>
+                <a href="{{ route('guide.line') }}"
+                    class="bg-white inline-block py-2 px-4 text-[11px] lg:text-base md:hidden">
+                    <i class="ri-guide-line text-xl"></i>
                 </a>
             </li>
         </ul>
@@ -94,7 +110,7 @@
                                     US?</span>
                             </h1>
                             <p
-                                class="mt-6 text-md text-gray-600 max-w-lg text-center text-2xl p-4 rounded-bl-2xl rounded-tr-2xl shadow-md animate-border">
+                                class="mt-6 text-md text-gray-600 max-w-lg text-center text-lg md:text-2xl p-4 rounded-bl-2xl rounded-tr-2xl shadow-md animate-border">
                                 <span class="font-bold text-green-500">CPR</span> "Your curt, precise, and reliable
                                 partner!"
                             </p>
@@ -146,7 +162,7 @@
                                             </div>
                                             <h3 class="text-lg font-semibold">Curt</h3>
                                         </div>
-                                        <p class="leading-normal text-gray-800 text-md">
+                                        <p class="leading-normal text-gray-800 text-sm">
                                             Ability to offer the curtest preparation for your product.
                                         </p>
                                     </div>
@@ -168,7 +184,7 @@
                                             </div>
                                             <h3 class="text-lg font-semibold">Precise</h3>
                                         </div>
-                                        <p class="leading-normal text-gray-800 text-md">
+                                        <p class="leading-normal text-gray-800 text-sm">
                                             The precise place to get to know about the entire superior quality supply of
                                             spices
                                             from Indonesia.
@@ -192,8 +208,8 @@
                                             </div>
                                             <h3 class="text-lg font-semibold">Reliable</h3>
                                         </div>
-                                        <p class="leading-normal text-gray-800 text-md">
-                                            Almea Kausa Eterna was reliable for your business and will be your forever
+                                        <p class="leading-normal text-gray-800 text-sm">
+                                            Almea Kausa Eterna is reliable for your business and will be your forever
                                             partner
                                             in escalating the industry with great services consistently.
                                         </p>

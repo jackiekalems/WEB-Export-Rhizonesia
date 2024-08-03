@@ -1,20 +1,37 @@
-<section class="mx-14 lg:mx-20 mt-10" id="about">
+<section class="mx-6 lg:mx-20 mt-10" id="about">
     <div class="text-center my-10">
         <h1 class="font-primary title">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">COMPANY
                 PROFILE</span>
         </h1>
     </div>
-    <div class="container flex flex-col-reverse mx-auto lg:flex-row md:items-center items-start">
+    <div
+        class="container mx-auto flex flex-col-reverse px-5 md:px-0 lg:flex-row md:items-center items-start border shadow-primary rounded-lg">
         <div class="leftAnimation flex flex-col md:px-8 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2">
             <h1 class="text-lg md:text-2xl font-semibold text-center">WHY ALMEA KAUSA ETERNA? </h1>
-            <p class="text-sm md:text-base text-justify md:text-start">
+            <p class="text-sm md:text-base leading-5 text-justify">
                 Almea Kausa Eterna was established based on the ambition and dream of the founders to be able to help
                 the world know the incomparable taste of Indonesian spices, we will help you escalate the level of your
                 business, convinced with Almea Kausa Eterna because we will help you to become the best sector in the
                 business world by Indonesia's best spices.
 
             </p>
+            <div id="social" class="flex flex-wrap justify-start items-center gap-4">
+                <a rel="noopener" target="_blank" href="#"
+                    class="rounded-full p-5 w-full md:w-64 flex items-center gap-2 border shadow-primary">
+                    <img class="mr-2 hover:scale-105 transition duration-300 ease-in-out"
+                        src="https://ucarecdn.com/95eebb9c-85cf-4d12-942f-3c40d7044dc6/linkedin.svg" width="20px"
+                        height="20px" alt="LinkedIn" />
+                    <span class="text-xs">Follow me on Linkedin</span>
+                </a>
+                <a rel="noopener" target="_blank" href="https://wa.me/6285190000236"
+                    class="rounded-full p-5 w-full md:w-64 flex items-center gap-2 border shadow-primary">
+                    <img class="mr-2 hover:scale-105 transition duration-300 ease-in-out"
+                        src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" width="20px" height="20px"
+                        alt="Twitter" />
+                    <span class="text-xs">Contact me on WhatsApp</span>
+                </a>
+            </div>
         </div>
         <div class="rightAnimation lg:w-1/2 5 flex items-center">
             <div id="carouselExampleCaptions" class="relative" data-twe-carousel-init data-twe-ride="carousel">
@@ -34,37 +51,30 @@
                 </div>
 
                 <!--Carousel items-->
-                <div
-                    class="relative w-full h-80 md:h-[29rem] overflow-hidden after:clear-both after:block after:content-[''] rounded-lg">
+                <div class="relative w-full h-80 md:h-[29rem] overflow-hidden after:clear-both after:block after:content-[''] rounded-lg my-5"
+                    style="max-width: 600px; margin: auto;">
                     <!--First item-->
                     <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-twe-carousel-active data-twe-carousel-item style="backface-visibility: hidden">
+                        data-twe-carousel-active data-twe-carousel-item
+                        style="backface-visibility: hidden; max-width: 600px;">
                         <img src="assets/Companyprofile/gambar1.jpg" class="block w-full h-full object-contain"
-                            alt="..." />
+                            alt="..." style="max-width: 600px;" />
                         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                            <h5 class="text-xl">First slide label</h5>
-                            <p>
-                                Some representative placeholder content for the first slide.
-                            </p>
                         </div>
                     </div>
                     <!--Second item-->
                     <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-twe-carousel-item style="backface-visibility: hidden">
-                        <img src="assets/Companyprofile/gambar2.PNG" class="block w-full h-full object-contain"
-                            alt="..." />
+                        data-twe-carousel-item style="backface-visibility: hidden; max-width: 600px;">
+                        <img src="assets/Companyprofile/gambar2.jpg" class="block w-full h-full object-contain"
+                            alt="..." style="max-width: 600px;" />
                         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                            <h5 class="text-xl"></h5>
-                            <p>
-                                Some representative placeholder content for the second slide.
-                            </p>
                         </div>
                     </div>
                     <!--Third item-->
                     <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-twe-carousel-item style="backface-visibility: hidden">
+                        data-twe-carousel-item style="backface-visibility: hidden; max-width: 600px;">
                         <img src="assets/Companyprofile/gambar3.jpg" class="block w-full h-full object-contain"
-                            alt="..." />
+                            alt="..." style="max-width: 600px;" />
                         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
                             <h5 class="text-xl">Third slide label</h5>
                             <p>

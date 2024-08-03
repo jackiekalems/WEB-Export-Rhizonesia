@@ -75,7 +75,7 @@
                 <img src="assets/TurmericPowder/IMG_8807.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
                 <div class="px-4 py-3 w-72">
                     <span class="text-gray-400 mr-3 uppercase text-xs">Tumeric</span>
-                    <p class="text-lg font-bold text-black truncate block capitalize">Powder Tumeric</p>
+                    <p class="text-lg font-bold text-black truncate block capitalize">Tumeric Powder</p>
                     <div class="flex items-center py-3">
                         <a href="{{ route('tumeric.powder') }}"
                             class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>

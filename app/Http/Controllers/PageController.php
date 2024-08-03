@@ -62,4 +62,8 @@ class PageController extends Controller
     {
         return view('dropdown.processProduction'); 
     }
+    public function testimonial()
+    {
+        return view('pages.testimonials'); 
+    }
 }

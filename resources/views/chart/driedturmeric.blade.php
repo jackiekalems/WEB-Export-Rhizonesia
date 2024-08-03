@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('driedtumeric')
+    <div class="h-20"></div>
     <div class="font-sans bg-white">
         <div class="py-6">
             <!-- Breadcrumbs -->
@@ -97,94 +98,50 @@
                                             </div>
                                             <div class="accordion-content pt-0 overflow-hidden" x-show="open"
                                                 :style="open ? 'max-height: 500px; padding-top: 1rem;' : ''">
-                                                <div class="flex flex-col justify-center antialiased p-4">
-                                                    <div class="h-full">
-                                                        <!-- Table -->
-                                                        <div class="w-full mx-auto bg-white">
+                                                <table class="w-full text-sm leading-5">
+                                                    <thead class="bg-gray-100">
+                                                        <tr>
+                                                            <th class="py-3 px-4 text-left font-medium text-gray-600">Detail
+                                                            </th>
+                                                            <th class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Specification</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Name
+                                                            </td>
+                                                            <td class="py-3 px-4 text-left">Dried Tumeric Slice</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Curcumin</td>
+                                                            <td class="py-3 px-4 text-left">> 3%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Sieve
+                                                            </td>
+                                                            <td class="py-3 px-4 text-left">0.4</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">Colour
+                                                            </td>
+                                                            <td class="py-3 px-4 text-left">Yellow</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Foreign Stuff</td>
+                                                            <td class="py-3 px-4 text-left">0%</td>
+                                                        </tr>
+                                                        <tr class="bg-gray-50">
+                                                            <td class="py-3 px-4 text-left font-medium text-gray-600">
+                                                                Moisture Content</td>
+                                                            <td class="py-3 px-4 text-left">
+                                                                < 12%</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
 
-                                                            <div class="overflow-x-auto">
-                                                                <table class="table-auto w-full">
-                                                                    <thead
-                                                                        class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
-                                                                        <tr>
-                                                                            <th class="p-2 whitespace-nowrap">
-                                                                                <div class="font-semibold text-left">
-                                                                                    Detail</div>
-                                                                            </th>
-                                                                            <th class="p-2 whitespace-nowrap">
-                                                                                <div class="font-semibold text-left">
-                                                                                    Spesification</div>
-                                                                            </th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody class="text-sm divide-y divide-gray-100">
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Product Name</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    dried Tumeric slice</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Sieve</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    0,4
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Colour</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    Yellow</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Foreign Stuff </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    0%</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="flex items-center">
-                                                                                    <div class="font-medium text-gray-800">
-                                                                                        Moisture Content</div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="p-2 whitespace-nowrap">
-                                                                                <div class="text-left">
-                                                                                    < 12%</div>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
 
@@ -225,10 +182,10 @@
                                 </div>
                             </div>
                             <div class="mb-4 my-10 flex w-full items-center gap-3">
-                                <button
+                                <a href="https://wa.me/6285190000236" target="_blank"
                                     class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-green-500 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none w-full"
                                     type="button" data-ripple-light="true">
-                                    BUY</button>
+                                    BUY</a>
                             </div>
                         </div>
                     </div>
@@ -238,30 +195,27 @@
     </div>
     <div class="text-center my-10 title">
         <h1 class="font-primary">
-            <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED PRODUCTS
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-gray-700">RELATED
+                PRODUCTS
             </span>
         </h1>
     </div>
     <section
         class="lg:max-w-7xl max-w-4xl mx-auto flex flex-wrap justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-20 border shadow-primary p-4 rounded-lg">
         <!--   ✅ Product card 1 - Starts Here 👇 -->
-        <a href="{{ route('dried.ginger') }}">
-            <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                <div>
-                    <img src="assets/DriedGinger/IMG_8792.jpg" alt="Product"
-                        class="h-80 w-72 object-cover rounded-t-xl" />
-                    <div class="px-4 py-3 w-72">
-                        <span class="text-gray-400 mr-3 uppercase text-xs">Ginger</span>
-                        <p class="text-lg font-bold text-black truncate block capitalize">Dried Ginger</p>
-                        <div class="flex items-center py-3">
-                            <a href="{{ route('dried.ginger') }}"
-                                class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
-                        </div>
+        <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+            <div>
+                <img src="assets/DriedGinger/IMG_8792.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                <div class="px-4 py-3 w-72">
+                    <span class="text-gray-400 mr-3 uppercase text-xs">Ginger</span>
+                    <p class="text-lg font-bold text-black truncate block capitalize">Dried Ginger</p>
+                    <div class="flex items-center py-3">
+                        <a href="{{ route('dried.ginger') }}"
+                            class="bg-green-400 hover:bg-green-500 text-white w-full text-center py-2 rounded-lg">Buy</a>
                     </div>
                 </div>
             </div>
-        </a>
+        </div>
         <div class="w-72 bg-white shadow-primary rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <div>
                 <img src="assets/FreshGinger/IMG_8803.jpg" alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
